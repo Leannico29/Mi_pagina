@@ -191,12 +191,12 @@ button.next:hover {
 
 .arma-tu-pc {
 	margin-top: 40px;
-}
 
-.arma-tu-pc h2 {
-	color: var(--primary-color);
-	font-size: 24px;
-	text-align: center;
+	h2 {
+		color: var(--primary-color);
+		font-size: 24px;
+		text-align: center;
+	}
 }
 
 .categories-grid {
@@ -207,19 +207,19 @@ button.next:hover {
 }
 
 @media screen and (max-width: 1200px) {
-	.components-grid {
+	.categories-grid {
 		grid-template-columns: repeat(3, 1fr);
 	}
 }
 
 @media screen and (max-width: 768px) {
-	.components-grid {
+	.categories-grid {
 		grid-template-columns: repeat(2, 1fr);
 	}
 }
 
 @media screen and (max-width: 480px) {
-	.components-grid {
+	.categories-grid {
 		grid-template-columns: 1fr;
 	}
 }
@@ -232,6 +232,10 @@ button.next:hover {
 	text-align: center;
 	color: var(--white);
 	transition: background-color 0.3s;
+
+	span i {
+		font-size: 1.6rem;
+	}
 }
 
 .category-btn:hover {

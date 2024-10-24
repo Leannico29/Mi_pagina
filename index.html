@@ -25,18 +25,17 @@
                 <h1 class="logo">Keyboard Gaming</h1>
             </div>
             <div class="search-bar">
-                <input type="text" placeholder="Buscar productos...">
-                <button>
+                <input type="text" id="search-input" placeholder="Buscar productos...">
+                <button id="search-button">
                     <i class="bi bi-search"></i>
                 </button>
             </div>
             <div class="user-menu">
                 <a href="#">
-                    <i class="bi bi-box-arrow-in-right"></i>
-                    Login
+                    <i class="bi bi-box-arrow-in-right"></i> Login
                 </a>
                 <a href="#">
-                    <button><i class="bi bi-cart"></i></button>
+                    <button class="cart-btn"><i class="bi bi-cart"></i> </button>
                 </a>
             </div>
         </header>
@@ -81,26 +80,50 @@
                         </div>
 
                         <div class="col-12 col-lg-6">
-                            <section class="arma-tu-pc">
+                            <div class="arma-tu-pc">
                                 <h2>Arma tu pc</h2>
-                                <div class="categories-grid">
-                                    <div class="category-btn">Procesador</div>
-                                    <div class="category-btn">Cpu Cooler</div>
-                                    <div class="category-btn">Motherboard</div>
-                                    <div class="category-btn">RAM</div>
-                                    <div class="category-btn">Placa de video</div>
-                                    <div class="category-btn">SSD</div>
-                                    <div class="category-btn">HDD</div>
-                                    <div class="category-btn">Fuente</div>
-                                    <div class="category-btn">Gabinete</div>
-                                    <div class="category-btn">Cooler Fan</div>
-                                    <div class="category-btn">Monitores</div>
-                                    <div class="category-btn">Periféricos</div>
-                                </div>
-                            </section>
+                                <section class="categories-grid">
+                                    <article class="category-btn">
+                                        <span><i class="bi bi-cpu-fill"></i> Procesadores</span>
+                                    </article>
+                                    <article class="category-btn">
+                                        <span><i class="bi bi-fan"></i> CPU Coolers</span>
+                                    </article>
+                                    <article class="category-btn">
+                                        <span><i class="bi bi-motherboard-fill"></i> Motherboards</span>
+                                    </article>
+                                    <article class="category-btn">
+                                        <span><i class="bi bi-memory"></i> RAM's</span>
+                                    </article>
+                                    <article class="category-btn">
+                                        <span><i class="bi bi-gpu-card"></i> Placas de video</span>
+                                    </article>
+                                    <article class="category-btn">
+                                        <span><i class="bi bi-nvme-fill"></i> SSD's</span>
+                                    </article>
+                                    <article class="category-btn">
+                                        <span><i class="bi bi-device-hdd-fill"></i> HDD's</span>
+                                    </article>
+                                    <article class="category-btn">
+                                        <span><i class="bi bi-outlet"></i> Fuentes</span>
+                                    </article>
+                                    <article class="category-btn">
+                                        <span><i class="bi bi-pc"></i> Gabinetes</span>
+                                    </article>
+                                    <article class="category-btn">
+                                        <span><i class="bi bi-fan"></i> Cooler Fan</span>
+                                    </article>
+                                    <article class="category-btn">
+                                        <span><i class="bi bi-display"></i> Monitores</span>
+                                    </article>
+                                    <article class="category-btn">
+                                        <span><i class="bi bi-keyboard-fill"></i> Periféricos</span>
+                                    </article>
+                                </section>
+                                </di>
+                            </div>
                         </div>
                     </div>
-                </div>
 
 
             </section>
@@ -118,7 +141,7 @@
             crossorigin="anonymous"></script>
 
         <!-- Javascript propio -->
-        <script src="./js/index.js"></script>
+        <script type="module" src="./js/index.js"></script>
     </body>
 
 </html>
