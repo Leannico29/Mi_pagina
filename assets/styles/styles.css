@@ -103,7 +103,7 @@ header {
 			font-size: 18px;
 		}
 
-		button {
+		button.cart-btn {
 			background-color: rgba(0, 0, 0, 0);
 			border: none;
 			border-radius: 5px;
@@ -119,34 +119,41 @@ main {
 	padding: 20px;
 }
 
-.ofertas-flash {
-	background-color: var(--black);
-	padding: 20px;
+.flash-offer-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-grow: 1;
 }
 
-.ofertas-flash h2 {
-	text-align: center;
-	color: var(--primary-color);
-	font-size: 24px;
+.flash-offer {
+	background-color: var(--black);
+	padding: 20px;
+
+	h2 {
+		text-align: center;
+		color: var(--primary-color);
+		font-size: 24px;
+	}
 }
 
 .flash-offer-carousel {
 	position: relative;
 	width: 100%;
-	max-width: 600px;
+	max-width: 750px;
 	margin: 20px auto;
 	overflow: hidden;
 }
 
 .carousel {
-	display: flex;
+	display: inline-flex;
 	transition: transform 0.5s ease-in-out;
-}
 
-.carousel img {
-	width: 100%;
-	height: 300px;
-	object-fit: cover;
+	img {
+		width: 100%;
+		/* height: 300px; */
+		object-fit: cover;
+	}
 }
 
 button.prev,
