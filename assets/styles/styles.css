@@ -158,14 +158,15 @@ main {
 
 button.prev,
 button.next {
+	background-color: var(--black-opacity-50);
+	border: none;
+	color: var(--white);
+	cursor: pointer;
+	padding: 10px;
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
-	background-color: var(--black-opacity-50);
-	color: var(--white);
-	border: none;
-	padding: 10px;
-	cursor: pointer;
+	transition: all 0.2s;
 }
 
 button.prev {
@@ -245,7 +246,10 @@ button.next:hover {
 	}
 }
 
-.category-btn:hover {
+.category-btn:hover,
+.category-btn:focus,
+.category-btn:active {
 	background-color: var(--primary-color);
 	color: black;
+	outline: none;
 }
