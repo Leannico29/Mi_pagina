@@ -1,62 +1,118 @@
+/* * Root config */
+
 :root {
 	--primary-color: #00ff00;
 	--secondary-color: #1a1a1a;
-	--tertiary-color: #0a0a0a;
-	--white-color: #f1f1f1;
+	--black: #0a0a0a;
+	--white: #f1f1f1;
 	--black-opacity-50: rgba(0, 0, 0, 0.5);
 	--black-opacity-80: rgba(0, 0, 0, 0.8);
+	--logo-font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+	:root {
+		--logo-font-size: 1.5rem;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	:root {
+		--logo-font-size: 1.2rem;
+	}
 }
 
 * {
+	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
-	font-family: Arial, sans-serif;
+	scroll-behavior: smooth;
 }
 
 body {
-	background-color: var(--tertiary-color);
-	color: var(--white-color);
-}
+	background-color: var(--black);
+	color: var(--white);
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	min-height: 100vh;
 
-a {
-	text-decoration: none;
+	a {
+		text-decoration: none;
+	}
 }
 
 header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 20px;
 	background-color: var(--secondary-color);
-}
-
-.logo {
-	color: var(--primary-color);
-	font-size: 24px;
-}
-
-.search-bar {
 	display: flex;
 	align-items: center;
-}
+	justify-content: space-between;
+	padding: 1.2rem;
 
-.search-bar input {
-	padding: 5px;
-	font-size: 16px;
-}
+	/* * Logo */
 
-.search-bar button {
-	background-color: var(--primary-color);
-	border: none;
-	padding: 5px 10px;
-	cursor: pointer;
-}
+	.logo-container {
+		.logo {
+			color: var(--primary-color);
+			font-size: var(--logo-font-size);
+			margin: 0;
+			transition: all 0.2s;
+		}
+	}
 
-.user-options a {
-	color: var(--primary-color);
-	margin-left: 10px;
-	font-size: 18px;
+	/* * Search bar */
+
+	.search-bar {
+		align-items: center;
+		display: flex;
+		position: relative;
+
+		input {
+			border-radius: 1rem;
+			border: 1px solid var(--black);
+			color: var(--black);
+			font-size: 1.2rem;
+			height: 2.5rem;
+			padding: 0.7rem 1rem;
+			transition: all 0.1s;
+			width: 100%;
+		}
+
+		input:focus {
+			border-color: var(--primary-color);
+			outline: none;
+		}
+
+		button {
+			background-color: rgba(0, 0, 0, 0);
+			border: none;
+			color: var(--black);
+			cursor: pointer;
+			padding: 0.3rem 0.6rem;
+			position: absolute;
+			right: 0;
+		}
+	}
+
+	/* * User menu */
+
+	.user-menu {
+		padding: 0.7rem;
+
+		a {
+			color: var(--primary-color);
+			margin-left: 10px;
+			font-size: 18px;
+		}
+
+		button {
+			background-color: rgba(0, 0, 0, 0);
+			border: none;
+			border-radius: 5px;
+			color: var(--primary-color);
+			cursor: pointer;
+			font-size: 18px;
+			padding: 0.5rem 1rem;
+		}
+	}
 }
 
 main {
@@ -64,7 +120,7 @@ main {
 }
 
 .ofertas-flash {
-	background-color: var(--tertiary-color);
+	background-color: var(--black);
 	padding: 20px;
 }
 
@@ -99,7 +155,7 @@ button.next {
 	top: 50%;
 	transform: translateY(-50%);
 	background-color: var(--black-opacity-50);
-	color: var(--white-color);
+	color: var(--white);
 	border: none;
 	padding: 10px;
 	cursor: pointer;
@@ -174,7 +230,7 @@ button.next:hover {
 	border-radius: 5px;
 	padding: 20px;
 	text-align: center;
-	color: var(--white-color);
+	color: var(--white);
 	transition: background-color 0.3s;
 }
 
