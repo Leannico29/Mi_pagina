@@ -40,6 +40,7 @@ body {
 	}
 }
 
+/* * Header */
 header {
 	background-color: var(--secondary-color);
 	display: flex;
@@ -103,7 +104,7 @@ header {
 			font-size: 18px;
 		}
 
-		button.cart-btn {
+		.cart-btn {
 			background-color: rgba(0, 0, 0, 0);
 			border: none;
 			border-radius: 5px;
@@ -243,6 +244,7 @@ button.next:hover {
 
 	span i {
 		font-size: 1.6rem;
+		display: block;
 	}
 }
 
