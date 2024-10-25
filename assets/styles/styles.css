@@ -111,7 +111,7 @@ header {
 			color: var(--primary-color);
 			cursor: pointer;
 			font-size: 18px;
-			padding: 0.5rem 1rem;
+			padding: 0.5rem 0.1rem;
 		}
 	}
 }
@@ -240,7 +240,7 @@ button.next:hover {
 	padding: 20px;
 	text-align: center;
 	color: var(--white);
-	transition: background-color 0.3s;
+	transition: all 0.3s ease-in-out;
 
 	span i {
 		font-size: 1.6rem;
@@ -254,53 +254,56 @@ button.next:hover {
 	background-color: var(--primary-color);
 	color: black;
 	outline: none;
+	transform: translateY(-0.4rem);
 }
 
 .delivery-contact-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 20px;
 }
 
-.delivery-info, .contact-info {
-    flex-basis: 50%;
+.delivery-info,
+.contact-info {
+	flex-basis: 50%;
 }
 
-.delivery-info h3, .contact-info h3 {
+.delivery-info h3,
+.contact-info h3 {
 	color: var(--primary-color);
-    margin: 0;
-    padding-bottom: 10px; /* Ajusta este valor para controlar el espacio debajo de los títulos */
+	margin: 0;
+	padding-bottom: 10px; /* Ajusta este valor para controlar el espacio debajo de los títulos */
 }
 
 @media screen and (max-width: 768px) {
-    .delivery-contact-container {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+	.delivery-contact-container {
+		flex-direction: column;
+		align-items: flex-start;
+	}
 }
 
 footer {
-    background-color: #333; 
-    color: white; 
-    padding: 20px 0; 
-    text-align: center; 
-    position: relative;
-    bottom: 0;
-    width: 100%;
+	background-color: #333;
+	color: white;
+	padding: 20px 0;
+	text-align: center;
+	position: relative;
+	bottom: 0;
+	width: 100%;
 }
 
 footer a {
-    color: #00ff00; 
-    text-decoration: none; 
+	color: #00ff00;
+	text-decoration: none;
 }
 
 footer a:hover {
-    text-decoration: underline; 
+	text-decoration: underline;
 }
 
 .footer-container {
-    max-width: 1200px;
-    margin: 0 auto; 
-    padding: 0 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
 }

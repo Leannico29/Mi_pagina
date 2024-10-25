@@ -1,0 +1,8002 @@
+[
+	{
+		"id": 1,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Rhybox",
+		"price": 59863.06,
+		"product_type_id": 9
+	},
+	{
+		"id": 2,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Voonder",
+		"price": 285233.33,
+		"product_type_id": 2
+	},
+	{
+		"id": 3,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Cogidoo",
+		"price": 182835.85,
+		"product_type_id": 5
+	},
+	{
+		"id": 4,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Browsecat",
+		"price": 221142.97,
+		"product_type_id": 11
+	},
+	{
+		"id": 5,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Aimbu",
+		"price": 154291.0,
+		"product_type_id": 5
+	},
+	{
+		"id": 6,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yozio",
+		"price": 121103.0,
+		"product_type_id": 9
+	},
+	{
+		"id": 7,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yakijo",
+		"price": 217912.46,
+		"product_type_id": 3
+	},
+	{
+		"id": 8,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jayo",
+		"price": 455154.78,
+		"product_type_id": 10
+	},
+	{
+		"id": 9,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Feedfish",
+		"price": 339476.84,
+		"product_type_id": 10
+	},
+	{
+		"id": 10,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jaxnation",
+		"price": 147455.48,
+		"product_type_id": 4
+	},
+	{
+		"id": 11,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Plambee",
+		"price": 22569.79,
+		"product_type_id": 5
+	},
+	{
+		"id": 12,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Kimia",
+		"price": 377883.29,
+		"product_type_id": 4
+	},
+	{
+		"id": 13,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Eayo",
+		"price": 302811.24,
+		"product_type_id": 2
+	},
+	{
+		"id": 14,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Eazzy",
+		"price": 68613.31,
+		"product_type_id": 4
+	},
+	{
+		"id": 15,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Cogidoo",
+		"price": 374227.96,
+		"product_type_id": 4
+	},
+	{
+		"id": 16,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Fivespan",
+		"price": 4105.29,
+		"product_type_id": 1
+	},
+	{
+		"id": 17,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Divanoodle",
+		"price": 109739.62,
+		"product_type_id": 2
+	},
+	{
+		"id": 18,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoonder",
+		"price": 198927.72,
+		"product_type_id": 8
+	},
+	{
+		"id": 19,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoozzy",
+		"price": 254086.36,
+		"product_type_id": 8
+	},
+	{
+		"id": 20,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Livetube",
+		"price": 490211.97,
+		"product_type_id": 12
+	},
+	{
+		"id": 21,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Photolist",
+		"price": 222050.67,
+		"product_type_id": 1
+	},
+	{
+		"id": 22,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Dabshots",
+		"price": 422611.24,
+		"product_type_id": 1
+	},
+	{
+		"id": 23,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoomdog",
+		"price": 262558.48,
+		"product_type_id": 2
+	},
+	{
+		"id": 24,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Voonix",
+		"price": 230928.63,
+		"product_type_id": 7
+	},
+	{
+		"id": 25,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Riffpath",
+		"price": 343288.23,
+		"product_type_id": 1
+	},
+	{
+		"id": 26,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Pixoboo",
+		"price": 36944.0,
+		"product_type_id": 11
+	},
+	{
+		"id": 27,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Mybuzz",
+		"price": 16017.09,
+		"product_type_id": 3
+	},
+	{
+		"id": 28,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zooxo",
+		"price": 355274.96,
+		"product_type_id": 10
+	},
+	{
+		"id": 29,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Twitterwire",
+		"price": 436935.37,
+		"product_type_id": 3
+	},
+	{
+		"id": 30,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Nlounge",
+		"price": 186019.32,
+		"product_type_id": 8
+	},
+	{
+		"id": 31,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Wordify",
+		"price": 220830.29,
+		"product_type_id": 3
+	},
+	{
+		"id": 32,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Fivebridge",
+		"price": 124242.77,
+		"product_type_id": 10
+	},
+	{
+		"id": 33,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Trilith",
+		"price": 311750.7,
+		"product_type_id": 1
+	},
+	{
+		"id": 34,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skidoo",
+		"price": 322505.37,
+		"product_type_id": 11
+	},
+	{
+		"id": 35,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Quimm",
+		"price": 208197.42,
+		"product_type_id": 3
+	},
+	{
+		"id": 36,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Brainbox",
+		"price": 222631.02,
+		"product_type_id": 4
+	},
+	{
+		"id": 37,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Voonte",
+		"price": 204589.22,
+		"product_type_id": 9
+	},
+	{
+		"id": 38,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Buzzdog",
+		"price": 462069.64,
+		"product_type_id": 3
+	},
+	{
+		"id": 39,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Feedmix",
+		"price": 432599.68,
+		"product_type_id": 3
+	},
+	{
+		"id": 40,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jamia",
+		"price": 288839.86,
+		"product_type_id": 12
+	},
+	{
+		"id": 41,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jayo",
+		"price": 198171.06,
+		"product_type_id": 5
+	},
+	{
+		"id": 42,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Vinte",
+		"price": 418290.48,
+		"product_type_id": 5
+	},
+	{
+		"id": 43,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zooveo",
+		"price": 343844.07,
+		"product_type_id": 10
+	},
+	{
+		"id": 44,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Mymm",
+		"price": 182422.92,
+		"product_type_id": 3
+	},
+	{
+		"id": 45,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Shufflester",
+		"price": 374239.76,
+		"product_type_id": 9
+	},
+	{
+		"id": 46,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Eazzy",
+		"price": 264526.55,
+		"product_type_id": 7
+	},
+	{
+		"id": 47,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Brainbox",
+		"price": 448749.48,
+		"product_type_id": 7
+	},
+	{
+		"id": 48,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Tambee",
+		"price": 38899.53,
+		"product_type_id": 6
+	},
+	{
+		"id": 49,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Rhynyx",
+		"price": 225430.34,
+		"product_type_id": 7
+	},
+	{
+		"id": 50,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Npath",
+		"price": 84790.52,
+		"product_type_id": 2
+	},
+	{
+		"id": 51,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Edgewire",
+		"price": 401863.76,
+		"product_type_id": 9
+	},
+	{
+		"id": 52,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Tagchat",
+		"price": 345514.98,
+		"product_type_id": 1
+	},
+	{
+		"id": 53,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yakidoo",
+		"price": 285332.68,
+		"product_type_id": 12
+	},
+	{
+		"id": 54,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Topiczoom",
+		"price": 376779.31,
+		"product_type_id": 11
+	},
+	{
+		"id": 55,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Bluejam",
+		"price": 165391.02,
+		"product_type_id": 9
+	},
+	{
+		"id": 56,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jetwire",
+		"price": 35879.85,
+		"product_type_id": 9
+	},
+	{
+		"id": 57,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skipstorm",
+		"price": 449019.67,
+		"product_type_id": 8
+	},
+	{
+		"id": 58,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yakijo",
+		"price": 179222.69,
+		"product_type_id": 5
+	},
+	{
+		"id": 59,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Layo",
+		"price": 368133.84,
+		"product_type_id": 11
+	},
+	{
+		"id": 60,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Minyx",
+		"price": 2309.03,
+		"product_type_id": 2
+	},
+	{
+		"id": 61,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Thoughtbeat",
+		"price": 461287.9,
+		"product_type_id": 11
+	},
+	{
+		"id": 62,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Thoughtbridge",
+		"price": 311400.53,
+		"product_type_id": 10
+	},
+	{
+		"id": 63,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Ozu",
+		"price": 168154.24,
+		"product_type_id": 8
+	},
+	{
+		"id": 64,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Meevee",
+		"price": 370420.02,
+		"product_type_id": 10
+	},
+	{
+		"id": 65,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Meedoo",
+		"price": 417859.59,
+		"product_type_id": 5
+	},
+	{
+		"id": 66,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Flashdog",
+		"price": 339782.24,
+		"product_type_id": 7
+	},
+	{
+		"id": 67,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Wordpedia",
+		"price": 389573.02,
+		"product_type_id": 2
+	},
+	{
+		"id": 68,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Realfire",
+		"price": 471065.25,
+		"product_type_id": 3
+	},
+	{
+		"id": 69,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Chatterbridge",
+		"price": 54236.66,
+		"product_type_id": 2
+	},
+	{
+		"id": 70,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jabberbean",
+		"price": 185552.26,
+		"product_type_id": 3
+	},
+	{
+		"id": 71,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Brainverse",
+		"price": 406531.85,
+		"product_type_id": 3
+	},
+	{
+		"id": 72,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Brainbox",
+		"price": 185221.15,
+		"product_type_id": 9
+	},
+	{
+		"id": 73,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skipfire",
+		"price": 441911.91,
+		"product_type_id": 1
+	},
+	{
+		"id": 74,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Feedspan",
+		"price": 46224.09,
+		"product_type_id": 11
+	},
+	{
+		"id": 75,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Vimbo",
+		"price": 374920.51,
+		"product_type_id": 4
+	},
+	{
+		"id": 76,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "LiveZ",
+		"price": 270822.23,
+		"product_type_id": 10
+	},
+	{
+		"id": 77,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Meezzy",
+		"price": 482381.64,
+		"product_type_id": 5
+	},
+	{
+		"id": 78,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Agimba",
+		"price": 169848.43,
+		"product_type_id": 12
+	},
+	{
+		"id": 79,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Oyoba",
+		"price": 205845.18,
+		"product_type_id": 3
+	},
+	{
+		"id": 80,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Roodel",
+		"price": 76743.37,
+		"product_type_id": 9
+	},
+	{
+		"id": 81,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Muxo",
+		"price": 169651.43,
+		"product_type_id": 1
+	},
+	{
+		"id": 82,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Oba",
+		"price": 327797.77,
+		"product_type_id": 11
+	},
+	{
+		"id": 83,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Flashset",
+		"price": 179516.0,
+		"product_type_id": 11
+	},
+	{
+		"id": 84,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Babbleblab",
+		"price": 88893.03,
+		"product_type_id": 12
+	},
+	{
+		"id": 85,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skalith",
+		"price": 302996.05,
+		"product_type_id": 1
+	},
+	{
+		"id": 86,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Rhynyx",
+		"price": 6827.04,
+		"product_type_id": 2
+	},
+	{
+		"id": 87,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Mybuzz",
+		"price": 141116.81,
+		"product_type_id": 8
+	},
+	{
+		"id": 88,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoomcast",
+		"price": 187282.03,
+		"product_type_id": 1
+	},
+	{
+		"id": 89,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Voonder",
+		"price": 499405.26,
+		"product_type_id": 5
+	},
+	{
+		"id": 90,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Quamba",
+		"price": 243631.33,
+		"product_type_id": 1
+	},
+	{
+		"id": 91,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Meedoo",
+		"price": 447919.01,
+		"product_type_id": 12
+	},
+	{
+		"id": 92,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Ailane",
+		"price": 364027.98,
+		"product_type_id": 5
+	},
+	{
+		"id": 93,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Photojam",
+		"price": 381503.87,
+		"product_type_id": 12
+	},
+	{
+		"id": 94,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skimia",
+		"price": 466142.62,
+		"product_type_id": 8
+	},
+	{
+		"id": 95,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Divanoodle",
+		"price": 189856.11,
+		"product_type_id": 5
+	},
+	{
+		"id": 96,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Eabox",
+		"price": 14522.86,
+		"product_type_id": 11
+	},
+	{
+		"id": 97,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Trudoo",
+		"price": 64691.47,
+		"product_type_id": 11
+	},
+	{
+		"id": 98,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Photospace",
+		"price": 108948.53,
+		"product_type_id": 2
+	},
+	{
+		"id": 99,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skippad",
+		"price": 83372.69,
+		"product_type_id": 5
+	},
+	{
+		"id": 100,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Thoughtblab",
+		"price": 257008.7,
+		"product_type_id": 6
+	},
+	{
+		"id": 101,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Cogibox",
+		"price": 451685.14,
+		"product_type_id": 6
+	},
+	{
+		"id": 102,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Twiyo",
+		"price": 125043.21,
+		"product_type_id": 2
+	},
+	{
+		"id": 103,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yozio",
+		"price": 72699.57,
+		"product_type_id": 7
+	},
+	{
+		"id": 104,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Avamba",
+		"price": 47278.59,
+		"product_type_id": 4
+	},
+	{
+		"id": 105,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Rhycero",
+		"price": 68277.26,
+		"product_type_id": 1
+	},
+	{
+		"id": 106,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Vipe",
+		"price": 312372.16,
+		"product_type_id": 12
+	},
+	{
+		"id": 107,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Voonyx",
+		"price": 85306.43,
+		"product_type_id": 1
+	},
+	{
+		"id": 108,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gabspot",
+		"price": 463541.03,
+		"product_type_id": 6
+	},
+	{
+		"id": 109,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Edgeclub",
+		"price": 488191.03,
+		"product_type_id": 9
+	},
+	{
+		"id": 110,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Kwilith",
+		"price": 88677.84,
+		"product_type_id": 12
+	},
+	{
+		"id": 111,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Oyoba",
+		"price": 75936.76,
+		"product_type_id": 2
+	},
+	{
+		"id": 112,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Devify",
+		"price": 346496.22,
+		"product_type_id": 12
+	},
+	{
+		"id": 113,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Mybuzz",
+		"price": 483654.37,
+		"product_type_id": 9
+	},
+	{
+		"id": 114,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoomzone",
+		"price": 179434.08,
+		"product_type_id": 9
+	},
+	{
+		"id": 115,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Kwilith",
+		"price": 324043.96,
+		"product_type_id": 5
+	},
+	{
+		"id": 116,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Shufflebeat",
+		"price": 373194.8,
+		"product_type_id": 12
+	},
+	{
+		"id": 117,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gabvine",
+		"price": 46120.89,
+		"product_type_id": 12
+	},
+	{
+		"id": 118,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Centidel",
+		"price": 26536.06,
+		"product_type_id": 5
+	},
+	{
+		"id": 119,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Plambee",
+		"price": 266776.96,
+		"product_type_id": 1
+	},
+	{
+		"id": 120,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Youbridge",
+		"price": 185313.97,
+		"product_type_id": 2
+	},
+	{
+		"id": 121,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Leexo",
+		"price": 351266.05,
+		"product_type_id": 12
+	},
+	{
+		"id": 122,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Eadel",
+		"price": 171165.26,
+		"product_type_id": 11
+	},
+	{
+		"id": 123,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Browsebug",
+		"price": 148930.39,
+		"product_type_id": 5
+	},
+	{
+		"id": 124,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Realcube",
+		"price": 99362.38,
+		"product_type_id": 11
+	},
+	{
+		"id": 125,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Fivechat",
+		"price": 98450.35,
+		"product_type_id": 2
+	},
+	{
+		"id": 126,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gigabox",
+		"price": 296259.92,
+		"product_type_id": 10
+	},
+	{
+		"id": 127,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Feedmix",
+		"price": 109551.84,
+		"product_type_id": 12
+	},
+	{
+		"id": 128,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Dynabox",
+		"price": 148082.81,
+		"product_type_id": 5
+	},
+	{
+		"id": 129,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skippad",
+		"price": 101910.45,
+		"product_type_id": 6
+	},
+	{
+		"id": 130,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skajo",
+		"price": 65539.4,
+		"product_type_id": 9
+	},
+	{
+		"id": 131,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Avavee",
+		"price": 429197.39,
+		"product_type_id": 7
+	},
+	{
+		"id": 132,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Riffpath",
+		"price": 453753.05,
+		"product_type_id": 12
+	},
+	{
+		"id": 133,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gabspot",
+		"price": 98605.21,
+		"product_type_id": 12
+	},
+	{
+		"id": 134,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jabbersphere",
+		"price": 212795.64,
+		"product_type_id": 8
+	},
+	{
+		"id": 135,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gabtype",
+		"price": 444718.06,
+		"product_type_id": 3
+	},
+	{
+		"id": 136,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Divape",
+		"price": 485387.62,
+		"product_type_id": 6
+	},
+	{
+		"id": 137,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yombu",
+		"price": 221738.62,
+		"product_type_id": 9
+	},
+	{
+		"id": 138,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Photospace",
+		"price": 156474.07,
+		"product_type_id": 3
+	},
+	{
+		"id": 139,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Einti",
+		"price": 484032.01,
+		"product_type_id": 12
+	},
+	{
+		"id": 140,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Youbridge",
+		"price": 396543.04,
+		"product_type_id": 10
+	},
+	{
+		"id": 141,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Riffwire",
+		"price": 177529.31,
+		"product_type_id": 10
+	},
+	{
+		"id": 142,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Thoughtstorm",
+		"price": 403334.69,
+		"product_type_id": 7
+	},
+	{
+		"id": 143,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Eidel",
+		"price": 346143.73,
+		"product_type_id": 5
+	},
+	{
+		"id": 144,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yakidoo",
+		"price": 193675.38,
+		"product_type_id": 12
+	},
+	{
+		"id": 145,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Mydo",
+		"price": 66027.84,
+		"product_type_id": 4
+	},
+	{
+		"id": 146,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jaxbean",
+		"price": 253238.4,
+		"product_type_id": 4
+	},
+	{
+		"id": 147,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skipfire",
+		"price": 468495.76,
+		"product_type_id": 3
+	},
+	{
+		"id": 148,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Thoughtworks",
+		"price": 279873.24,
+		"product_type_id": 2
+	},
+	{
+		"id": 149,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Cogidoo",
+		"price": 148948.5,
+		"product_type_id": 9
+	},
+	{
+		"id": 150,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Trilia",
+		"price": 225940.58,
+		"product_type_id": 10
+	},
+	{
+		"id": 151,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Roombo",
+		"price": 75912.76,
+		"product_type_id": 12
+	},
+	{
+		"id": 152,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Tagchat",
+		"price": 446770.08,
+		"product_type_id": 12
+	},
+	{
+		"id": 153,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Mydo",
+		"price": 352811.0,
+		"product_type_id": 6
+	},
+	{
+		"id": 154,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Kaymbo",
+		"price": 448010.41,
+		"product_type_id": 7
+	},
+	{
+		"id": 155,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Trilia",
+		"price": 137005.35,
+		"product_type_id": 11
+	},
+	{
+		"id": 156,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yakitri",
+		"price": 162558.8,
+		"product_type_id": 1
+	},
+	{
+		"id": 157,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skaboo",
+		"price": 352107.47,
+		"product_type_id": 8
+	},
+	{
+		"id": 158,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Thoughtstorm",
+		"price": 26224.69,
+		"product_type_id": 12
+	},
+	{
+		"id": 159,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Thoughtblab",
+		"price": 43765.32,
+		"product_type_id": 9
+	},
+	{
+		"id": 160,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gigabox",
+		"price": 88043.91,
+		"product_type_id": 12
+	},
+	{
+		"id": 161,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Feednation",
+		"price": 120382.92,
+		"product_type_id": 11
+	},
+	{
+		"id": 162,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Quatz",
+		"price": 237157.86,
+		"product_type_id": 5
+	},
+	{
+		"id": 163,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Kaymbo",
+		"price": 126984.18,
+		"product_type_id": 6
+	},
+	{
+		"id": 164,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Oozz",
+		"price": 458529.14,
+		"product_type_id": 7
+	},
+	{
+		"id": 165,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gigaclub",
+		"price": 421050.04,
+		"product_type_id": 1
+	},
+	{
+		"id": 166,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Tagchat",
+		"price": 394394.94,
+		"product_type_id": 5
+	},
+	{
+		"id": 167,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Demimbu",
+		"price": 409857.05,
+		"product_type_id": 4
+	},
+	{
+		"id": 168,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Shuffledrive",
+		"price": 354590.18,
+		"product_type_id": 4
+	},
+	{
+		"id": 169,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Devshare",
+		"price": 155005.78,
+		"product_type_id": 1
+	},
+	{
+		"id": 170,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gigaclub",
+		"price": 122352.55,
+		"product_type_id": 8
+	},
+	{
+		"id": 171,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Voonix",
+		"price": 192207.2,
+		"product_type_id": 9
+	},
+	{
+		"id": 172,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Brainbox",
+		"price": 293041.44,
+		"product_type_id": 4
+	},
+	{
+		"id": 173,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Aimbu",
+		"price": 461269.08,
+		"product_type_id": 6
+	},
+	{
+		"id": 174,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jabberstorm",
+		"price": 382180.54,
+		"product_type_id": 2
+	},
+	{
+		"id": 175,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Oyope",
+		"price": 348098.25,
+		"product_type_id": 6
+	},
+	{
+		"id": 176,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoozzy",
+		"price": 324390.5,
+		"product_type_id": 4
+	},
+	{
+		"id": 177,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Fanoodle",
+		"price": 245870.53,
+		"product_type_id": 7
+	},
+	{
+		"id": 178,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Devpoint",
+		"price": 303249.46,
+		"product_type_id": 3
+	},
+	{
+		"id": 179,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Twitterlist",
+		"price": 214791.34,
+		"product_type_id": 10
+	},
+	{
+		"id": 180,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Agivu",
+		"price": 233079.6,
+		"product_type_id": 10
+	},
+	{
+		"id": 181,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Wikivu",
+		"price": 387568.94,
+		"product_type_id": 12
+	},
+	{
+		"id": 182,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gigashots",
+		"price": 300028.88,
+		"product_type_id": 3
+	},
+	{
+		"id": 183,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skinte",
+		"price": 277884.68,
+		"product_type_id": 11
+	},
+	{
+		"id": 184,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Voomm",
+		"price": 329613.8,
+		"product_type_id": 10
+	},
+	{
+		"id": 185,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Dynabox",
+		"price": 288946.62,
+		"product_type_id": 10
+	},
+	{
+		"id": 186,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gigabox",
+		"price": 278295.98,
+		"product_type_id": 1
+	},
+	{
+		"id": 187,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Browsecat",
+		"price": 47938.04,
+		"product_type_id": 8
+	},
+	{
+		"id": 188,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Wikivu",
+		"price": 340988.23,
+		"product_type_id": 12
+	},
+	{
+		"id": 189,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Meetz",
+		"price": 340125.13,
+		"product_type_id": 2
+	},
+	{
+		"id": 190,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skipstorm",
+		"price": 413874.62,
+		"product_type_id": 1
+	},
+	{
+		"id": 191,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Aimbo",
+		"price": 104158.99,
+		"product_type_id": 11
+	},
+	{
+		"id": 192,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Digitube",
+		"price": 245270.36,
+		"product_type_id": 1
+	},
+	{
+		"id": 193,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Wikizz",
+		"price": 85336.93,
+		"product_type_id": 4
+	},
+	{
+		"id": 194,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Topdrive",
+		"price": 346595.36,
+		"product_type_id": 5
+	},
+	{
+		"id": 195,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skyba",
+		"price": 320107.9,
+		"product_type_id": 7
+	},
+	{
+		"id": 196,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Ntags",
+		"price": 497194.6,
+		"product_type_id": 8
+	},
+	{
+		"id": 197,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Livepath",
+		"price": 136861.23,
+		"product_type_id": 8
+	},
+	{
+		"id": 198,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Oodoo",
+		"price": 107173.72,
+		"product_type_id": 9
+	},
+	{
+		"id": 199,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Eidel",
+		"price": 321473.97,
+		"product_type_id": 10
+	},
+	{
+		"id": 200,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Rhyloo",
+		"price": 418239.59,
+		"product_type_id": 2
+	},
+	{
+		"id": 201,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Fanoodle",
+		"price": 397165.99,
+		"product_type_id": 11
+	},
+	{
+		"id": 202,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yabox",
+		"price": 493692.2,
+		"product_type_id": 2
+	},
+	{
+		"id": 203,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Myworks",
+		"price": 194133.39,
+		"product_type_id": 1
+	},
+	{
+		"id": 204,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Topiczoom",
+		"price": 326884.46,
+		"product_type_id": 9
+	},
+	{
+		"id": 205,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Photojam",
+		"price": 126396.26,
+		"product_type_id": 10
+	},
+	{
+		"id": 206,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yoveo",
+		"price": 304560.99,
+		"product_type_id": 12
+	},
+	{
+		"id": 207,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Babblestorm",
+		"price": 194970.44,
+		"product_type_id": 9
+	},
+	{
+		"id": 208,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Trudoo",
+		"price": 188232.41,
+		"product_type_id": 11
+	},
+	{
+		"id": 209,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Flashpoint",
+		"price": 110406.8,
+		"product_type_id": 10
+	},
+	{
+		"id": 210,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skyble",
+		"price": 150247.91,
+		"product_type_id": 1
+	},
+	{
+		"id": 211,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Shufflebeat",
+		"price": 265477.92,
+		"product_type_id": 6
+	},
+	{
+		"id": 212,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Babbleblab",
+		"price": 497258.93,
+		"product_type_id": 7
+	},
+	{
+		"id": 213,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoombox",
+		"price": 162399.06,
+		"product_type_id": 1
+	},
+	{
+		"id": 214,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Rhynyx",
+		"price": 333268.85,
+		"product_type_id": 2
+	},
+	{
+		"id": 215,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Ooba",
+		"price": 3518.75,
+		"product_type_id": 7
+	},
+	{
+		"id": 216,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Topicblab",
+		"price": 81047.62,
+		"product_type_id": 11
+	},
+	{
+		"id": 217,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Kwimbee",
+		"price": 484348.98,
+		"product_type_id": 4
+	},
+	{
+		"id": 218,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Cogidoo",
+		"price": 167675.19,
+		"product_type_id": 3
+	},
+	{
+		"id": 219,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jayo",
+		"price": 394408.48,
+		"product_type_id": 1
+	},
+	{
+		"id": 220,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Mydeo",
+		"price": 249241.04,
+		"product_type_id": 8
+	},
+	{
+		"id": 221,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Midel",
+		"price": 457773.72,
+		"product_type_id": 3
+	},
+	{
+		"id": 222,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Voolith",
+		"price": 52200.44,
+		"product_type_id": 9
+	},
+	{
+		"id": 223,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Thoughtstorm",
+		"price": 91666.67,
+		"product_type_id": 2
+	},
+	{
+		"id": 224,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Eazzy",
+		"price": 108596.71,
+		"product_type_id": 4
+	},
+	{
+		"id": 225,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Digitube",
+		"price": 117026.24,
+		"product_type_id": 4
+	},
+	{
+		"id": 226,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Realblab",
+		"price": 327754.53,
+		"product_type_id": 5
+	},
+	{
+		"id": 227,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Twitterbeat",
+		"price": 326660.95,
+		"product_type_id": 6
+	},
+	{
+		"id": 228,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Dabjam",
+		"price": 332997.32,
+		"product_type_id": 4
+	},
+	{
+		"id": 229,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Kazio",
+		"price": 51325.87,
+		"product_type_id": 4
+	},
+	{
+		"id": 230,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gevee",
+		"price": 313659.22,
+		"product_type_id": 6
+	},
+	{
+		"id": 231,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Kaymbo",
+		"price": 88486.54,
+		"product_type_id": 11
+	},
+	{
+		"id": 232,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yamia",
+		"price": 381074.43,
+		"product_type_id": 5
+	},
+	{
+		"id": 233,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Twitternation",
+		"price": 102726.94,
+		"product_type_id": 4
+	},
+	{
+		"id": 234,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jaxworks",
+		"price": 359833.0,
+		"product_type_id": 6
+	},
+	{
+		"id": 235,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Roomm",
+		"price": 400447.03,
+		"product_type_id": 5
+	},
+	{
+		"id": 236,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jamia",
+		"price": 190545.27,
+		"product_type_id": 10
+	},
+	{
+		"id": 237,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skiptube",
+		"price": 131249.41,
+		"product_type_id": 6
+	},
+	{
+		"id": 238,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Aimbu",
+		"price": 217435.64,
+		"product_type_id": 3
+	},
+	{
+		"id": 239,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Meeveo",
+		"price": 339996.5,
+		"product_type_id": 6
+	},
+	{
+		"id": 240,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "BlogXS",
+		"price": 276082.14,
+		"product_type_id": 1
+	},
+	{
+		"id": 241,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Vidoo",
+		"price": 475610.45,
+		"product_type_id": 10
+	},
+	{
+		"id": 242,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Izio",
+		"price": 212346.35,
+		"product_type_id": 10
+	},
+	{
+		"id": 243,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Quinu",
+		"price": 129478.44,
+		"product_type_id": 9
+	},
+	{
+		"id": 244,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Feedbug",
+		"price": 394722.3,
+		"product_type_id": 1
+	},
+	{
+		"id": 245,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Minyx",
+		"price": 291226.87,
+		"product_type_id": 5
+	},
+	{
+		"id": 246,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gabtype",
+		"price": 184438.55,
+		"product_type_id": 6
+	},
+	{
+		"id": 247,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Riffpedia",
+		"price": 70699.34,
+		"product_type_id": 2
+	},
+	{
+		"id": 248,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yakidoo",
+		"price": 58320.52,
+		"product_type_id": 4
+	},
+	{
+		"id": 249,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skyndu",
+		"price": 290229.28,
+		"product_type_id": 1
+	},
+	{
+		"id": 250,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Brainbox",
+		"price": 158472.08,
+		"product_type_id": 5
+	},
+	{
+		"id": 251,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jayo",
+		"price": 33259.84,
+		"product_type_id": 2
+	},
+	{
+		"id": 252,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Rooxo",
+		"price": 201761.63,
+		"product_type_id": 4
+	},
+	{
+		"id": 253,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Roombo",
+		"price": 479827.73,
+		"product_type_id": 10
+	},
+	{
+		"id": 254,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Trupe",
+		"price": 491320.46,
+		"product_type_id": 9
+	},
+	{
+		"id": 255,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Kaymbo",
+		"price": 38808.93,
+		"product_type_id": 5
+	},
+	{
+		"id": 256,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Oyope",
+		"price": 23574.9,
+		"product_type_id": 2
+	},
+	{
+		"id": 257,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skyble",
+		"price": 97534.98,
+		"product_type_id": 3
+	},
+	{
+		"id": 258,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Cogilith",
+		"price": 71601.96,
+		"product_type_id": 11
+	},
+	{
+		"id": 259,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Livepath",
+		"price": 321314.21,
+		"product_type_id": 5
+	},
+	{
+		"id": 260,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Vitz",
+		"price": 420756.91,
+		"product_type_id": 3
+	},
+	{
+		"id": 261,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skipstorm",
+		"price": 18479.44,
+		"product_type_id": 1
+	},
+	{
+		"id": 262,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Podcat",
+		"price": 60963.26,
+		"product_type_id": 4
+	},
+	{
+		"id": 263,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Chatterbridge",
+		"price": 126734.77,
+		"product_type_id": 2
+	},
+	{
+		"id": 264,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Fiveclub",
+		"price": 149261.12,
+		"product_type_id": 9
+	},
+	{
+		"id": 265,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Livepath",
+		"price": 191081.65,
+		"product_type_id": 12
+	},
+	{
+		"id": 266,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Linkbuzz",
+		"price": 8899.29,
+		"product_type_id": 1
+	},
+	{
+		"id": 267,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Plambee",
+		"price": 263503.87,
+		"product_type_id": 1
+	},
+	{
+		"id": 268,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Brainlounge",
+		"price": 15973.44,
+		"product_type_id": 5
+	},
+	{
+		"id": 269,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Trudoo",
+		"price": 391351.33,
+		"product_type_id": 12
+	},
+	{
+		"id": 270,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skidoo",
+		"price": 476446.53,
+		"product_type_id": 10
+	},
+	{
+		"id": 271,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Aimbu",
+		"price": 57584.27,
+		"product_type_id": 11
+	},
+	{
+		"id": 272,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Riffpedia",
+		"price": 104514.68,
+		"product_type_id": 3
+	},
+	{
+		"id": 273,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Ailane",
+		"price": 184809.01,
+		"product_type_id": 7
+	},
+	{
+		"id": 274,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Feedbug",
+		"price": 228425.48,
+		"product_type_id": 7
+	},
+	{
+		"id": 275,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoomcast",
+		"price": 318708.0,
+		"product_type_id": 5
+	},
+	{
+		"id": 276,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Aimbo",
+		"price": 344689.22,
+		"product_type_id": 11
+	},
+	{
+		"id": 277,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Rhyloo",
+		"price": 59656.53,
+		"product_type_id": 11
+	},
+	{
+		"id": 278,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Reallinks",
+		"price": 272956.4,
+		"product_type_id": 1
+	},
+	{
+		"id": 279,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Camimbo",
+		"price": 308045.44,
+		"product_type_id": 1
+	},
+	{
+		"id": 280,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoonoodle",
+		"price": 195100.62,
+		"product_type_id": 7
+	},
+	{
+		"id": 281,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skiba",
+		"price": 218749.93,
+		"product_type_id": 5
+	},
+	{
+		"id": 282,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skimia",
+		"price": 201203.11,
+		"product_type_id": 9
+	},
+	{
+		"id": 283,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Ntag",
+		"price": 79677.66,
+		"product_type_id": 3
+	},
+	{
+		"id": 284,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Livetube",
+		"price": 76798.15,
+		"product_type_id": 7
+	},
+	{
+		"id": 285,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Cogibox",
+		"price": 463085.68,
+		"product_type_id": 12
+	},
+	{
+		"id": 286,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Browsetype",
+		"price": 301875.78,
+		"product_type_id": 1
+	},
+	{
+		"id": 287,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoomlounge",
+		"price": 318869.72,
+		"product_type_id": 9
+	},
+	{
+		"id": 288,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Brainsphere",
+		"price": 360093.44,
+		"product_type_id": 2
+	},
+	{
+		"id": 289,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gabvine",
+		"price": 398640.99,
+		"product_type_id": 2
+	},
+	{
+		"id": 290,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Tagfeed",
+		"price": 209281.23,
+		"product_type_id": 1
+	},
+	{
+		"id": 291,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Blogpad",
+		"price": 237132.12,
+		"product_type_id": 8
+	},
+	{
+		"id": 292,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Fadeo",
+		"price": 140527.9,
+		"product_type_id": 7
+	},
+	{
+		"id": 293,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Feedmix",
+		"price": 403959.03,
+		"product_type_id": 1
+	},
+	{
+		"id": 294,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Voomm",
+		"price": 82827.71,
+		"product_type_id": 4
+	},
+	{
+		"id": 295,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Flashspan",
+		"price": 493010.86,
+		"product_type_id": 8
+	},
+	{
+		"id": 296,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Meeveo",
+		"price": 299232.83,
+		"product_type_id": 12
+	},
+	{
+		"id": 297,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Divape",
+		"price": 144563.15,
+		"product_type_id": 9
+	},
+	{
+		"id": 298,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Eamia",
+		"price": 462700.28,
+		"product_type_id": 12
+	},
+	{
+		"id": 299,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "LiveZ",
+		"price": 475092.36,
+		"product_type_id": 5
+	},
+	{
+		"id": 300,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Centidel",
+		"price": 208617.82,
+		"product_type_id": 5
+	},
+	{
+		"id": 301,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Shufflebeat",
+		"price": 130733.68,
+		"product_type_id": 11
+	},
+	{
+		"id": 302,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jabbersphere",
+		"price": 246851.35,
+		"product_type_id": 6
+	},
+	{
+		"id": 303,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Quire",
+		"price": 64244.31,
+		"product_type_id": 3
+	},
+	{
+		"id": 304,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Innotype",
+		"price": 114391.85,
+		"product_type_id": 7
+	},
+	{
+		"id": 305,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Snaptags",
+		"price": 302949.64,
+		"product_type_id": 6
+	},
+	{
+		"id": 306,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Eidel",
+		"price": 147835.04,
+		"product_type_id": 8
+	},
+	{
+		"id": 307,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Linkbridge",
+		"price": 317107.01,
+		"product_type_id": 11
+	},
+	{
+		"id": 308,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Thoughtbeat",
+		"price": 396540.76,
+		"product_type_id": 11
+	},
+	{
+		"id": 309,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Shufflester",
+		"price": 174869.4,
+		"product_type_id": 11
+	},
+	{
+		"id": 310,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Izio",
+		"price": 227187.86,
+		"product_type_id": 9
+	},
+	{
+		"id": 311,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zazio",
+		"price": 478033.23,
+		"product_type_id": 2
+	},
+	{
+		"id": 312,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Realcube",
+		"price": 326725.26,
+		"product_type_id": 7
+	},
+	{
+		"id": 313,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Quinu",
+		"price": 105884.82,
+		"product_type_id": 7
+	},
+	{
+		"id": 314,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Trupe",
+		"price": 351975.35,
+		"product_type_id": 1
+	},
+	{
+		"id": 315,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yodo",
+		"price": 396574.59,
+		"product_type_id": 6
+	},
+	{
+		"id": 316,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Thoughtstorm",
+		"price": 26290.62,
+		"product_type_id": 6
+	},
+	{
+		"id": 317,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Dynabox",
+		"price": 341086.81,
+		"product_type_id": 3
+	},
+	{
+		"id": 318,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Realbridge",
+		"price": 202518.38,
+		"product_type_id": 6
+	},
+	{
+		"id": 319,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Roombo",
+		"price": 281268.81,
+		"product_type_id": 5
+	},
+	{
+		"id": 320,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Shuffledrive",
+		"price": 86778.93,
+		"product_type_id": 3
+	},
+	{
+		"id": 321,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yodo",
+		"price": 450235.08,
+		"product_type_id": 12
+	},
+	{
+		"id": 322,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Bluejam",
+		"price": 29221.01,
+		"product_type_id": 4
+	},
+	{
+		"id": 323,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Cogidoo",
+		"price": 196765.23,
+		"product_type_id": 11
+	},
+	{
+		"id": 324,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Linklinks",
+		"price": 21736.58,
+		"product_type_id": 5
+	},
+	{
+		"id": 325,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jaxspan",
+		"price": 229991.99,
+		"product_type_id": 10
+	},
+	{
+		"id": 326,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Miboo",
+		"price": 239195.73,
+		"product_type_id": 11
+	},
+	{
+		"id": 327,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skynoodle",
+		"price": 237152.96,
+		"product_type_id": 4
+	},
+	{
+		"id": 328,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Demimbu",
+		"price": 428783.96,
+		"product_type_id": 12
+	},
+	{
+		"id": 329,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Midel",
+		"price": 465575.22,
+		"product_type_id": 3
+	},
+	{
+		"id": 330,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Meeveo",
+		"price": 161370.47,
+		"product_type_id": 1
+	},
+	{
+		"id": 331,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skiba",
+		"price": 172007.25,
+		"product_type_id": 1
+	},
+	{
+		"id": 332,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Edgeblab",
+		"price": 278387.6,
+		"product_type_id": 4
+	},
+	{
+		"id": 333,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Mydo",
+		"price": 94820.19,
+		"product_type_id": 2
+	},
+	{
+		"id": 334,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Rhynyx",
+		"price": 352287.65,
+		"product_type_id": 12
+	},
+	{
+		"id": 335,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Divanoodle",
+		"price": 85539.67,
+		"product_type_id": 9
+	},
+	{
+		"id": 336,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Cogibox",
+		"price": 490202.84,
+		"product_type_id": 12
+	},
+	{
+		"id": 337,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skyba",
+		"price": 329733.0,
+		"product_type_id": 2
+	},
+	{
+		"id": 338,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zooxo",
+		"price": 232405.46,
+		"product_type_id": 4
+	},
+	{
+		"id": 339,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Kwimbee",
+		"price": 26256.44,
+		"product_type_id": 12
+	},
+	{
+		"id": 340,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Dynabox",
+		"price": 35144.06,
+		"product_type_id": 2
+	},
+	{
+		"id": 341,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Fatz",
+		"price": 51705.09,
+		"product_type_id": 3
+	},
+	{
+		"id": 342,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skippad",
+		"price": 209955.91,
+		"product_type_id": 5
+	},
+	{
+		"id": 343,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Trudeo",
+		"price": 74563.29,
+		"product_type_id": 11
+	},
+	{
+		"id": 344,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Tagpad",
+		"price": 287480.1,
+		"product_type_id": 9
+	},
+	{
+		"id": 345,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Thoughtstorm",
+		"price": 161370.95,
+		"product_type_id": 2
+	},
+	{
+		"id": 346,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Kazu",
+		"price": 271312.96,
+		"product_type_id": 7
+	},
+	{
+		"id": 347,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Fivespan",
+		"price": 52089.06,
+		"product_type_id": 5
+	},
+	{
+		"id": 348,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Camimbo",
+		"price": 468361.25,
+		"product_type_id": 7
+	},
+	{
+		"id": 349,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Ainyx",
+		"price": 275979.85,
+		"product_type_id": 11
+	},
+	{
+		"id": 350,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Babblestorm",
+		"price": 173734.67,
+		"product_type_id": 6
+	},
+	{
+		"id": 351,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Camimbo",
+		"price": 469699.54,
+		"product_type_id": 5
+	},
+	{
+		"id": 352,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Devbug",
+		"price": 350326.28,
+		"product_type_id": 9
+	},
+	{
+		"id": 353,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Muxo",
+		"price": 109319.48,
+		"product_type_id": 1
+	},
+	{
+		"id": 354,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Agivu",
+		"price": 212226.01,
+		"product_type_id": 10
+	},
+	{
+		"id": 355,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Realbuzz",
+		"price": 167135.46,
+		"product_type_id": 8
+	},
+	{
+		"id": 356,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skyndu",
+		"price": 258781.05,
+		"product_type_id": 8
+	},
+	{
+		"id": 357,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yakidoo",
+		"price": 139989.69,
+		"product_type_id": 3
+	},
+	{
+		"id": 358,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yadel",
+		"price": 166271.55,
+		"product_type_id": 11
+	},
+	{
+		"id": 359,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Wikizz",
+		"price": 489606.5,
+		"product_type_id": 3
+	},
+	{
+		"id": 360,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Flashset",
+		"price": 58752.84,
+		"product_type_id": 11
+	},
+	{
+		"id": 361,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Topicware",
+		"price": 206755.62,
+		"product_type_id": 11
+	},
+	{
+		"id": 362,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Trilith",
+		"price": 481793.31,
+		"product_type_id": 11
+	},
+	{
+		"id": 363,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Thoughtmix",
+		"price": 95218.59,
+		"product_type_id": 7
+	},
+	{
+		"id": 364,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gabcube",
+		"price": 165355.11,
+		"product_type_id": 7
+	},
+	{
+		"id": 365,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Voonder",
+		"price": 292569.76,
+		"product_type_id": 10
+	},
+	{
+		"id": 366,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Eamia",
+		"price": 27538.97,
+		"product_type_id": 6
+	},
+	{
+		"id": 367,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Realbridge",
+		"price": 444104.46,
+		"product_type_id": 1
+	},
+	{
+		"id": 368,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Geba",
+		"price": 65005.09,
+		"product_type_id": 7
+	},
+	{
+		"id": 369,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Quinu",
+		"price": 156320.71,
+		"product_type_id": 7
+	},
+	{
+		"id": 370,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Kayveo",
+		"price": 498844.23,
+		"product_type_id": 11
+	},
+	{
+		"id": 371,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Quinu",
+		"price": 53781.54,
+		"product_type_id": 8
+	},
+	{
+		"id": 372,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yoveo",
+		"price": 433562.58,
+		"product_type_id": 1
+	},
+	{
+		"id": 373,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Eayo",
+		"price": 32560.19,
+		"product_type_id": 12
+	},
+	{
+		"id": 374,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Ntag",
+		"price": 376453.57,
+		"product_type_id": 1
+	},
+	{
+		"id": 375,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Browsedrive",
+		"price": 275365.47,
+		"product_type_id": 10
+	},
+	{
+		"id": 376,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Kwideo",
+		"price": 291826.76,
+		"product_type_id": 2
+	},
+	{
+		"id": 377,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Wordtune",
+		"price": 336422.77,
+		"product_type_id": 6
+	},
+	{
+		"id": 378,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Devpoint",
+		"price": 186106.6,
+		"product_type_id": 12
+	},
+	{
+		"id": 379,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Dynabox",
+		"price": 453404.37,
+		"product_type_id": 2
+	},
+	{
+		"id": 380,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Avaveo",
+		"price": 397253.56,
+		"product_type_id": 10
+	},
+	{
+		"id": 381,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gevee",
+		"price": 226879.51,
+		"product_type_id": 1
+	},
+	{
+		"id": 382,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Edgeblab",
+		"price": 114063.62,
+		"product_type_id": 5
+	},
+	{
+		"id": 383,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Vimbo",
+		"price": 484331.98,
+		"product_type_id": 8
+	},
+	{
+		"id": 384,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Npath",
+		"price": 95245.71,
+		"product_type_id": 12
+	},
+	{
+		"id": 385,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Bubblebox",
+		"price": 188746.28,
+		"product_type_id": 11
+	},
+	{
+		"id": 386,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skiba",
+		"price": 308589.49,
+		"product_type_id": 9
+	},
+	{
+		"id": 387,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Realfire",
+		"price": 469859.09,
+		"product_type_id": 4
+	},
+	{
+		"id": 388,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Leenti",
+		"price": 349939.49,
+		"product_type_id": 12
+	},
+	{
+		"id": 389,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoombox",
+		"price": 253813.49,
+		"product_type_id": 6
+	},
+	{
+		"id": 390,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Tekfly",
+		"price": 416410.84,
+		"product_type_id": 2
+	},
+	{
+		"id": 391,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Vipe",
+		"price": 294755.31,
+		"product_type_id": 11
+	},
+	{
+		"id": 392,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yodo",
+		"price": 247372.26,
+		"product_type_id": 1
+	},
+	{
+		"id": 393,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Eimbee",
+		"price": 141260.06,
+		"product_type_id": 1
+	},
+	{
+		"id": 394,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Avamba",
+		"price": 9952.95,
+		"product_type_id": 6
+	},
+	{
+		"id": 395,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Mita",
+		"price": 449936.02,
+		"product_type_id": 11
+	},
+	{
+		"id": 396,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skaboo",
+		"price": 285762.27,
+		"product_type_id": 8
+	},
+	{
+		"id": 397,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Oloo",
+		"price": 314678.8,
+		"product_type_id": 7
+	},
+	{
+		"id": 398,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yotz",
+		"price": 287530.52,
+		"product_type_id": 7
+	},
+	{
+		"id": 399,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yombu",
+		"price": 23332.38,
+		"product_type_id": 12
+	},
+	{
+		"id": 400,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Devcast",
+		"price": 341918.31,
+		"product_type_id": 7
+	},
+	{
+		"id": 401,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Tazz",
+		"price": 216679.45,
+		"product_type_id": 9
+	},
+	{
+		"id": 402,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Centizu",
+		"price": 114455.39,
+		"product_type_id": 6
+	},
+	{
+		"id": 403,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Wikivu",
+		"price": 301431.26,
+		"product_type_id": 6
+	},
+	{
+		"id": 404,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Brainbox",
+		"price": 37863.45,
+		"product_type_id": 2
+	},
+	{
+		"id": 405,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Chatterbridge",
+		"price": 498604.59,
+		"product_type_id": 9
+	},
+	{
+		"id": 406,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Buzzster",
+		"price": 61989.76,
+		"product_type_id": 9
+	},
+	{
+		"id": 407,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Photobug",
+		"price": 340955.47,
+		"product_type_id": 2
+	},
+	{
+		"id": 408,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Mydeo",
+		"price": 323665.34,
+		"product_type_id": 5
+	},
+	{
+		"id": 409,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Aimbu",
+		"price": 429388.6,
+		"product_type_id": 6
+	},
+	{
+		"id": 410,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoombeat",
+		"price": 488783.55,
+		"product_type_id": 9
+	},
+	{
+		"id": 411,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Bubblemix",
+		"price": 145861.65,
+		"product_type_id": 7
+	},
+	{
+		"id": 412,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zooxo",
+		"price": 165781.5,
+		"product_type_id": 2
+	},
+	{
+		"id": 413,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Thoughtblab",
+		"price": 381247.96,
+		"product_type_id": 2
+	},
+	{
+		"id": 414,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Flashset",
+		"price": 494394.58,
+		"product_type_id": 7
+	},
+	{
+		"id": 415,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Ailane",
+		"price": 335123.81,
+		"product_type_id": 4
+	},
+	{
+		"id": 416,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Wikivu",
+		"price": 128786.71,
+		"product_type_id": 7
+	},
+	{
+		"id": 417,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skiba",
+		"price": 187194.09,
+		"product_type_id": 5
+	},
+	{
+		"id": 418,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Cogidoo",
+		"price": 359097.24,
+		"product_type_id": 8
+	},
+	{
+		"id": 419,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Quatz",
+		"price": 227576.88,
+		"product_type_id": 5
+	},
+	{
+		"id": 420,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Twimm",
+		"price": 239274.72,
+		"product_type_id": 4
+	},
+	{
+		"id": 421,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Dynava",
+		"price": 38433.4,
+		"product_type_id": 10
+	},
+	{
+		"id": 422,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Fivebridge",
+		"price": 267129.04,
+		"product_type_id": 6
+	},
+	{
+		"id": 423,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Livepath",
+		"price": 40814.3,
+		"product_type_id": 2
+	},
+	{
+		"id": 424,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skiba",
+		"price": 141284.97,
+		"product_type_id": 10
+	},
+	{
+		"id": 425,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Dazzlesphere",
+		"price": 249847.67,
+		"product_type_id": 11
+	},
+	{
+		"id": 426,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Rhyzio",
+		"price": 86783.5,
+		"product_type_id": 9
+	},
+	{
+		"id": 427,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skalith",
+		"price": 220206.85,
+		"product_type_id": 9
+	},
+	{
+		"id": 428,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Dabvine",
+		"price": 135193.18,
+		"product_type_id": 5
+	},
+	{
+		"id": 429,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Brainlounge",
+		"price": 422342.26,
+		"product_type_id": 9
+	},
+	{
+		"id": 430,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Avamba",
+		"price": 41133.0,
+		"product_type_id": 10
+	},
+	{
+		"id": 431,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Quimba",
+		"price": 174784.66,
+		"product_type_id": 1
+	},
+	{
+		"id": 432,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Plambee",
+		"price": 122868.77,
+		"product_type_id": 12
+	},
+	{
+		"id": 433,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Kamba",
+		"price": 148591.99,
+		"product_type_id": 11
+	},
+	{
+		"id": 434,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Edgeblab",
+		"price": 131237.39,
+		"product_type_id": 12
+	},
+	{
+		"id": 435,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Camido",
+		"price": 427220.34,
+		"product_type_id": 3
+	},
+	{
+		"id": 436,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yakijo",
+		"price": 338460.85,
+		"product_type_id": 12
+	},
+	{
+		"id": 437,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Eabox",
+		"price": 463144.6,
+		"product_type_id": 11
+	},
+	{
+		"id": 438,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jatri",
+		"price": 300628.63,
+		"product_type_id": 10
+	},
+	{
+		"id": 439,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Topicblab",
+		"price": 180362.93,
+		"product_type_id": 12
+	},
+	{
+		"id": 440,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Izio",
+		"price": 47862.15,
+		"product_type_id": 5
+	},
+	{
+		"id": 441,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gabvine",
+		"price": 153968.91,
+		"product_type_id": 3
+	},
+	{
+		"id": 442,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skynoodle",
+		"price": 51534.62,
+		"product_type_id": 9
+	},
+	{
+		"id": 443,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Oozz",
+		"price": 118883.77,
+		"product_type_id": 7
+	},
+	{
+		"id": 444,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Miboo",
+		"price": 455878.98,
+		"product_type_id": 11
+	},
+	{
+		"id": 445,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Blognation",
+		"price": 172144.36,
+		"product_type_id": 3
+	},
+	{
+		"id": 446,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Kwinu",
+		"price": 200814.02,
+		"product_type_id": 12
+	},
+	{
+		"id": 447,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Voomm",
+		"price": 393334.24,
+		"product_type_id": 9
+	},
+	{
+		"id": 448,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Centimia",
+		"price": 164365.63,
+		"product_type_id": 4
+	},
+	{
+		"id": 449,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Browsetype",
+		"price": 178961.56,
+		"product_type_id": 6
+	},
+	{
+		"id": 450,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Buzzdog",
+		"price": 16939.66,
+		"product_type_id": 11
+	},
+	{
+		"id": 451,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Devpoint",
+		"price": 356537.1,
+		"product_type_id": 5
+	},
+	{
+		"id": 452,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Edgeclub",
+		"price": 80399.26,
+		"product_type_id": 6
+	},
+	{
+		"id": 453,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gabtype",
+		"price": 53966.59,
+		"product_type_id": 7
+	},
+	{
+		"id": 454,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Mydeo",
+		"price": 30012.5,
+		"product_type_id": 9
+	},
+	{
+		"id": 455,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Leenti",
+		"price": 264077.35,
+		"product_type_id": 5
+	},
+	{
+		"id": 456,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Centidel",
+		"price": 451604.88,
+		"product_type_id": 7
+	},
+	{
+		"id": 457,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Meembee",
+		"price": 226211.76,
+		"product_type_id": 12
+	},
+	{
+		"id": 458,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Aimbu",
+		"price": 272170.54,
+		"product_type_id": 10
+	},
+	{
+		"id": 459,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Photobean",
+		"price": 452191.87,
+		"product_type_id": 6
+	},
+	{
+		"id": 460,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Realcube",
+		"price": 190613.82,
+		"product_type_id": 5
+	},
+	{
+		"id": 461,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Oba",
+		"price": 236977.95,
+		"product_type_id": 3
+	},
+	{
+		"id": 462,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Plambee",
+		"price": 105498.52,
+		"product_type_id": 4
+	},
+	{
+		"id": 463,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Fivebridge",
+		"price": 370015.33,
+		"product_type_id": 2
+	},
+	{
+		"id": 464,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skibox",
+		"price": 418661.84,
+		"product_type_id": 2
+	},
+	{
+		"id": 465,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Vidoo",
+		"price": 3315.33,
+		"product_type_id": 10
+	},
+	{
+		"id": 466,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Abata",
+		"price": 281721.09,
+		"product_type_id": 5
+	},
+	{
+		"id": 467,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Abatz",
+		"price": 161526.56,
+		"product_type_id": 11
+	},
+	{
+		"id": 468,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Ailane",
+		"price": 33525.74,
+		"product_type_id": 6
+	},
+	{
+		"id": 469,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skinte",
+		"price": 98725.48,
+		"product_type_id": 12
+	},
+	{
+		"id": 470,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yodel",
+		"price": 67355.1,
+		"product_type_id": 6
+	},
+	{
+		"id": 471,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Eadel",
+		"price": 25380.49,
+		"product_type_id": 12
+	},
+	{
+		"id": 472,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Edgepulse",
+		"price": 252486.21,
+		"product_type_id": 1
+	},
+	{
+		"id": 473,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Youtags",
+		"price": 322641.64,
+		"product_type_id": 10
+	},
+	{
+		"id": 474,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Dynava",
+		"price": 332601.91,
+		"product_type_id": 12
+	},
+	{
+		"id": 475,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Meetz",
+		"price": 130317.61,
+		"product_type_id": 1
+	},
+	{
+		"id": 476,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jamia",
+		"price": 457511.41,
+		"product_type_id": 12
+	},
+	{
+		"id": 477,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Einti",
+		"price": 194281.75,
+		"product_type_id": 5
+	},
+	{
+		"id": 478,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Meejo",
+		"price": 6165.86,
+		"product_type_id": 11
+	},
+	{
+		"id": 479,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yodo",
+		"price": 250442.76,
+		"product_type_id": 2
+	},
+	{
+		"id": 480,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Vidoo",
+		"price": 270942.35,
+		"product_type_id": 9
+	},
+	{
+		"id": 481,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Avaveo",
+		"price": 35625.61,
+		"product_type_id": 1
+	},
+	{
+		"id": 482,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Oyondu",
+		"price": 207716.71,
+		"product_type_id": 12
+	},
+	{
+		"id": 483,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yodo",
+		"price": 368551.77,
+		"product_type_id": 4
+	},
+	{
+		"id": 484,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Oyoloo",
+		"price": 254678.13,
+		"product_type_id": 8
+	},
+	{
+		"id": 485,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skalith",
+		"price": 432605.75,
+		"product_type_id": 10
+	},
+	{
+		"id": 486,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Twitterworks",
+		"price": 313735.85,
+		"product_type_id": 6
+	},
+	{
+		"id": 487,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Oyonder",
+		"price": 321203.44,
+		"product_type_id": 7
+	},
+	{
+		"id": 488,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Twitterbridge",
+		"price": 133154.87,
+		"product_type_id": 2
+	},
+	{
+		"id": 489,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoomzone",
+		"price": 304102.58,
+		"product_type_id": 1
+	},
+	{
+		"id": 490,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Reallinks",
+		"price": 407966.37,
+		"product_type_id": 2
+	},
+	{
+		"id": 491,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gigashots",
+		"price": 339400.83,
+		"product_type_id": 9
+	},
+	{
+		"id": 492,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Trunyx",
+		"price": 219518.96,
+		"product_type_id": 9
+	},
+	{
+		"id": 493,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Oyope",
+		"price": 308472.17,
+		"product_type_id": 3
+	},
+	{
+		"id": 494,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jaxspan",
+		"price": 487684.34,
+		"product_type_id": 3
+	},
+	{
+		"id": 495,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Realfire",
+		"price": 117937.93,
+		"product_type_id": 3
+	},
+	{
+		"id": 496,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Fivechat",
+		"price": 34831.83,
+		"product_type_id": 11
+	},
+	{
+		"id": 497,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Meejo",
+		"price": 334107.14,
+		"product_type_id": 8
+	},
+	{
+		"id": 498,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Ntag",
+		"price": 141976.72,
+		"product_type_id": 5
+	},
+	{
+		"id": 499,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Latz",
+		"price": 327282.54,
+		"product_type_id": 6
+	},
+	{
+		"id": 500,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Wordpedia",
+		"price": 281732.26,
+		"product_type_id": 8
+	},
+	{
+		"id": 501,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Innojam",
+		"price": 129261.34,
+		"product_type_id": 9
+	},
+	{
+		"id": 502,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Chatterpoint",
+		"price": 67104.88,
+		"product_type_id": 12
+	},
+	{
+		"id": 503,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Wordtune",
+		"price": 13867.38,
+		"product_type_id": 2
+	},
+	{
+		"id": 504,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "JumpXS",
+		"price": 335812.99,
+		"product_type_id": 3
+	},
+	{
+		"id": 505,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoombeat",
+		"price": 302457.18,
+		"product_type_id": 7
+	},
+	{
+		"id": 506,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skajo",
+		"price": 241568.69,
+		"product_type_id": 5
+	},
+	{
+		"id": 507,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Vimbo",
+		"price": 40928.14,
+		"product_type_id": 2
+	},
+	{
+		"id": 508,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Linklinks",
+		"price": 68365.02,
+		"product_type_id": 12
+	},
+	{
+		"id": 509,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Youspan",
+		"price": 240100.93,
+		"product_type_id": 7
+	},
+	{
+		"id": 510,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gigashots",
+		"price": 451584.71,
+		"product_type_id": 12
+	},
+	{
+		"id": 511,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Aimbu",
+		"price": 459443.0,
+		"product_type_id": 5
+	},
+	{
+		"id": 512,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Fivebridge",
+		"price": 28038.85,
+		"product_type_id": 9
+	},
+	{
+		"id": 513,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Feedmix",
+		"price": 92857.77,
+		"product_type_id": 2
+	},
+	{
+		"id": 514,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skilith",
+		"price": 36580.26,
+		"product_type_id": 9
+	},
+	{
+		"id": 515,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Flashpoint",
+		"price": 221330.96,
+		"product_type_id": 3
+	},
+	{
+		"id": 516,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Edgetag",
+		"price": 333643.38,
+		"product_type_id": 6
+	},
+	{
+		"id": 517,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Feedbug",
+		"price": 84944.86,
+		"product_type_id": 10
+	},
+	{
+		"id": 518,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Trunyx",
+		"price": 205186.72,
+		"product_type_id": 11
+	},
+	{
+		"id": 519,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Camido",
+		"price": 156093.06,
+		"product_type_id": 11
+	},
+	{
+		"id": 520,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Kwilith",
+		"price": 56068.67,
+		"product_type_id": 5
+	},
+	{
+		"id": 521,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Ntags",
+		"price": 181357.81,
+		"product_type_id": 3
+	},
+	{
+		"id": 522,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yacero",
+		"price": 325331.66,
+		"product_type_id": 4
+	},
+	{
+		"id": 523,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skaboo",
+		"price": 47897.91,
+		"product_type_id": 9
+	},
+	{
+		"id": 524,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jaxbean",
+		"price": 3654.47,
+		"product_type_id": 3
+	},
+	{
+		"id": 525,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jabbertype",
+		"price": 184977.52,
+		"product_type_id": 3
+	},
+	{
+		"id": 526,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skyba",
+		"price": 7927.66,
+		"product_type_id": 7
+	},
+	{
+		"id": 527,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skimia",
+		"price": 102636.89,
+		"product_type_id": 11
+	},
+	{
+		"id": 528,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Riffpedia",
+		"price": 424503.61,
+		"product_type_id": 2
+	},
+	{
+		"id": 529,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Centizu",
+		"price": 400813.61,
+		"product_type_id": 11
+	},
+	{
+		"id": 530,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jamia",
+		"price": 286661.95,
+		"product_type_id": 10
+	},
+	{
+		"id": 531,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Riffwire",
+		"price": 413582.63,
+		"product_type_id": 1
+	},
+	{
+		"id": 532,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jayo",
+		"price": 434179.36,
+		"product_type_id": 11
+	},
+	{
+		"id": 533,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Fatz",
+		"price": 478092.97,
+		"product_type_id": 10
+	},
+	{
+		"id": 534,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Trilith",
+		"price": 336892.3,
+		"product_type_id": 12
+	},
+	{
+		"id": 535,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Flashset",
+		"price": 4941.16,
+		"product_type_id": 12
+	},
+	{
+		"id": 536,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gigazoom",
+		"price": 491043.19,
+		"product_type_id": 5
+	},
+	{
+		"id": 537,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Blogtags",
+		"price": 122422.26,
+		"product_type_id": 1
+	},
+	{
+		"id": 538,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Tagfeed",
+		"price": 418839.9,
+		"product_type_id": 5
+	},
+	{
+		"id": 539,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Thoughtstorm",
+		"price": 441080.89,
+		"product_type_id": 11
+	},
+	{
+		"id": 540,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Livepath",
+		"price": 70719.76,
+		"product_type_id": 10
+	},
+	{
+		"id": 541,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "InnoZ",
+		"price": 356228.05,
+		"product_type_id": 9
+	},
+	{
+		"id": 542,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Shufflester",
+		"price": 124461.49,
+		"product_type_id": 3
+	},
+	{
+		"id": 543,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Devpoint",
+		"price": 125750.87,
+		"product_type_id": 6
+	},
+	{
+		"id": 544,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoombeat",
+		"price": 203095.73,
+		"product_type_id": 3
+	},
+	{
+		"id": 545,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yambee",
+		"price": 102008.31,
+		"product_type_id": 11
+	},
+	{
+		"id": 546,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Linkbridge",
+		"price": 355825.88,
+		"product_type_id": 11
+	},
+	{
+		"id": 547,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Thoughtbridge",
+		"price": 59714.21,
+		"product_type_id": 4
+	},
+	{
+		"id": 548,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Photojam",
+		"price": 25486.66,
+		"product_type_id": 3
+	},
+	{
+		"id": 549,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Cogilith",
+		"price": 407278.51,
+		"product_type_id": 4
+	},
+	{
+		"id": 550,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Miboo",
+		"price": 308314.4,
+		"product_type_id": 5
+	},
+	{
+		"id": 551,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Bluezoom",
+		"price": 466674.41,
+		"product_type_id": 4
+	},
+	{
+		"id": 552,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gabspot",
+		"price": 349554.7,
+		"product_type_id": 8
+	},
+	{
+		"id": 553,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Mita",
+		"price": 296497.48,
+		"product_type_id": 3
+	},
+	{
+		"id": 554,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Youtags",
+		"price": 2254.14,
+		"product_type_id": 1
+	},
+	{
+		"id": 555,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skibox",
+		"price": 70490.15,
+		"product_type_id": 1
+	},
+	{
+		"id": 556,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoomcast",
+		"price": 264643.68,
+		"product_type_id": 1
+	},
+	{
+		"id": 557,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Fanoodle",
+		"price": 444237.41,
+		"product_type_id": 7
+	},
+	{
+		"id": 558,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Youspan",
+		"price": 92832.08,
+		"product_type_id": 3
+	},
+	{
+		"id": 559,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yadel",
+		"price": 446115.54,
+		"product_type_id": 2
+	},
+	{
+		"id": 560,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Ainyx",
+		"price": 292825.06,
+		"product_type_id": 12
+	},
+	{
+		"id": 561,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Ailane",
+		"price": 396373.93,
+		"product_type_id": 9
+	},
+	{
+		"id": 562,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Digitube",
+		"price": 432832.0,
+		"product_type_id": 11
+	},
+	{
+		"id": 563,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoomzone",
+		"price": 404941.94,
+		"product_type_id": 5
+	},
+	{
+		"id": 564,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Twitterlist",
+		"price": 490358.72,
+		"product_type_id": 4
+	},
+	{
+		"id": 565,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Mita",
+		"price": 255724.79,
+		"product_type_id": 11
+	},
+	{
+		"id": 566,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jetwire",
+		"price": 459559.18,
+		"product_type_id": 2
+	},
+	{
+		"id": 567,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Digitube",
+		"price": 343416.75,
+		"product_type_id": 5
+	},
+	{
+		"id": 568,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Abatz",
+		"price": 201124.39,
+		"product_type_id": 2
+	},
+	{
+		"id": 569,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Wordify",
+		"price": 412605.64,
+		"product_type_id": 1
+	},
+	{
+		"id": 570,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Centidel",
+		"price": 253407.34,
+		"product_type_id": 4
+	},
+	{
+		"id": 571,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Browseblab",
+		"price": 59702.04,
+		"product_type_id": 1
+	},
+	{
+		"id": 572,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Mycat",
+		"price": 241422.16,
+		"product_type_id": 7
+	},
+	{
+		"id": 573,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Kare",
+		"price": 349076.79,
+		"product_type_id": 5
+	},
+	{
+		"id": 574,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Bluejam",
+		"price": 210683.35,
+		"product_type_id": 7
+	},
+	{
+		"id": 575,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Brainsphere",
+		"price": 193795.5,
+		"product_type_id": 8
+	},
+	{
+		"id": 576,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jabbercube",
+		"price": 197823.98,
+		"product_type_id": 12
+	},
+	{
+		"id": 577,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Trupe",
+		"price": 470116.0,
+		"product_type_id": 11
+	},
+	{
+		"id": 578,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Innotype",
+		"price": 227661.58,
+		"product_type_id": 2
+	},
+	{
+		"id": 579,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Fliptune",
+		"price": 60927.76,
+		"product_type_id": 3
+	},
+	{
+		"id": 580,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Twimbo",
+		"price": 487469.5,
+		"product_type_id": 6
+	},
+	{
+		"id": 581,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Feednation",
+		"price": 107401.49,
+		"product_type_id": 10
+	},
+	{
+		"id": 582,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Browsecat",
+		"price": 389354.15,
+		"product_type_id": 3
+	},
+	{
+		"id": 583,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Photobug",
+		"price": 128221.43,
+		"product_type_id": 11
+	},
+	{
+		"id": 584,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Vinte",
+		"price": 77943.35,
+		"product_type_id": 5
+	},
+	{
+		"id": 585,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gabvine",
+		"price": 421125.83,
+		"product_type_id": 7
+	},
+	{
+		"id": 586,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Livetube",
+		"price": 124405.36,
+		"product_type_id": 1
+	},
+	{
+		"id": 587,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Eazzy",
+		"price": 182788.1,
+		"product_type_id": 5
+	},
+	{
+		"id": 588,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Blogtag",
+		"price": 235346.36,
+		"product_type_id": 12
+	},
+	{
+		"id": 589,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Thoughtbridge",
+		"price": 348547.34,
+		"product_type_id": 8
+	},
+	{
+		"id": 590,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Abatz",
+		"price": 488304.41,
+		"product_type_id": 12
+	},
+	{
+		"id": 591,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skinix",
+		"price": 51956.11,
+		"product_type_id": 12
+	},
+	{
+		"id": 592,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Blogtag",
+		"price": 465107.79,
+		"product_type_id": 12
+	},
+	{
+		"id": 593,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Edgepulse",
+		"price": 269574.63,
+		"product_type_id": 4
+	},
+	{
+		"id": 594,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Blogtags",
+		"price": 433693.36,
+		"product_type_id": 10
+	},
+	{
+		"id": 595,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Browsedrive",
+		"price": 429345.65,
+		"product_type_id": 7
+	},
+	{
+		"id": 596,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Meemm",
+		"price": 481132.85,
+		"product_type_id": 6
+	},
+	{
+		"id": 597,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yata",
+		"price": 473841.21,
+		"product_type_id": 12
+	},
+	{
+		"id": 598,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Quatz",
+		"price": 127022.9,
+		"product_type_id": 5
+	},
+	{
+		"id": 599,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Vidoo",
+		"price": 496727.61,
+		"product_type_id": 8
+	},
+	{
+		"id": 600,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skiptube",
+		"price": 277317.91,
+		"product_type_id": 12
+	},
+	{
+		"id": 601,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Ntags",
+		"price": 297280.86,
+		"product_type_id": 10
+	},
+	{
+		"id": 602,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Edgeblab",
+		"price": 465889.3,
+		"product_type_id": 5
+	},
+	{
+		"id": 603,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Tagopia",
+		"price": 37026.16,
+		"product_type_id": 11
+	},
+	{
+		"id": 604,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Thoughtmix",
+		"price": 21020.29,
+		"product_type_id": 9
+	},
+	{
+		"id": 605,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Flipopia",
+		"price": 293852.36,
+		"product_type_id": 11
+	},
+	{
+		"id": 606,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Trudeo",
+		"price": 104173.41,
+		"product_type_id": 11
+	},
+	{
+		"id": 607,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Dynava",
+		"price": 436030.06,
+		"product_type_id": 2
+	},
+	{
+		"id": 608,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Plambee",
+		"price": 79343.1,
+		"product_type_id": 9
+	},
+	{
+		"id": 609,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Fivespan",
+		"price": 335767.4,
+		"product_type_id": 1
+	},
+	{
+		"id": 610,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Buzzshare",
+		"price": 201505.25,
+		"product_type_id": 12
+	},
+	{
+		"id": 611,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Quinu",
+		"price": 36799.39,
+		"product_type_id": 12
+	},
+	{
+		"id": 612,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Ainyx",
+		"price": 407327.23,
+		"product_type_id": 12
+	},
+	{
+		"id": 613,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skyba",
+		"price": 37314.55,
+		"product_type_id": 2
+	},
+	{
+		"id": 614,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Dynava",
+		"price": 64724.28,
+		"product_type_id": 1
+	},
+	{
+		"id": 615,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Voomm",
+		"price": 67422.8,
+		"product_type_id": 11
+	},
+	{
+		"id": 616,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Dynabox",
+		"price": 441245.35,
+		"product_type_id": 2
+	},
+	{
+		"id": 617,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Babblestorm",
+		"price": 70210.53,
+		"product_type_id": 9
+	},
+	{
+		"id": 618,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jazzy",
+		"price": 484922.41,
+		"product_type_id": 2
+	},
+	{
+		"id": 619,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Voolia",
+		"price": 233898.85,
+		"product_type_id": 4
+	},
+	{
+		"id": 620,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yamia",
+		"price": 109780.79,
+		"product_type_id": 1
+	},
+	{
+		"id": 621,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Pixonyx",
+		"price": 209249.27,
+		"product_type_id": 12
+	},
+	{
+		"id": 622,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Trilith",
+		"price": 150975.31,
+		"product_type_id": 6
+	},
+	{
+		"id": 623,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skaboo",
+		"price": 123268.84,
+		"product_type_id": 3
+	},
+	{
+		"id": 624,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Dabjam",
+		"price": 242734.99,
+		"product_type_id": 2
+	},
+	{
+		"id": 625,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Aibox",
+		"price": 334949.64,
+		"product_type_id": 11
+	},
+	{
+		"id": 626,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Edgeify",
+		"price": 367904.16,
+		"product_type_id": 12
+	},
+	{
+		"id": 627,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Kimia",
+		"price": 256723.06,
+		"product_type_id": 3
+	},
+	{
+		"id": 628,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Eabox",
+		"price": 358664.05,
+		"product_type_id": 1
+	},
+	{
+		"id": 629,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Dabtype",
+		"price": 237043.75,
+		"product_type_id": 2
+	},
+	{
+		"id": 630,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Dazzlesphere",
+		"price": 404670.86,
+		"product_type_id": 8
+	},
+	{
+		"id": 631,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Twinder",
+		"price": 481245.05,
+		"product_type_id": 4
+	},
+	{
+		"id": 632,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Topdrive",
+		"price": 247970.31,
+		"product_type_id": 5
+	},
+	{
+		"id": 633,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Podcat",
+		"price": 388676.89,
+		"product_type_id": 5
+	},
+	{
+		"id": 634,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skinte",
+		"price": 51823.94,
+		"product_type_id": 4
+	},
+	{
+		"id": 635,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Avamm",
+		"price": 113671.5,
+		"product_type_id": 8
+	},
+	{
+		"id": 636,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Blognation",
+		"price": 399960.85,
+		"product_type_id": 7
+	},
+	{
+		"id": 637,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Wikido",
+		"price": 58956.23,
+		"product_type_id": 3
+	},
+	{
+		"id": 638,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Twimm",
+		"price": 330386.12,
+		"product_type_id": 5
+	},
+	{
+		"id": 639,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skipfire",
+		"price": 414831.69,
+		"product_type_id": 11
+	},
+	{
+		"id": 640,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Vidoo",
+		"price": 64814.39,
+		"product_type_id": 4
+	},
+	{
+		"id": 641,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Thoughtsphere",
+		"price": 249906.96,
+		"product_type_id": 12
+	},
+	{
+		"id": 642,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jaxbean",
+		"price": 460990.01,
+		"product_type_id": 5
+	},
+	{
+		"id": 643,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skilith",
+		"price": 248252.14,
+		"product_type_id": 10
+	},
+	{
+		"id": 644,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Edgeclub",
+		"price": 442154.31,
+		"product_type_id": 5
+	},
+	{
+		"id": 645,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Oodoo",
+		"price": 93294.59,
+		"product_type_id": 5
+	},
+	{
+		"id": 646,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skyble",
+		"price": 73644.36,
+		"product_type_id": 12
+	},
+	{
+		"id": 647,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoonoodle",
+		"price": 213992.37,
+		"product_type_id": 1
+	},
+	{
+		"id": 648,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Tavu",
+		"price": 490811.57,
+		"product_type_id": 3
+	},
+	{
+		"id": 649,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Quimm",
+		"price": 373961.35,
+		"product_type_id": 12
+	},
+	{
+		"id": 650,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Quatz",
+		"price": 461331.68,
+		"product_type_id": 12
+	},
+	{
+		"id": 651,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Devpoint",
+		"price": 39226.6,
+		"product_type_id": 5
+	},
+	{
+		"id": 652,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Mymm",
+		"price": 258351.28,
+		"product_type_id": 11
+	},
+	{
+		"id": 653,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Voomm",
+		"price": 162521.2,
+		"product_type_id": 9
+	},
+	{
+		"id": 654,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Aimbo",
+		"price": 187793.81,
+		"product_type_id": 2
+	},
+	{
+		"id": 655,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Oozz",
+		"price": 356951.21,
+		"product_type_id": 6
+	},
+	{
+		"id": 656,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Pixope",
+		"price": 206661.2,
+		"product_type_id": 1
+	},
+	{
+		"id": 657,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Latz",
+		"price": 343650.3,
+		"product_type_id": 1
+	},
+	{
+		"id": 658,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zooxo",
+		"price": 44634.35,
+		"product_type_id": 11
+	},
+	{
+		"id": 659,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "LiveZ",
+		"price": 399022.92,
+		"product_type_id": 5
+	},
+	{
+		"id": 660,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Devpulse",
+		"price": 223816.8,
+		"product_type_id": 6
+	},
+	{
+		"id": 661,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Chatterpoint",
+		"price": 349836.95,
+		"product_type_id": 6
+	},
+	{
+		"id": 662,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Wordtune",
+		"price": 478693.11,
+		"product_type_id": 8
+	},
+	{
+		"id": 663,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Demizz",
+		"price": 11159.11,
+		"product_type_id": 12
+	},
+	{
+		"id": 664,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Topiczoom",
+		"price": 462299.61,
+		"product_type_id": 5
+	},
+	{
+		"id": 665,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gabcube",
+		"price": 449659.34,
+		"product_type_id": 8
+	},
+	{
+		"id": 666,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Fivespan",
+		"price": 297061.61,
+		"product_type_id": 5
+	},
+	{
+		"id": 667,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Avaveo",
+		"price": 29237.91,
+		"product_type_id": 8
+	},
+	{
+		"id": 668,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Midel",
+		"price": 364746.99,
+		"product_type_id": 5
+	},
+	{
+		"id": 669,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Teklist",
+		"price": 109781.37,
+		"product_type_id": 5
+	},
+	{
+		"id": 670,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Pixope",
+		"price": 385679.13,
+		"product_type_id": 7
+	},
+	{
+		"id": 671,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Ozu",
+		"price": 446033.26,
+		"product_type_id": 5
+	},
+	{
+		"id": 672,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Topicstorm",
+		"price": 462784.07,
+		"product_type_id": 11
+	},
+	{
+		"id": 673,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Tagopia",
+		"price": 325025.45,
+		"product_type_id": 10
+	},
+	{
+		"id": 674,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Viva",
+		"price": 365811.54,
+		"product_type_id": 4
+	},
+	{
+		"id": 675,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Fatz",
+		"price": 23727.96,
+		"product_type_id": 6
+	},
+	{
+		"id": 676,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Geba",
+		"price": 196360.35,
+		"product_type_id": 12
+	},
+	{
+		"id": 677,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yombu",
+		"price": 200136.37,
+		"product_type_id": 9
+	},
+	{
+		"id": 678,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "DabZ",
+		"price": 162596.6,
+		"product_type_id": 1
+	},
+	{
+		"id": 679,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Miboo",
+		"price": 195182.93,
+		"product_type_id": 7
+	},
+	{
+		"id": 680,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Rhybox",
+		"price": 162767.97,
+		"product_type_id": 11
+	},
+	{
+		"id": 681,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Tazz",
+		"price": 401784.04,
+		"product_type_id": 4
+	},
+	{
+		"id": 682,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jayo",
+		"price": 299484.45,
+		"product_type_id": 6
+	},
+	{
+		"id": 683,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Oba",
+		"price": 326392.96,
+		"product_type_id": 3
+	},
+	{
+		"id": 684,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skajo",
+		"price": 417514.09,
+		"product_type_id": 5
+	},
+	{
+		"id": 685,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Trilia",
+		"price": 122138.73,
+		"product_type_id": 5
+	},
+	{
+		"id": 686,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skimia",
+		"price": 389022.21,
+		"product_type_id": 5
+	},
+	{
+		"id": 687,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yakidoo",
+		"price": 168933.15,
+		"product_type_id": 8
+	},
+	{
+		"id": 688,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yodo",
+		"price": 376249.57,
+		"product_type_id": 9
+	},
+	{
+		"id": 689,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skimia",
+		"price": 367202.87,
+		"product_type_id": 2
+	},
+	{
+		"id": 690,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gigazoom",
+		"price": 499182.81,
+		"product_type_id": 8
+	},
+	{
+		"id": 691,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Tagtune",
+		"price": 46387.17,
+		"product_type_id": 3
+	},
+	{
+		"id": 692,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Muxo",
+		"price": 422399.67,
+		"product_type_id": 1
+	},
+	{
+		"id": 693,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Ntags",
+		"price": 69434.34,
+		"product_type_id": 4
+	},
+	{
+		"id": 694,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gabvine",
+		"price": 491303.65,
+		"product_type_id": 10
+	},
+	{
+		"id": 695,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Shuffledrive",
+		"price": 274841.99,
+		"product_type_id": 6
+	},
+	{
+		"id": 696,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skippad",
+		"price": 261059.37,
+		"product_type_id": 1
+	},
+	{
+		"id": 697,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Shufflester",
+		"price": 247826.02,
+		"product_type_id": 4
+	},
+	{
+		"id": 698,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Geba",
+		"price": 60495.0,
+		"product_type_id": 3
+	},
+	{
+		"id": 699,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Kare",
+		"price": 410190.0,
+		"product_type_id": 11
+	},
+	{
+		"id": 700,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Talane",
+		"price": 313722.91,
+		"product_type_id": 11
+	},
+	{
+		"id": 701,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Tanoodle",
+		"price": 211470.37,
+		"product_type_id": 6
+	},
+	{
+		"id": 702,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Trudoo",
+		"price": 291078.9,
+		"product_type_id": 2
+	},
+	{
+		"id": 703,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Fadeo",
+		"price": 371519.12,
+		"product_type_id": 7
+	},
+	{
+		"id": 704,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Eidel",
+		"price": 122232.85,
+		"product_type_id": 10
+	},
+	{
+		"id": 705,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Muxo",
+		"price": 265816.58,
+		"product_type_id": 6
+	},
+	{
+		"id": 706,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Oozz",
+		"price": 98649.61,
+		"product_type_id": 9
+	},
+	{
+		"id": 707,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skinder",
+		"price": 49497.25,
+		"product_type_id": 2
+	},
+	{
+		"id": 708,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoomdog",
+		"price": 196836.71,
+		"product_type_id": 9
+	},
+	{
+		"id": 709,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Kimia",
+		"price": 129004.19,
+		"product_type_id": 5
+	},
+	{
+		"id": 710,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Cogibox",
+		"price": 37038.97,
+		"product_type_id": 7
+	},
+	{
+		"id": 711,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoombox",
+		"price": 241395.09,
+		"product_type_id": 1
+	},
+	{
+		"id": 712,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Kwinu",
+		"price": 9010.84,
+		"product_type_id": 2
+	},
+	{
+		"id": 713,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Demimbu",
+		"price": 483282.09,
+		"product_type_id": 6
+	},
+	{
+		"id": 714,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Edgewire",
+		"price": 428606.42,
+		"product_type_id": 8
+	},
+	{
+		"id": 715,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Avaveo",
+		"price": 276468.57,
+		"product_type_id": 11
+	},
+	{
+		"id": 716,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Wikibox",
+		"price": 239315.98,
+		"product_type_id": 8
+	},
+	{
+		"id": 717,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Oyoloo",
+		"price": 363451.32,
+		"product_type_id": 7
+	},
+	{
+		"id": 718,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Brainlounge",
+		"price": 204684.04,
+		"product_type_id": 2
+	},
+	{
+		"id": 719,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Eidel",
+		"price": 486602.52,
+		"product_type_id": 6
+	},
+	{
+		"id": 720,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Plajo",
+		"price": 195024.11,
+		"product_type_id": 6
+	},
+	{
+		"id": 721,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Feednation",
+		"price": 367850.67,
+		"product_type_id": 1
+	},
+	{
+		"id": 722,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Wordify",
+		"price": 20827.28,
+		"product_type_id": 4
+	},
+	{
+		"id": 723,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Buzzbean",
+		"price": 267244.82,
+		"product_type_id": 5
+	},
+	{
+		"id": 724,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gabvine",
+		"price": 24730.9,
+		"product_type_id": 12
+	},
+	{
+		"id": 725,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Flipopia",
+		"price": 237634.62,
+		"product_type_id": 1
+	},
+	{
+		"id": 726,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Trudoo",
+		"price": 340001.5,
+		"product_type_id": 10
+	},
+	{
+		"id": 727,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Cogibox",
+		"price": 274659.76,
+		"product_type_id": 8
+	},
+	{
+		"id": 728,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Cogibox",
+		"price": 304600.83,
+		"product_type_id": 6
+	},
+	{
+		"id": 729,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoonder",
+		"price": 203253.15,
+		"product_type_id": 7
+	},
+	{
+		"id": 730,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Voonte",
+		"price": 146606.67,
+		"product_type_id": 11
+	},
+	{
+		"id": 731,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yakitri",
+		"price": 84596.88,
+		"product_type_id": 10
+	},
+	{
+		"id": 732,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Rhyloo",
+		"price": 198550.07,
+		"product_type_id": 5
+	},
+	{
+		"id": 733,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Plambee",
+		"price": 467595.7,
+		"product_type_id": 11
+	},
+	{
+		"id": 734,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jayo",
+		"price": 430813.95,
+		"product_type_id": 2
+	},
+	{
+		"id": 735,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Izio",
+		"price": 217076.16,
+		"product_type_id": 2
+	},
+	{
+		"id": 736,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Bluezoom",
+		"price": 394498.93,
+		"product_type_id": 5
+	},
+	{
+		"id": 737,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Flashset",
+		"price": 195187.67,
+		"product_type_id": 10
+	},
+	{
+		"id": 738,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Voomm",
+		"price": 117725.83,
+		"product_type_id": 9
+	},
+	{
+		"id": 739,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Roombo",
+		"price": 335503.82,
+		"product_type_id": 10
+	},
+	{
+		"id": 740,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skinder",
+		"price": 294318.29,
+		"product_type_id": 5
+	},
+	{
+		"id": 741,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skinder",
+		"price": 238090.72,
+		"product_type_id": 7
+	},
+	{
+		"id": 742,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Pixoboo",
+		"price": 444421.87,
+		"product_type_id": 6
+	},
+	{
+		"id": 743,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yakijo",
+		"price": 117686.55,
+		"product_type_id": 7
+	},
+	{
+		"id": 744,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Devbug",
+		"price": 311535.52,
+		"product_type_id": 9
+	},
+	{
+		"id": 745,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Meembee",
+		"price": 241079.0,
+		"product_type_id": 3
+	},
+	{
+		"id": 746,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Thoughtbridge",
+		"price": 42113.54,
+		"product_type_id": 7
+	},
+	{
+		"id": 747,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Wordpedia",
+		"price": 26212.67,
+		"product_type_id": 6
+	},
+	{
+		"id": 748,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Kwilith",
+		"price": 121123.26,
+		"product_type_id": 6
+	},
+	{
+		"id": 749,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Twitterbeat",
+		"price": 235308.95,
+		"product_type_id": 5
+	},
+	{
+		"id": 750,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Demivee",
+		"price": 258089.08,
+		"product_type_id": 8
+	},
+	{
+		"id": 751,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Topicstorm",
+		"price": 101238.09,
+		"product_type_id": 8
+	},
+	{
+		"id": 752,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoombox",
+		"price": 296184.97,
+		"product_type_id": 2
+	},
+	{
+		"id": 753,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Livefish",
+		"price": 391014.97,
+		"product_type_id": 9
+	},
+	{
+		"id": 754,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Voomm",
+		"price": 164134.29,
+		"product_type_id": 8
+	},
+	{
+		"id": 755,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gabtune",
+		"price": 74880.64,
+		"product_type_id": 1
+	},
+	{
+		"id": 756,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Twitterbridge",
+		"price": 373794.87,
+		"product_type_id": 1
+	},
+	{
+		"id": 757,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yakijo",
+		"price": 398348.73,
+		"product_type_id": 6
+	},
+	{
+		"id": 758,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Izio",
+		"price": 457683.14,
+		"product_type_id": 6
+	},
+	{
+		"id": 759,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Livefish",
+		"price": 225463.76,
+		"product_type_id": 9
+	},
+	{
+		"id": 760,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Realcube",
+		"price": 436830.4,
+		"product_type_id": 5
+	},
+	{
+		"id": 761,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Blogspan",
+		"price": 83955.53,
+		"product_type_id": 7
+	},
+	{
+		"id": 762,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Avamm",
+		"price": 68519.0,
+		"product_type_id": 10
+	},
+	{
+		"id": 763,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Feedbug",
+		"price": 31784.09,
+		"product_type_id": 10
+	},
+	{
+		"id": 764,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Chatterbridge",
+		"price": 212201.28,
+		"product_type_id": 4
+	},
+	{
+		"id": 765,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Riffpath",
+		"price": 452457.07,
+		"product_type_id": 1
+	},
+	{
+		"id": 766,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Roombo",
+		"price": 179571.37,
+		"product_type_id": 8
+	},
+	{
+		"id": 767,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gigabox",
+		"price": 96314.7,
+		"product_type_id": 2
+	},
+	{
+		"id": 768,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Twitterworks",
+		"price": 176865.26,
+		"product_type_id": 10
+	},
+	{
+		"id": 769,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Shuffletag",
+		"price": 395223.52,
+		"product_type_id": 9
+	},
+	{
+		"id": 770,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoombeat",
+		"price": 414170.58,
+		"product_type_id": 6
+	},
+	{
+		"id": 771,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Trunyx",
+		"price": 358626.15,
+		"product_type_id": 2
+	},
+	{
+		"id": 772,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skaboo",
+		"price": 364912.75,
+		"product_type_id": 6
+	},
+	{
+		"id": 773,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Oloo",
+		"price": 83863.72,
+		"product_type_id": 6
+	},
+	{
+		"id": 774,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Shufflester",
+		"price": 33947.45,
+		"product_type_id": 5
+	},
+	{
+		"id": 775,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yodel",
+		"price": 385044.72,
+		"product_type_id": 1
+	},
+	{
+		"id": 776,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Fanoodle",
+		"price": 285134.1,
+		"product_type_id": 6
+	},
+	{
+		"id": 777,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Tekfly",
+		"price": 159286.13,
+		"product_type_id": 12
+	},
+	{
+		"id": 778,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skajo",
+		"price": 273834.6,
+		"product_type_id": 2
+	},
+	{
+		"id": 779,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Photojam",
+		"price": 63385.89,
+		"product_type_id": 10
+	},
+	{
+		"id": 780,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yodoo",
+		"price": 66947.12,
+		"product_type_id": 6
+	},
+	{
+		"id": 781,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Oloo",
+		"price": 24226.63,
+		"product_type_id": 11
+	},
+	{
+		"id": 782,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Cogilith",
+		"price": 312855.01,
+		"product_type_id": 6
+	},
+	{
+		"id": 783,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Trudoo",
+		"price": 240887.08,
+		"product_type_id": 1
+	},
+	{
+		"id": 784,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Oyoloo",
+		"price": 494636.66,
+		"product_type_id": 3
+	},
+	{
+		"id": 785,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Buzzbean",
+		"price": 95940.68,
+		"product_type_id": 10
+	},
+	{
+		"id": 786,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Vipe",
+		"price": 89060.82,
+		"product_type_id": 3
+	},
+	{
+		"id": 787,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jayo",
+		"price": 235238.35,
+		"product_type_id": 8
+	},
+	{
+		"id": 788,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Vinder",
+		"price": 332587.42,
+		"product_type_id": 7
+	},
+	{
+		"id": 789,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Youspan",
+		"price": 322960.59,
+		"product_type_id": 7
+	},
+	{
+		"id": 790,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Tagfeed",
+		"price": 422315.43,
+		"product_type_id": 7
+	},
+	{
+		"id": 791,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Babbleopia",
+		"price": 10212.15,
+		"product_type_id": 9
+	},
+	{
+		"id": 792,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoonoodle",
+		"price": 147787.63,
+		"product_type_id": 6
+	},
+	{
+		"id": 793,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Topicblab",
+		"price": 228785.78,
+		"product_type_id": 3
+	},
+	{
+		"id": 794,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Quire",
+		"price": 85068.8,
+		"product_type_id": 6
+	},
+	{
+		"id": 795,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Cogibox",
+		"price": 120837.26,
+		"product_type_id": 11
+	},
+	{
+		"id": 796,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Aimbo",
+		"price": 73775.97,
+		"product_type_id": 3
+	},
+	{
+		"id": 797,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Mycat",
+		"price": 46506.39,
+		"product_type_id": 12
+	},
+	{
+		"id": 798,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Oozz",
+		"price": 455396.09,
+		"product_type_id": 6
+	},
+	{
+		"id": 799,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Tekfly",
+		"price": 196034.02,
+		"product_type_id": 8
+	},
+	{
+		"id": 800,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Tekfly",
+		"price": 260685.85,
+		"product_type_id": 5
+	},
+	{
+		"id": 801,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jabbercube",
+		"price": 478308.03,
+		"product_type_id": 1
+	},
+	{
+		"id": 802,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Rhyzio",
+		"price": 135030.05,
+		"product_type_id": 8
+	},
+	{
+		"id": 803,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Meembee",
+		"price": 281758.75,
+		"product_type_id": 2
+	},
+	{
+		"id": 804,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Topicstorm",
+		"price": 439399.29,
+		"product_type_id": 4
+	},
+	{
+		"id": 805,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Eadel",
+		"price": 178985.99,
+		"product_type_id": 8
+	},
+	{
+		"id": 806,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gabcube",
+		"price": 448354.15,
+		"product_type_id": 1
+	},
+	{
+		"id": 807,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Pixoboo",
+		"price": 18007.49,
+		"product_type_id": 6
+	},
+	{
+		"id": 808,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Twiyo",
+		"price": 98081.89,
+		"product_type_id": 6
+	},
+	{
+		"id": 809,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoozzy",
+		"price": 50001.98,
+		"product_type_id": 1
+	},
+	{
+		"id": 810,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Buzzbean",
+		"price": 497229.99,
+		"product_type_id": 4
+	},
+	{
+		"id": 811,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Topiczoom",
+		"price": 449521.15,
+		"product_type_id": 9
+	},
+	{
+		"id": 812,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Feedfish",
+		"price": 497134.89,
+		"product_type_id": 5
+	},
+	{
+		"id": 813,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gevee",
+		"price": 457971.06,
+		"product_type_id": 3
+	},
+	{
+		"id": 814,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yadel",
+		"price": 288148.22,
+		"product_type_id": 4
+	},
+	{
+		"id": 815,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Trilith",
+		"price": 394020.17,
+		"product_type_id": 2
+	},
+	{
+		"id": 816,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zooxo",
+		"price": 4141.76,
+		"product_type_id": 8
+	},
+	{
+		"id": 817,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Kare",
+		"price": 476802.28,
+		"product_type_id": 3
+	},
+	{
+		"id": 818,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Eidel",
+		"price": 13176.05,
+		"product_type_id": 4
+	},
+	{
+		"id": 819,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Quatz",
+		"price": 17848.6,
+		"product_type_id": 9
+	},
+	{
+		"id": 820,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Oloo",
+		"price": 50631.13,
+		"product_type_id": 5
+	},
+	{
+		"id": 821,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Oyoloo",
+		"price": 395696.86,
+		"product_type_id": 7
+	},
+	{
+		"id": 822,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Topiclounge",
+		"price": 160458.68,
+		"product_type_id": 9
+	},
+	{
+		"id": 823,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Topicstorm",
+		"price": 319662.47,
+		"product_type_id": 4
+	},
+	{
+		"id": 824,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Eare",
+		"price": 52443.7,
+		"product_type_id": 6
+	},
+	{
+		"id": 825,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skynoodle",
+		"price": 23104.89,
+		"product_type_id": 1
+	},
+	{
+		"id": 826,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Linkbridge",
+		"price": 51488.93,
+		"product_type_id": 7
+	},
+	{
+		"id": 827,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Dabvine",
+		"price": 189595.8,
+		"product_type_id": 3
+	},
+	{
+		"id": 828,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Wordtune",
+		"price": 362568.37,
+		"product_type_id": 7
+	},
+	{
+		"id": 829,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yodel",
+		"price": 28201.04,
+		"product_type_id": 12
+	},
+	{
+		"id": 830,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Eimbee",
+		"price": 272408.35,
+		"product_type_id": 5
+	},
+	{
+		"id": 831,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoonoodle",
+		"price": 270041.87,
+		"product_type_id": 3
+	},
+	{
+		"id": 832,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Edgepulse",
+		"price": 478728.52,
+		"product_type_id": 7
+	},
+	{
+		"id": 833,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Quimba",
+		"price": 149804.63,
+		"product_type_id": 9
+	},
+	{
+		"id": 834,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jamia",
+		"price": 3152.95,
+		"product_type_id": 9
+	},
+	{
+		"id": 835,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Snaptags",
+		"price": 440976.9,
+		"product_type_id": 4
+	},
+	{
+		"id": 836,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Devbug",
+		"price": 447152.93,
+		"product_type_id": 10
+	},
+	{
+		"id": 837,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Kazu",
+		"price": 256837.77,
+		"product_type_id": 6
+	},
+	{
+		"id": 838,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yozio",
+		"price": 447435.04,
+		"product_type_id": 7
+	},
+	{
+		"id": 839,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "InnoZ",
+		"price": 250194.19,
+		"product_type_id": 12
+	},
+	{
+		"id": 840,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Thoughtstorm",
+		"price": 112139.96,
+		"product_type_id": 1
+	},
+	{
+		"id": 841,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Quamba",
+		"price": 389976.67,
+		"product_type_id": 3
+	},
+	{
+		"id": 842,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Photojam",
+		"price": 35539.78,
+		"product_type_id": 7
+	},
+	{
+		"id": 843,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Blogspan",
+		"price": 126345.11,
+		"product_type_id": 8
+	},
+	{
+		"id": 844,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gabcube",
+		"price": 285183.26,
+		"product_type_id": 9
+	},
+	{
+		"id": 845,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoovu",
+		"price": 412719.3,
+		"product_type_id": 4
+	},
+	{
+		"id": 846,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Bluezoom",
+		"price": 476135.41,
+		"product_type_id": 8
+	},
+	{
+		"id": 847,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Ailane",
+		"price": 323460.25,
+		"product_type_id": 12
+	},
+	{
+		"id": 848,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Photobug",
+		"price": 63163.12,
+		"product_type_id": 4
+	},
+	{
+		"id": 849,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Wikizz",
+		"price": 285325.35,
+		"product_type_id": 10
+	},
+	{
+		"id": 850,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Twiyo",
+		"price": 437649.47,
+		"product_type_id": 5
+	},
+	{
+		"id": 851,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Tanoodle",
+		"price": 337297.72,
+		"product_type_id": 8
+	},
+	{
+		"id": 852,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Kwilith",
+		"price": 56760.09,
+		"product_type_id": 9
+	},
+	{
+		"id": 853,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Flashset",
+		"price": 262977.37,
+		"product_type_id": 3
+	},
+	{
+		"id": 854,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Topiclounge",
+		"price": 27512.09,
+		"product_type_id": 9
+	},
+	{
+		"id": 855,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Eadel",
+		"price": 21617.99,
+		"product_type_id": 9
+	},
+	{
+		"id": 856,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Eadel",
+		"price": 207502.25,
+		"product_type_id": 5
+	},
+	{
+		"id": 857,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skiba",
+		"price": 98798.21,
+		"product_type_id": 4
+	},
+	{
+		"id": 858,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Babbleblab",
+		"price": 480278.39,
+		"product_type_id": 4
+	},
+	{
+		"id": 859,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yodoo",
+		"price": 104300.03,
+		"product_type_id": 1
+	},
+	{
+		"id": 860,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Quatz",
+		"price": 119509.78,
+		"product_type_id": 3
+	},
+	{
+		"id": 861,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Midel",
+		"price": 202667.75,
+		"product_type_id": 9
+	},
+	{
+		"id": 862,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Agivu",
+		"price": 91285.52,
+		"product_type_id": 7
+	},
+	{
+		"id": 863,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "DabZ",
+		"price": 449630.91,
+		"product_type_id": 12
+	},
+	{
+		"id": 864,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Browsetype",
+		"price": 312323.72,
+		"product_type_id": 6
+	},
+	{
+		"id": 865,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoombox",
+		"price": 260960.72,
+		"product_type_id": 2
+	},
+	{
+		"id": 866,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Twimbo",
+		"price": 67272.18,
+		"product_type_id": 7
+	},
+	{
+		"id": 867,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Meezzy",
+		"price": 303383.46,
+		"product_type_id": 6
+	},
+	{
+		"id": 868,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Ozu",
+		"price": 455589.93,
+		"product_type_id": 6
+	},
+	{
+		"id": 869,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yakitri",
+		"price": 466932.73,
+		"product_type_id": 6
+	},
+	{
+		"id": 870,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Edgeblab",
+		"price": 338312.69,
+		"product_type_id": 10
+	},
+	{
+		"id": 871,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Leenti",
+		"price": 1458.1,
+		"product_type_id": 1
+	},
+	{
+		"id": 872,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Snaptags",
+		"price": 349582.33,
+		"product_type_id": 11
+	},
+	{
+		"id": 873,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skidoo",
+		"price": 61212.69,
+		"product_type_id": 7
+	},
+	{
+		"id": 874,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Wordify",
+		"price": 265231.58,
+		"product_type_id": 7
+	},
+	{
+		"id": 875,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Kanoodle",
+		"price": 101446.21,
+		"product_type_id": 11
+	},
+	{
+		"id": 876,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "BlogXS",
+		"price": 264651.4,
+		"product_type_id": 1
+	},
+	{
+		"id": 877,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Thoughtbeat",
+		"price": 152612.73,
+		"product_type_id": 5
+	},
+	{
+		"id": 878,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Mybuzz",
+		"price": 359572.75,
+		"product_type_id": 11
+	},
+	{
+		"id": 879,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Youspan",
+		"price": 202609.79,
+		"product_type_id": 10
+	},
+	{
+		"id": 880,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yabox",
+		"price": 169438.96,
+		"product_type_id": 12
+	},
+	{
+		"id": 881,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Feedfish",
+		"price": 18626.36,
+		"product_type_id": 3
+	},
+	{
+		"id": 882,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yodel",
+		"price": 200574.21,
+		"product_type_id": 8
+	},
+	{
+		"id": 883,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Voonix",
+		"price": 339616.3,
+		"product_type_id": 10
+	},
+	{
+		"id": 884,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skyba",
+		"price": 192279.86,
+		"product_type_id": 10
+	},
+	{
+		"id": 885,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Devpulse",
+		"price": 121585.68,
+		"product_type_id": 9
+	},
+	{
+		"id": 886,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jamia",
+		"price": 391947.57,
+		"product_type_id": 6
+	},
+	{
+		"id": 887,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Lazz",
+		"price": 157319.04,
+		"product_type_id": 12
+	},
+	{
+		"id": 888,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Kanoodle",
+		"price": 491026.07,
+		"product_type_id": 4
+	},
+	{
+		"id": 889,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Bubblemix",
+		"price": 473274.56,
+		"product_type_id": 10
+	},
+	{
+		"id": 890,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoombeat",
+		"price": 67824.69,
+		"product_type_id": 1
+	},
+	{
+		"id": 891,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Centidel",
+		"price": 343437.74,
+		"product_type_id": 9
+	},
+	{
+		"id": 892,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skinix",
+		"price": 157406.73,
+		"product_type_id": 12
+	},
+	{
+		"id": 893,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Oozz",
+		"price": 495717.41,
+		"product_type_id": 10
+	},
+	{
+		"id": 894,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Fatz",
+		"price": 367179.72,
+		"product_type_id": 10
+	},
+	{
+		"id": 895,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skipfire",
+		"price": 201191.26,
+		"product_type_id": 8
+	},
+	{
+		"id": 896,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Talane",
+		"price": 396049.38,
+		"product_type_id": 5
+	},
+	{
+		"id": 897,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoonoodle",
+		"price": 206238.95,
+		"product_type_id": 7
+	},
+	{
+		"id": 898,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Quimm",
+		"price": 430856.32,
+		"product_type_id": 2
+	},
+	{
+		"id": 899,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Livetube",
+		"price": 396959.73,
+		"product_type_id": 10
+	},
+	{
+		"id": 900,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Wordware",
+		"price": 19542.17,
+		"product_type_id": 3
+	},
+	{
+		"id": 901,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Twitterbridge",
+		"price": 454618.43,
+		"product_type_id": 12
+	},
+	{
+		"id": 902,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Talane",
+		"price": 469095.32,
+		"product_type_id": 7
+	},
+	{
+		"id": 903,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Edgewire",
+		"price": 459643.2,
+		"product_type_id": 7
+	},
+	{
+		"id": 904,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skiptube",
+		"price": 386589.12,
+		"product_type_id": 4
+	},
+	{
+		"id": 905,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Plajo",
+		"price": 405120.57,
+		"product_type_id": 10
+	},
+	{
+		"id": 906,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skyvu",
+		"price": 497999.66,
+		"product_type_id": 11
+	},
+	{
+		"id": 907,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Youtags",
+		"price": 174242.39,
+		"product_type_id": 2
+	},
+	{
+		"id": 908,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Centimia",
+		"price": 367020.79,
+		"product_type_id": 7
+	},
+	{
+		"id": 909,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Riffpedia",
+		"price": 420540.41,
+		"product_type_id": 11
+	},
+	{
+		"id": 910,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Quatz",
+		"price": 49985.97,
+		"product_type_id": 5
+	},
+	{
+		"id": 911,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Wordpedia",
+		"price": 426809.63,
+		"product_type_id": 2
+	},
+	{
+		"id": 912,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Oba",
+		"price": 151212.98,
+		"product_type_id": 2
+	},
+	{
+		"id": 913,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Roombo",
+		"price": 351887.16,
+		"product_type_id": 10
+	},
+	{
+		"id": 914,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Riffpedia",
+		"price": 138691.25,
+		"product_type_id": 3
+	},
+	{
+		"id": 915,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Brightdog",
+		"price": 349379.0,
+		"product_type_id": 10
+	},
+	{
+		"id": 916,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Omba",
+		"price": 413904.61,
+		"product_type_id": 1
+	},
+	{
+		"id": 917,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Vipe",
+		"price": 168252.76,
+		"product_type_id": 7
+	},
+	{
+		"id": 918,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Kazio",
+		"price": 298652.15,
+		"product_type_id": 1
+	},
+	{
+		"id": 919,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Trilia",
+		"price": 205203.92,
+		"product_type_id": 7
+	},
+	{
+		"id": 920,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Blogtag",
+		"price": 164848.59,
+		"product_type_id": 10
+	},
+	{
+		"id": 921,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Avamm",
+		"price": 149600.96,
+		"product_type_id": 1
+	},
+	{
+		"id": 922,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Kazu",
+		"price": 368080.58,
+		"product_type_id": 6
+	},
+	{
+		"id": 923,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Avamba",
+		"price": 416931.9,
+		"product_type_id": 3
+	},
+	{
+		"id": 924,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Quatz",
+		"price": 341884.71,
+		"product_type_id": 7
+	},
+	{
+		"id": 925,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Wikibox",
+		"price": 284847.95,
+		"product_type_id": 3
+	},
+	{
+		"id": 926,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Blogtag",
+		"price": 44503.94,
+		"product_type_id": 6
+	},
+	{
+		"id": 927,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gabtune",
+		"price": 465321.51,
+		"product_type_id": 11
+	},
+	{
+		"id": 928,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yodo",
+		"price": 342534.65,
+		"product_type_id": 1
+	},
+	{
+		"id": 929,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Buzzdog",
+		"price": 116752.43,
+		"product_type_id": 6
+	},
+	{
+		"id": 930,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Bluezoom",
+		"price": 225469.18,
+		"product_type_id": 1
+	},
+	{
+		"id": 931,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skimia",
+		"price": 201874.8,
+		"product_type_id": 7
+	},
+	{
+		"id": 932,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Lajo",
+		"price": 252074.95,
+		"product_type_id": 11
+	},
+	{
+		"id": 933,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Twitterworks",
+		"price": 120217.61,
+		"product_type_id": 10
+	},
+	{
+		"id": 934,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Omba",
+		"price": 473802.35,
+		"product_type_id": 2
+	},
+	{
+		"id": 935,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jamia",
+		"price": 357301.4,
+		"product_type_id": 8
+	},
+	{
+		"id": 936,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Ooba",
+		"price": 170902.49,
+		"product_type_id": 11
+	},
+	{
+		"id": 937,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoomlounge",
+		"price": 358667.99,
+		"product_type_id": 3
+	},
+	{
+		"id": 938,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Buzzdog",
+		"price": 274946.74,
+		"product_type_id": 4
+	},
+	{
+		"id": 939,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Kimia",
+		"price": 374023.31,
+		"product_type_id": 8
+	},
+	{
+		"id": 940,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Fatz",
+		"price": 354670.39,
+		"product_type_id": 10
+	},
+	{
+		"id": 941,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Trudoo",
+		"price": 412175.03,
+		"product_type_id": 1
+	},
+	{
+		"id": 942,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Shufflester",
+		"price": 438804.41,
+		"product_type_id": 2
+	},
+	{
+		"id": 943,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Voolith",
+		"price": 105538.54,
+		"product_type_id": 3
+	},
+	{
+		"id": 944,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoomlounge",
+		"price": 28179.29,
+		"product_type_id": 9
+	},
+	{
+		"id": 945,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Bubblebox",
+		"price": 316359.85,
+		"product_type_id": 10
+	},
+	{
+		"id": 946,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Leenti",
+		"price": 438946.39,
+		"product_type_id": 3
+	},
+	{
+		"id": 947,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Brightdog",
+		"price": 291242.13,
+		"product_type_id": 3
+	},
+	{
+		"id": 948,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jayo",
+		"price": 25226.89,
+		"product_type_id": 3
+	},
+	{
+		"id": 949,
+		"product_name": "pro10",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Twitterlist",
+		"price": 130356.68,
+		"product_type_id": 6
+	},
+	{
+		"id": 950,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Mydeo",
+		"price": 268893.71,
+		"product_type_id": 11
+	},
+	{
+		"id": 951,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Youspan",
+		"price": 339103.57,
+		"product_type_id": 11
+	},
+	{
+		"id": 952,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Photobug",
+		"price": 329348.53,
+		"product_type_id": 1
+	},
+	{
+		"id": 953,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Trilia",
+		"price": 38482.73,
+		"product_type_id": 5
+	},
+	{
+		"id": 954,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Oyondu",
+		"price": 380283.26,
+		"product_type_id": 5
+	},
+	{
+		"id": 955,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skibox",
+		"price": 9302.79,
+		"product_type_id": 11
+	},
+	{
+		"id": 956,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Rhycero",
+		"price": 74796.88,
+		"product_type_id": 11
+	},
+	{
+		"id": 957,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Brainverse",
+		"price": 261693.94,
+		"product_type_id": 11
+	},
+	{
+		"id": 958,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Aibox",
+		"price": 162393.83,
+		"product_type_id": 5
+	},
+	{
+		"id": 959,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Brainbox",
+		"price": 439858.16,
+		"product_type_id": 8
+	},
+	{
+		"id": 960,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Browsezoom",
+		"price": 56040.23,
+		"product_type_id": 2
+	},
+	{
+		"id": 961,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Abata",
+		"price": 143329.09,
+		"product_type_id": 10
+	},
+	{
+		"id": 962,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Browseblab",
+		"price": 220168.33,
+		"product_type_id": 4
+	},
+	{
+		"id": 963,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Twinte",
+		"price": 437360.65,
+		"product_type_id": 9
+	},
+	{
+		"id": 964,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Livetube",
+		"price": 62731.38,
+		"product_type_id": 9
+	},
+	{
+		"id": 965,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skaboo",
+		"price": 392811.73,
+		"product_type_id": 12
+	},
+	{
+		"id": 966,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Einti",
+		"price": 96704.59,
+		"product_type_id": 10
+	},
+	{
+		"id": 967,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Flashpoint",
+		"price": 135111.87,
+		"product_type_id": 5
+	},
+	{
+		"id": 968,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoomzone",
+		"price": 464558.19,
+		"product_type_id": 4
+	},
+	{
+		"id": 969,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Livepath",
+		"price": 322482.89,
+		"product_type_id": 6
+	},
+	{
+		"id": 970,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Jaxworks",
+		"price": 289007.07,
+		"product_type_id": 9
+	},
+	{
+		"id": 971,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Kwilith",
+		"price": 152582.36,
+		"product_type_id": 4
+	},
+	{
+		"id": 972,
+		"product_name": "pro2",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Thoughtbeat",
+		"price": 117390.88,
+		"product_type_id": 10
+	},
+	{
+		"id": 973,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Wikizz",
+		"price": 337039.99,
+		"product_type_id": 7
+	},
+	{
+		"id": 974,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gigazoom",
+		"price": 40738.09,
+		"product_type_id": 9
+	},
+	{
+		"id": 975,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Trupe",
+		"price": 19246.2,
+		"product_type_id": 5
+	},
+	{
+		"id": 976,
+		"product_name": "pro9",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Babblestorm",
+		"price": 482779.12,
+		"product_type_id": 6
+	},
+	{
+		"id": 977,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Ooba",
+		"price": 194281.34,
+		"product_type_id": 8
+	},
+	{
+		"id": 978,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Tekfly",
+		"price": 19117.49,
+		"product_type_id": 10
+	},
+	{
+		"id": 979,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Youbridge",
+		"price": 394487.43,
+		"product_type_id": 6
+	},
+	{
+		"id": 980,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Thoughtbeat",
+		"price": 300016.42,
+		"product_type_id": 6
+	},
+	{
+		"id": 981,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Meedoo",
+		"price": 334805.82,
+		"product_type_id": 1
+	},
+	{
+		"id": 982,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Quaxo",
+		"price": 224446.8,
+		"product_type_id": 8
+	},
+	{
+		"id": 983,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Gabtype",
+		"price": 422069.51,
+		"product_type_id": 12
+	},
+	{
+		"id": 984,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Zoonder",
+		"price": 336256.06,
+		"product_type_id": 8
+	},
+	{
+		"id": 985,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Vitz",
+		"price": 247425.88,
+		"product_type_id": 1
+	},
+	{
+		"id": 986,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Einti",
+		"price": 100585.22,
+		"product_type_id": 11
+	},
+	{
+		"id": 987,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Npath",
+		"price": 375673.9,
+		"product_type_id": 5
+	},
+	{
+		"id": 988,
+		"product_name": "pro8",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Wordtune",
+		"price": 273973.06,
+		"product_type_id": 6
+	},
+	{
+		"id": 989,
+		"product_name": "pro4",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skiptube",
+		"price": 93726.23,
+		"product_type_id": 4
+	},
+	{
+		"id": 990,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yakijo",
+		"price": 17519.83,
+		"product_type_id": 12
+	},
+	{
+		"id": 991,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Fivechat",
+		"price": 138631.91,
+		"product_type_id": 5
+	},
+	{
+		"id": 992,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Yabox",
+		"price": 160186.6,
+		"product_type_id": 6
+	},
+	{
+		"id": 993,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Brightbean",
+		"price": 298413.8,
+		"product_type_id": 11
+	},
+	{
+		"id": 994,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "LiveZ",
+		"price": 9804.36,
+		"product_type_id": 4
+	},
+	{
+		"id": 995,
+		"product_name": "pro3",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Skyndu",
+		"price": 21483.84,
+		"product_type_id": 9
+	},
+	{
+		"id": 996,
+		"product_name": "pro6",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Twitterwire",
+		"price": 242817.95,
+		"product_type_id": 1
+	},
+	{
+		"id": 997,
+		"product_name": "pro7",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Wordpedia",
+		"price": 365007.59,
+		"product_type_id": 2
+	},
+	{
+		"id": 998,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Eimbee",
+		"price": 348832.11,
+		"product_type_id": 10
+	},
+	{
+		"id": 999,
+		"product_name": "pro1",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Dynabox",
+		"price": 313419.74,
+		"product_type_id": 7
+	},
+	{
+		"id": 1000,
+		"product_name": "pro5",
+		"model_number": "error: undefined method `first' for nil:NilClass",
+		"brand": "Voonyx",
+		"price": 328928.24,
+		"product_type_id": 10
+	}
+]
