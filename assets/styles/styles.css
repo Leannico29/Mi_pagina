@@ -255,27 +255,3 @@ button.next:hover {
 	color: black;
 	outline: none;
 }
-
-/* * Footer */
-footer {
-	background-color: var(--secondary-color);
-	color: var(--white);
-	padding: 20px;
-	text-align: center;
-
-	p {
-		margin: 10px 0;
-	}
-
-	.social-media {
-		display: flex;
-		justify-content: center;
-		margin-top: 20px;
-
-		a {
-			color: var(--white);
-			font-size: 24px;
-			margin: 0 10px;
-		}
-	}
-}
