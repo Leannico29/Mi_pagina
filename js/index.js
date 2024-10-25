@@ -8,12 +8,12 @@ document.addEventListener("DOMContentLoaded", () => {
     //! event listeners
 
     //* Carrusel
-    document.querySelector('.next').addEventListener('click', () => {
+    document.querySelector('.next')?.addEventListener('click', () => {
         currentIndex = (currentIndex + 1) % totalImages;
         updateCarousel(currentIndex);
     });
 
-    document.querySelector('.prev').addEventListener('click', () => {
+    document.querySelector('.prev')?.addEventListener('click', () => {
         currentIndex = (currentIndex - 1 + totalImages) % totalImages;
         updateCarousel(currentIndex);
     });
