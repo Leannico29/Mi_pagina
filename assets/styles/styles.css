@@ -28,19 +28,23 @@
 	padding: 0;
 	scroll-behavior: smooth;
 }
+html, body {
+    height: 100%; 
+}
 
 body {
 	background-color: var(--black);
 	color: var(--white);
 	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 	min-height: 100vh;
-
+	display: flex;
+    flex-direction: column; 
 	a {
 		text-decoration: none;
 	}
 }
 
-/* * Header */
+
 header {
 	background-color: var(--secondary-color);
 	display: flex;
@@ -48,7 +52,7 @@ header {
 	justify-content: space-between;
 	padding: 1.2rem;
 
-	/* * Logo */
+	
 
 	.logo-container {
 		.logo {
@@ -59,7 +63,7 @@ header {
 		}
 	}
 
-	/* * Search bar */
+	
 
 	.search-bar {
 		align-items: center;
@@ -93,7 +97,7 @@ header {
 		}
 	}
 
-	/* * User menu */
+	
 
 	.user-menu {
 		padding: 0.7rem;
@@ -117,7 +121,8 @@ header {
 }
 
 main {
-	padding: 20px;
+    flex: 1; 
+    padding: 20px;
 }
 
 .flash-offer-container {
