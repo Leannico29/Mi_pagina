@@ -57,6 +57,19 @@
                     <div class="row justify-content-center">
                         <div class="col-12 col-md-4 filters">
                             <h3 class="filter-title">Filtros</h3>
+
+                            <div class="order-by-section">
+                                <h4 class="sort-title">Ordenar por</h4>
+
+                                <select name="order-by" id="order-by">
+                                    <option value="default">Por defecto</option>
+                                    <option value="price-asc">Precio: Menor a Mayor</option>
+                                    <option value="price-desc">Precio: Mayor a Menor</option>
+                                    <option value="name-asc">Nombre: A-Z</option>
+                                    <option value="name-desc">Nombre: Z-A</option>
+                                </select>
+                            </div>
+
                             <div class="filter">
                                 <h4 class="filter-title">Tipo de producto</h4>
                                 <ul class="filter-list">
@@ -142,6 +155,20 @@
 
 
 
+                        </div>
+
+
+                        <div id="products-pagination" class="col-12 pagination justify-content-center">
+                            <button id="first-page" value="first" disabled><i class="bi bi-chevron-double-left"></i>
+                                Primera
+                                página</button>
+                            <button id="previous-page" value="previous" disabled> <i class="bi bi-chevron-left"></i>
+                                Anterior
+                            </button>
+                            <span id="current-page">1</span>
+                            <button id="next-page" value="next"> Siguiente <i class="bi bi-chevron-right"></i> </button>
+                            <button id="last-page" value="last">Última página <i
+                                    class="bi bi-chevron-double-right"></i></button>
                         </div>
 
                     </div>
