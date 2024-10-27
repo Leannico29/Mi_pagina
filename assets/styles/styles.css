@@ -232,8 +232,6 @@ main {
 
 		.categories-grid {
 			display: grid;
-			grid-template-columns: repeat(4, 1fr);
-			gap: 20px;
 			margin-top: 20px;
 
 			/* * Category button */
@@ -327,6 +325,14 @@ main {
 					color: var(--black);
 				}
 			}
+		}
+	}
+
+	@media screen and (min-width: 1201px) {
+		.categories-grid,
+		.products-container {
+			grid-template-columns: repeat(4, 1fr);
+			gap: 1.1rem;
 		}
 	}
 
