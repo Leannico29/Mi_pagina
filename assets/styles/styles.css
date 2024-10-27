@@ -28,12 +28,20 @@
 	padding: 0;
 	scroll-behavior: smooth;
 }
+html,
+body {
+	height: 100%;
+}
 
 body {
 	background-color: var(--black);
 	color: var(--white);
 	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 	min-height: 100vh;
+
+	/*! Cambios de Lean*/
+	/* display: flex;
+	flex-direction: column; */
 
 	a,
 	a.link {
@@ -77,8 +85,6 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	padding: 1.2rem;
-
-	/* * Logo */
 
 	.logo-container {
 		.logo {
@@ -150,6 +156,9 @@ header {
 
 main {
 	padding: 1rem;
+
+	/*! Cambios de Lean */
+	/* flex: 1; */
 
 	.title {
 		color: var(--primary-color);
