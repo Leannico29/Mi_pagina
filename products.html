@@ -16,15 +16,18 @@
         <!-- Estilos propios -->
         <link rel="stylesheet" href="./assets/styles/styles.css">
 
-        <title>Keyboard Gaming</title>
+        <title>Productos - Keyboard Gaming</title>
     </head>
 
     <body>
         <!-- Header -->
         <header class="container-fluid">
             <div class="logo-container">
-                <h1 class="logo">Keyboard Gaming</h1>
+                <a href="./">
+                    <h1 class="logo">Keyboard Gaming</h1>
+                </a>
             </div>
+
             <div class="search-bar">
                 <input type="text" id="search-input" placeholder="Buscar productos...">
                 <button id="search-button">
@@ -32,13 +35,13 @@
                 </button>
             </div>
             <div class="user-menu">
-                <a href="./products.html">
+                <a href="./products.html" class="link">
                     <span>Productos</span>
                 </a>
                 <a href="#">
                     <span class="cart-btn"><i class="bi bi-cart"></i> </span>
                 </a>
-                <a href="./login.html">
+                <a href="./login.html" class="link">
                     <i class="bi bi-box-arrow-in-right"></i> Login
                 </a>
             </div>
@@ -47,65 +50,111 @@
         <!-- Main -->
         <main class="container-fluid container-xl">
 
-            <section class="row">
+            <div class="row">
                 <div class="col-12">
-                    <h2 class="text-center">Productos</h2>
+                    <h2 class="title">Productos</h2>
 
-                    <div class="filters"></div>
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-4 filters">
+                            <h3 class="filter-title">Filtros</h3>
+                            <div class="filter">
+                                <h4 class="filter-title">Tipo de producto</h4>
+                                <ul class="filter-list">
+                                    <li class="filter-item">
+                                        <input type="checkbox" name="product-type" id="product-type-1">
+                                        <label for="product-type-1">Teclados</label>
+                                    </li>
+                                    <li class="filter-item">
+                                        <input type="checkbox" name="product-type" id="product-type-2">
+                                        <label for="product-type-2">Mouse</label>
+                                    </li>
+                                    <li class="filter-item">
+                                        <input type="checkbox" name="product-type" id="product-type-3">
+                                        <label for="product-type-3">Audífonos</label>
+                                    </li>
+                                    <li class="filter-item">
+                                        <input type="checkbox" name="product-type" id="product-type-4">
+                                        <label for="product-type-4">Mousepad</label>
+                                    </li>
+                                </ul>
+                            </div>
 
-                    <div class="products-container">
-                        <div class="product-card">
-                            <img src="./assets/img/teclado1.jpg" alt="Teclado 1">
-                            <h3>Teclado Mecánico 1</h3>
-                            <p>$100.00</p>
-                            <button>Agregar al carrito</button>
+                            <div class="filter">
+                                <h4 class="filter-title">Marca</h4>
+                                <ul class="filter-list">
+                                    <li class="filter-item">
+                                        <input type="checkbox" name="brand" id="brand-1">
+                                        <label for="brand-1">Razer</label>
+                                    </li>
+                                    <li class="filter-item">
+                                        <input type="checkbox" name="brand" id="brand-2">
+                                        <label for="brand-2">Logitech</label>
+                                    </li>
+                                    <li class="filter-item">
+                                        <input type="checkbox" name="brand" id="brand-3">
+                                        <label for="brand-3">HyperX</label>
+                                    </li>
+                                    <li class="filter-item">
+                                        <input type="checkbox" name="brand" id="brand-4">
+                                        <label for="brand-4">Corsair</label>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="filter">
+                                <h4 class="filter-title">Precio</h4>
+                                <ul class="filter-list">
+                                    <li class="filter-item">
+                                        <input type="checkbox" name="price" id="price-1">
+                                        <label for="price-1">Menos de $50</label>
+                                    </li>
+                                    <li class="filter-item">
+                                        <input type="checkbox" name="price" id="price-2">
+                                        <label for="price-2">$50 - $100</label>
+                                    </li>
+                                    <li class="filter-item">
+                                        <input type="checkbox" name="price" id="price-3">
+                                        <label for="price-3">$100 - $200</label>
+                                    </li>
+                                    <li class="filter-item">
+                                        <input type="checkbox" name="price" id="price-4">
+                                        <label for="price-4">Más de $200</label>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+
                         </div>
 
-                        <div class="product-card">
-                            <img src="./assets/img/teclado2.jpg" alt="Teclado 2">
-                            <h3>Teclado Mecánico 2</h3>
-                            <p>$150.00</p>
-                            <button>Agregar al carrito</button>
+                        <div class="col-12 col-md-8 row products-container">
+
+                            <!-- <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 product-card">
+                            <img src="./assets/img/promo3.jpg" alt="Teclado 1" class="product-img">
+                            <div class="product-info">
+                                <h3 class="product-title">Teclado Mecánico 1</h3>
+                                <p class="product-description">Lorem ipsum, dolor sit amet consectetur adipisicing
+                                    elit. Quisquam minima reiciendis.</p>
+                                <p class="product-price">$100.00</p>
+                                <button class="product-btn">Agregar al carrito</button>
+                            </div>
+                        </div> -->
+
+
+
                         </div>
 
-                        <div class="product-card">
-                            <img src="./assets/img/teclado3.jpg" alt="Teclado 3">
-                            <h3>Teclado Mecánico 3</h3>
-                            <p>$200.00</p>
-                            <button>Agregar al carrito</button>
-                        </div>
-
-                        <div class="product-card">
-                            <img src="./assets/img/teclado4.jpg" alt="Teclado 4">
-                            <h3>Teclado Mecánico 4</h3>
-                            <p>$250.00</p>
-                            <button>Agregar al carrito</button>
-                        </div>
-
-                        <div class="product-card">
-                            <img src="./assets/img/teclado5.jpg" alt="Teclado 5">
-                            <h3>Teclado Mecánico 5</h3>
-                            <p>$300.00</p>
-                            <button>Agregar al carrito</button>
-                        </div>
-
-                        <div class="product-card">
-                            <img src="./assets/img/teclado6.jpg" alt="Teclado 6">
-                            <h3>Teclado Mecánico 6</h3>
-                            <p>$350.00</p>
-                            <button>Agregar al carrito</button>
-                        </div>
                     </div>
 
                 </div>
-            </section>
 
         </main>
 
         <!-- Footer -->
         <footer>
             <div class="footer-container">
-                <p>&copy; 2024 Keyboard Gaming. Todos los derechos reservados. | <a href="sobre-nosotros.html">Sobre
+                <p>&copy; 2024 Keyboard Gaming. Todos los derechos reservados. | <a href="sobre-nosotros.html"
+                        class="link">Sobre
                         Nosotros</a></p>
             </div>
         </footer>
@@ -116,7 +165,7 @@
             crossorigin="anonymous"></script>
 
         <!-- Javascript propio -->
-        <script type="module" src="./js/index.js"></script>
+        <script type="module" src="./js/products.js"></script>
     </body>
 
 </html>

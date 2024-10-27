@@ -1,36 +1,58 @@
-import { updateCarousel } from './carousel/update-carousel.js';
+import { updateCarousel } from './index-carousel/update-carousel.js';
 
-document.addEventListener("DOMContentLoaded", () => {
-    const images = document.querySelectorAll('.carousel img');
-    const totalImages = images.length;
-    let currentIndex = 0;
+/**
+ * Check if a search query is valid.
+ *
+ * @param {string} searchQuery query to validate
+ * @returns {boolean} true if the query is valid, false otherwise
+ */
+const isValidSearch = (searchQuery) => {
+	return searchQuery && searchQuery.trim().length > 0;
+};
 
-    //! event listeners
+/**
+ * Search bar event listener.
+ *
+ * @returns {void}
+ */
+export const searchBarListener = () => {
+	const searchInput = document.querySelector('#search-input');
+	let searchQuery = searchInput.value;
 
-    //* Carrusel
-    document.querySelector('.next')?.addEventListener('click', () => {
-        currentIndex = (currentIndex + 1) % totalImages;
-        updateCarousel(currentIndex);
-    });
+	if (!isValidSearch(searchQuery)) {
+		alert('Ingresa un valor en el campo de búsqueda');
+		searchInput.value = '';
+		return;
+	}
 
-    document.querySelector('.prev')?.addEventListener('click', () => {
-        currentIndex = (currentIndex - 1 + totalImages) % totalImages;
-        updateCarousel(currentIndex);
-    });
+	alert('Buscando: ' + searchQuery);
+	searchInput.value = '';
+};
 
-    //* Barra de búsqueda
-    document.querySelector('#search-button').addEventListener('click', () => {
-        const searchInput = document.querySelector('#search-input');
-        let searchQuery = searchInput.value;
+/**
+ * Index page event listener.
+ */
+const indexEventListener = () => {
+	//* Carousel variables
+	const images = document.querySelectorAll('.carousel img');
+	const totalImages = images.length;
+	let carouselCurrentIndex = 0;
 
-        if (!searchQuery || searchQuery.trim().length === 0) {
-            alert('Ingresa un valor en el campo de búsqueda');
-            searchInput.value = '';
-            return;
-        }
+	//! event listeners
 
-        alert('Buscando: ' + searchQuery);
-        searchInput.value = '';
-    });
-});
+	//* Carousel
+	document.querySelector('.next')?.addEventListener('click', () => {
+		carouselCurrentIndex = (carouselCurrentIndex + 1) % totalImages;
+		updateCarousel(carouselCurrentIndex);
+	});
 
+	document.querySelector('.prev')?.addEventListener('click', () => {
+		carouselCurrentIndex = (carouselCurrentIndex - 1 + totalImages) % totalImages;
+		updateCarousel(carouselCurrentIndex);
+	});
+
+	//* Search bar
+	document.querySelector('#search-button').addEventListener('click', searchBarListener);
+};
+
+document.addEventListener('DOMContentLoaded', indexEventListener);
