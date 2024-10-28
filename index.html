@@ -35,7 +35,7 @@
                 </button>
             </div>
 
-            <div class="user-menu">
+            <nav class="user-menu">
                 <a href="./products.html" class="link">
                     <span>Productos</span>
                 </a>
@@ -57,9 +57,16 @@
 
                         </ul>
 
-                        <div class="cart-total">
-                            <span>Total:</span>
-                            <span id="cart-total">$0</span>
+                        <div class="d-flex justify-content-between">
+                            <div class="cart-total">
+                                <span>Total:</span>
+                                <span id="cart-total">$0</span>
+                            </div>
+                            <div>
+                                <button id="empty-cart">
+                                    <i class="bi bi-trash"></i> Vaciar carrito
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -67,7 +74,7 @@
                 <a href="./login.html" class="link">
                     <i class="bi bi-box-arrow-in-right"></i> Login
                 </a>
-            </div>
+            </nav>
         </header>
 
         <!-- Main -->

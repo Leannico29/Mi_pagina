@@ -46,12 +46,19 @@ const renderCart = () => {
 
 	cartListElement.innerHTML = '';
 
-	cartList.forEach((product) => {
+	cartList.forEach((product, index) => {
 		const cartItem = document.createElement('li');
+		const deleteItemIcon = document.createElement('i');
+		deleteItemIcon.classList.add('bi', 'bi-cart-dash-fill');
+		deleteItemIcon.setAttribute('data-cart-index', index);
+
+		deleteItemIcon.addEventListener('click', handleDeleteItem);
 
 		cartItem.textContent = `${product.brand} ${
 			product.product_name
 		} - $ ${product.price.toFixed(2)}`;
+
+		cartItem.appendChild(deleteItemIcon);
 		cartListElement.appendChild(cartItem);
 	});
 
@@ -85,4 +92,17 @@ export const addToCartEventListener = (productList) => {
 			addToCart(product);
 		});
 	});
+};
+
+/**
+ *
+ * @param {number} productIndex - The product to delete from the cart.
+ */
+const handleDeleteItem = (e) => {
+	const productIndex = parseInt(e.target.dataset.cartIndex);
+
+	cartList = cartList.filter((_, index) => index !== productIndex);
+
+	saveCart();
+	renderCart();
 };
