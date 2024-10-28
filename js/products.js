@@ -1,7 +1,8 @@
-import { searchBarListener } from './index.js';
-import { getAllProducts, paginateProducts } from './products/get-products.js';
-import { renderProducts } from './products/render-products.js';
-import { orderProducts } from './products/order-products.js';
+import { getAllProducts, paginateProducts } from './products/index.js';
+import { orderProducts, searchProducts } from './products/order-and-filter/index.js';
+import { renderCurrentPage, renderProducts } from './products/render/index.js';
+import { searchBarListener } from './products/search/search.js';
+import { params } from './helpers/get-query-params.js';
 
 const PRODUCTS_PER_PAGE = 20;
 let currentPage = 1;
@@ -11,6 +12,7 @@ let totalPages = 1;
 
 let productsArray = [];
 let orderedProducts = [];
+let filteredProducts = [];
 let paginatedProducts = [];
 
 /**
@@ -21,14 +23,6 @@ let paginatedProducts = [];
 const updateFromTo = (currentPage) => {
 	from = currentPage * PRODUCTS_PER_PAGE - PRODUCTS_PER_PAGE + 1;
 	to = currentPage * PRODUCTS_PER_PAGE;
-};
-
-/**
- * Renders the current page.
- */
-const renderCurrentPage = () => {
-	const currentPageElement = document.querySelector('#current-page');
-	currentPageElement.textContent = currentPage;
 };
 
 /**
@@ -86,9 +80,9 @@ const handlePaginationButtons = async (event) => {
 	}
 
 	updateFromTo(currentPage);
-	renderCurrentPage();
+	renderCurrentPage(currentPage);
 
-	const paginatedProducts = await paginateProducts(orderedProducts, from, to);
+	paginatedProducts = await paginateProducts(orderedProducts, from, to);
 
 	renderProducts(paginatedProducts);
 
@@ -101,7 +95,7 @@ const handlePaginationButtons = async (event) => {
 const handleSelectChange = async () => {
 	const orderBy = document.querySelector('#order-by').value;
 
-	orderedProducts = orderProducts(productsArray, orderBy);
+	orderedProducts = orderProducts(filteredProducts, orderBy);
 	paginatedProducts = await paginateProducts(orderedProducts, from, to);
 
 	renderProducts(paginatedProducts);
@@ -111,13 +105,21 @@ const handleSelectChange = async () => {
  * Products page event listener.
  */
 const productsEventListener = async () => {
-	const orderSelect = document.querySelector('#order-by');
+	const searchQuery = params.get('search');
 
 	//* Products variables
 	productsArray = await getAllProducts();
 	totalPages = Math.ceil(productsArray.length / PRODUCTS_PER_PAGE);
-	orderedProducts = [...productsArray];
-	paginatedProducts = await paginateProducts(productsArray);
+
+	if (searchQuery) {
+		filteredProducts = searchProducts(productsArray, searchQuery);
+	} else {
+		filteredProducts = [...productsArray];
+	}
+
+	orderedProducts = [...filteredProducts];
+	paginatedProducts = await paginateProducts(orderedProducts);
+
 	renderProducts(paginatedProducts);
 
 	//! event listeners
@@ -126,7 +128,7 @@ const productsEventListener = async () => {
 	document.querySelector('#search-button').addEventListener('click', searchBarListener);
 
 	//* Order select
-	orderSelect.addEventListener('change', handleSelectChange);
+	document.querySelector('#order-by').addEventListener('change', handleSelectChange);
 
 	//* Pagination
 	document.querySelector('#previous-page').addEventListener('click', handlePaginationButtons);
