@@ -3,6 +3,7 @@ import { orderProducts, searchProducts } from './products/order-and-filter/index
 import { renderCurrentPage, renderProducts } from './products/render/index.js';
 import { searchBarListener } from './products/search/search.js';
 import { params } from './helpers/get-query-params.js';
+import { loadCart, emptyCart } from './cart.js';
 
 const PRODUCTS_PER_PAGE = 20;
 let currentPage = 1;
@@ -105,6 +106,7 @@ const handleSelectChange = async () => {
  * Products page event listener.
  */
 const productsEventListener = async () => {
+	loadCart();
 	const searchQuery = params.get('search');
 
 	//* Products variables
@@ -126,6 +128,12 @@ const productsEventListener = async () => {
 
 	//* Search bar
 	document.querySelector('#search-button').addEventListener('click', searchBarListener);
+	document.querySelector('#search-button').addEventListener('keypress', (e) => {
+		if (e.key === 'Enter') searchBarListener();
+	});
+
+	//* Empty cart
+	// document.querySelector('#empty-cart').addEventListener('click', emptyCart);
 
 	//* Order select
 	document.querySelector('#order-by').addEventListener('change', handleSelectChange);

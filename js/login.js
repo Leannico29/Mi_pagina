@@ -1,7 +1,11 @@
+import { loadCart } from './cart.js';
+
 /**
  * Event listeners to switch between login and register forms
  */
-const loginEventListeners = () => {
+const loginEventListener = () => {
+	loadCart();
+
 	const loginForm = document.getElementById('login-form');
 	const registerForm = document.getElementById('register-form');
 	const formTitle = document.getElementById('form-title');
@@ -25,4 +29,4 @@ const loginEventListeners = () => {
 	});
 };
 
-document.addEventListener('DOMContentLoaded', loginEventListeners);
+document.addEventListener('DOMContentLoaded', loginEventListener);

@@ -1,3 +1,5 @@
+import { addToCartEventListener } from '../../cart.js';
+
 const cardDivClasses = ['col-12', 'col-sm-6', 'col-md-5', 'col-lg-4', 'col-xl-3', 'product-card'];
 
 /**
@@ -22,18 +24,21 @@ export const renderProducts = (products) => {
 			productElement.classList.add(className);
 		});
 
-		productElement.setAttribute('data-product-id', product.id);
-
 		productElement.innerHTML = `
             <img src="${product.img_url}" alt="${product.product_name}" class="product-img">
             <div class="product-info">
                 <h3 class="product-title">${product.product_name}</h3>
                 <p class="product-description">${product.brand} ${product.model_number}</p>
                 <p class="product-price">$ ${product.price.toFixed(2)}</p>
-                <button class="product-btn">Agregar al carrito</button>
+                <button class="product-btn add-to-cart" data-product-id="${
+					product.id
+				}">Agregar al carrito</button>
             </div>
         `;
 
 		productsContainer.appendChild(productElement);
 	});
+
+	// * Evento para escuchar el click en el botón de agregar al carrito.
+	addToCartEventListener(products);
 };

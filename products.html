@@ -39,8 +39,36 @@
                     <span>Productos</span>
                 </a>
                 <a href="#">
-                    <span class="cart-btn"><i class="bi bi-cart"></i> </span>
+                    <span class="cart-btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                        aria-controls="offcanvasRight"><i class="bi bi-cart"></i> </span>
                 </a>
+
+                <!-- Cart list -->
+                <div class="cart-offcanvas offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel">
+                    <div class=" offcanvas-header">
+                        <h5 class=" offcanvas-title" id="offcanvasRightLabel">Productos en el carrito:</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class=" offcanvas-body">
+                        <ul id="cart-list">
+
+                        </ul>
+
+                        <div class="d-flex justify-content-between">
+                            <div class="cart-total">
+                                <span>Total:</span>
+                                <span id="cart-total">$0</span>
+                            </div>
+                            <div>
+                                <button id="empty-cart">
+                                    <i class="bi bi-trash"></i> Vaciar carrito
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <a href="./login.html" class="link">
                     <i class="bi bi-box-arrow-in-right"></i> Login
                 </a>

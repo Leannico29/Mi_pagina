@@ -9,7 +9,7 @@ import { delay } from '../helpers/delay.js';
  * @returns {Promise<Array<{id, product_name, model_number, brand, price, img_url, product_type_id}>>} - An array of products.
  */
 export const paginateProducts = async (products, from = 1, to = 20) => {
-	if (!isValidRange(products, from, to)) throw new Error('Invalid range in paginateProducts');
+	if (!isValidRange(products, from, to)) throw new Error('Rango inválido en paginateProducts.');
 
 	const paginatedProducts = products.slice(from - 1, to);
 
