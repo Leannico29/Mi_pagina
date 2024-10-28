@@ -16,17 +16,49 @@
         <!-- Header -->
         <header class="container-fluid">
             <div class="logo-container">
-                <h1 class="logo">Keyboard Gaming</h1>
+                <a href="./">
+                    <h1 class="logo">Keyboard Gaming</h1>
+                </a>
             </div>
+
             <div class="search-bar">
                 <input type="text" id="search-input" placeholder="Buscar productos...">
                 <button id="search-button">
                     <i class="bi bi-search"></i>
                 </button>
             </div>
+
             <div class="user-menu">
+                <a href="./products.html" class="link">
+                    <span>Productos</span>
+                </a>
+
                 <a href="#">
-                    <span class="cart-btn"><i class="bi bi-cart"></i></span>
+                    <span class="cart-btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                        aria-controls="offcanvasRight"><i class="bi bi-cart"></i> </span>
+                </a>
+
+                <!-- Cart list -->
+                <div class="cart-offcanvas offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel">
+                    <div class=" offcanvas-header">
+                        <h5 class=" offcanvas-title" id="offcanvasRightLabel">Productos en el carrito:</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class=" offcanvas-body">
+                        <ul id="cart-list">
+
+                        </ul>
+
+                        <div class="cart-total">
+                            <span>Total:</span>
+                            <span id="cart-total">$0</span>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="./login.html" class="link">
+                    <i class="bi bi-box-arrow-in-right"></i> Login
                 </a>
             </div>
         </header>
@@ -90,11 +122,19 @@
         <!-- Footer -->
         <footer>
             <div class="footer-container">
-                <p>&copy; 2024 Keyboard Gaming. Todos los derechos reservados. | <a href="sobre-nosotros.html">Sobre
+                <p>&copy; 2024 Keyboard Gaming. Todos los derechos reservados. | <a href="sobre-nosotros.html"
+                        class="link">Sobre
                         Nosotros</a></p>
             </div>
         </footer>
-        <script src="./js/login.js"></script>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+
+        <!-- Javascript propio -->
+        <script type="module" src="./js/login.js"></script>
     </body>
 
 </html>
