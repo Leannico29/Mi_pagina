@@ -401,19 +401,23 @@ main {
 	}
 }
 
-/* * Footer */
 footer {
 	background-color: #333;
 	color: white;
 	padding: 20px 0;
 	text-align: center;
-	position: relative;
-	bottom: 0;
 	width: 100%;
+}
+.footer-container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+footer a {
+	color: #00ff00;
+	text-decoration: none;
+}
 
-	.footer-container {
-		max-width: 1200px;
-		margin: 0 auto;
-		padding: 0 20px;
-	}
+footer a:hover {
+	text-decoration: underline;
 }
