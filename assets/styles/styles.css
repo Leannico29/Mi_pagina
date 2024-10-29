@@ -402,25 +402,15 @@ main {
 }
 
 footer {
-    background-color: #333;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-}
-.footer-container {
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 0 20px;
-}
-footer a {
-	color: #00ff00;
-	text-decoration: none;
-}
+	background-color: #333;
+	color: white;
+	padding: 20px 0;
+	text-align: center;
+	width: 100%;
 
-footer a:hover {
-	text-decoration: underline;
+	.footer-container {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 0 20px;
+	}
 }
