@@ -10,4 +10,4 @@ Tecnologías utilizadas:
 -   CSS / Bootstrap
 -   JS
 
-Se puede ver el despliegue en github [en este enlace.](https://leannico29.github.io/Mi_pagina/)
+Se puede ver el despliegue en github [en este enlace.](https://keyboard-gaming.netlify.app/)
