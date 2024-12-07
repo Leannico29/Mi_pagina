@@ -159,7 +159,7 @@ header {
 		}
 	}
 
-	/* * Product categories */
+	
 }
 
 main {
@@ -196,7 +196,7 @@ main {
 				}
 			}
 
-			/* * Carousel buttons */
+			
 
 			button.prev,
 			button.next {
@@ -233,7 +233,7 @@ main {
 		}
 	}
 
-	/* * Products categories */
+	
 
 	.build-your-pc {
 		margin: 2rem 0 0;
@@ -242,7 +242,7 @@ main {
 			display: grid;
 			margin-top: 20px;
 
-			/* * Category button */
+			
 
 			.category-btn {
 				background-color: var(--secondary-color);
@@ -270,7 +270,7 @@ main {
 		}
 	}
 
-	/* * Products list */
+	
 
 	.products-container {
 		display: grid;
@@ -421,4 +421,72 @@ footer {
 		margin: 0 auto;
 		padding: 0 20px;
 	}
+}
+
+
+/* Estilos de filtros para products.html */
+.filters {
+    background-color: var(--secondary-color); 
+    padding: 1.5rem; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px var(--black-opacity-50); 
+    color: var(--white); 
+    margin-bottom: 1.5rem; 
+}
+
+.filters h3, .filters h4 {
+    color: var(--primary-color);
+}
+
+.filters .filter-title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.filters .filter-list {
+    list-style: none;
+    padding: 0;
+}
+
+.filters .filter-item {
+    margin-bottom: 0.8rem;
+}
+
+.filters input[type="checkbox"] {
+    accent-color: var(--primary-color);
+    margin-right: 0.5rem;
+}
+
+/* Botones para cambiar la pagina */
+#products-pagination button {
+    background-color: var(--primary-color); 
+    border: none; 
+    color: var(--black); 
+    padding: 0.5rem 1rem; 
+    border-radius: 5px; 
+    margin: 0 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+#products-pagination button:hover {
+    background-color: #00cc00; 
+}
+
+#products-pagination button[disabled] {
+    background-color: #666;
+    color: #999; 
+    cursor: not-allowed; 
+}
+
+#products-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+
+.products-container {
+    padding-left: 1.5rem;
 }
