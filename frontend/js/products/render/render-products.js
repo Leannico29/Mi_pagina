@@ -5,7 +5,7 @@ const cardDivClasses = ['col-12', 'col-sm-6', 'col-md-5', 'col-lg-4', 'col-xl-3'
 /**
  * Render products on the page.
  *
- * @param {Array<{id, product_name, model_number, brand, price, img_url, product_type_id}>} products Products to render
+ * @param {Array<{id, name, description, brand, price, img_url, product_type, stock}>} products Products to render
  */
 export const renderProducts = (products) => {
 	const productsContainer = document.querySelector('.products-container');
@@ -25,11 +25,11 @@ export const renderProducts = (products) => {
 		});
 
 		productElement.innerHTML = `
-            <img src="${product.img_url}" alt="${product.product_name}" class="product-img">
+            <img src="${product?.img_url}" alt="${product?.name}" class="product-img">
             <div class="product-info">
-                <h3 class="product-title">${product.product_name}</h3>
-                <p class="product-description">${product.brand} ${product.model_number}</p>
-                <p class="product-price">$ ${product.price.toFixed(2)}</p>
+                <h3 class="product-title">${product?.brand || ''} ${product?.name}</h3>
+                <p class="product-description">${product?.description}</p>
+                <p class="product-price">$ ${product?.price.toFixed(2)}</p>
                 <button class="product-btn add-to-cart" data-product-id="${
 					product.id
 				}">Agregar al carrito</button>
