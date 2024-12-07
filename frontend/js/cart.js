@@ -3,7 +3,7 @@ import { getProductById } from './products/get-one-product.js';
 /**
  * Cart list.
  *
- * @type {Array<{id, product_name, model_number, brand, price, img_url, product_type_id}>}
+ * @type {Array<{id, name, description, brand, price, img_url, product_type, stock}>}
  */
 let cartList = [];
 
@@ -54,9 +54,7 @@ const renderCart = () => {
 
 		deleteItemIcon.addEventListener('click', handleDeleteItem);
 
-		cartItem.textContent = `${product.brand} ${
-			product.product_name
-		} - $ ${product.price.toFixed(2)}`;
+		cartItem.textContent = `${product.brand} ${product.name} - $ ${product.price.toFixed(2)}`;
 
 		cartItem.appendChild(deleteItemIcon);
 		cartListElement.appendChild(cartItem);
@@ -68,7 +66,7 @@ const renderCart = () => {
 /**
  * Adds a product to the cart.
  *
- * @param {{id, product_name, model_number, brand, price, img_url, product_type_id}} product - The product to add to the cart.
+ * @param {{id, name, description, brand, price, img_url, product_type, stock}} product - The product to add to the cart.
  */
 export const addToCart = (product) => {
 	cartList.push(product);
@@ -79,7 +77,7 @@ export const addToCart = (product) => {
 /**
  * Adds the event listener to the 'Add to cart' buttons.
  *
- * @param {Array<{id, product_name, model_number, brand, price, img_url, product_type_id}>} productList - The list of products.
+ * @param {Array<{id, name, description, brand, price, img_url, product_type, stock}>} productList - The list of products.
  */
 export const addToCartEventListener = (productList) => {
 	const addToCartButtons = document.querySelectorAll('.add-to-cart');

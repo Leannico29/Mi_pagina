@@ -15,7 +15,7 @@ const isValidSearch = (searchQuery) => {
  */
 export const searchBarListener = () => {
 	const searchInput = document.querySelector('#search-input');
-	let searchQuery = searchInput.value;
+	let searchQuery = searchInput.value.trim();
 
 	if (!isValidSearch(searchQuery)) {
 		alert('Ingresa un valor en el campo de búsqueda');

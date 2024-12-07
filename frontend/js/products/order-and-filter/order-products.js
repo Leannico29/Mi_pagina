@@ -1,9 +1,9 @@
 /**
  * Orders the products by different criteria.
  *
- * @param {Array<{id, product_name, model_number, brand, price, img_url, product_type_id}>} products - The products to order.
+ * @param {Array<{id, name, description, brand, price, img_url, product_type, stock}>} products - The products to order.
  * @param {string} orderBy - The criteria to order the products.
- * @returns {Array<{id, product_name, model_number, brand, price, img_url, product_type_id}>} orderedProducts - The ordered products.
+ * @returns {Array<{id, name, description, brand, price, img_url, product_type, stock}>} orderedProducts - The ordered products.
  */
 export const orderProducts = (products, orderBy) => {
 	let sortedProducts = [];
@@ -17,7 +17,7 @@ export const orderProducts = (products, orderBy) => {
 			case 'price-desc':
 				return b.price - a.price;
 			case 'name-asc':
-				return a.product_name.localeCompare(b.product_name);
+				return a.name.localeCompare(b.name);
 			case 'name-desc':
 				return b.product_name.localeCompare(a.product_name);
 			default:

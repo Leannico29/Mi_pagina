@@ -4,6 +4,7 @@ import { renderCurrentPage, renderProducts } from './products/render/index.js';
 import { searchBarListener } from './products/search/search.js';
 import { params } from './helpers/get-query-params.js';
 import { loadCart, emptyCart } from './cart.js';
+import ProductService from './products/service/product-service.js';
 
 const PRODUCTS_PER_PAGE = 20;
 let currentPage = 1;
@@ -107,22 +108,41 @@ const handleSelectChange = async () => {
  */
 const productsEventListener = async () => {
 	loadCart();
-	const searchQuery = params.get('search');
+	const searchQuery = params.get('search') || '';
 
 	//* Products variables
-	productsArray = await getAllProducts();
-	totalPages = Math.ceil(productsArray.length / PRODUCTS_PER_PAGE);
+	ProductService.getAllProducts()
+		.then((response) => {
+			const { data } = response;
+			productsArray = data;
 
-	if (searchQuery) {
-		filteredProducts = searchProducts(productsArray, searchQuery);
-	} else {
-		filteredProducts = [...productsArray];
-	}
+			productsArray.forEach((product) => {
+				product.price = parseFloat(product.price);
+			});
 
-	orderedProducts = [...filteredProducts];
-	paginatedProducts = await paginateProducts(orderedProducts);
+			console.log('Products:', productsArray);
 
-	renderProducts(paginatedProducts);
+			return productsArray;
+		})
+		.then((products) => {
+			renderProducts(products);
+		})
+		.catch((error) => {
+			console.error('Error loading products:', error);
+		});
+
+	// totalPages = Math.ceil(productsArray.length / PRODUCTS_PER_PAGE);
+
+	// if (searchQuery) {
+	// 	filteredProducts = searchProducts(productsArray, searchQuery);
+	// } else {
+	// 	filteredProducts = [...productsArray];
+	// }
+
+	// orderedProducts = [...filteredProducts];
+	// paginatedProducts = await paginateProducts(orderedProducts);
+
+	// renderProducts(paginatedProducts);
 
 	//! event listeners
 

@@ -1,0 +1,435 @@
+-- MySQL dump 10.13  Distrib 8.0.18, for Win64 (x86_64)
+--
+-- Host: 127.0.0.1    Database: keyboard_gaming
+-- ------------------------------------------------------
+-- Server version	9.0.1
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8mb4 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `brands`
+--
+
+DROP TABLE IF EXISTS `brands`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `brands` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uk_brands_name` (`name`),
+  CONSTRAINT `ck_brands_name` CHECK ((`name` <> _utf8mb4''))
+) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `brands`
+--
+
+LOCK TABLES `brands` WRITE;
+/*!40000 ALTER TABLE `brands` DISABLE KEYS */;
+INSERT INTO `brands` VALUES (17,'AMD'),(15,'Asus'),(8,'Cooler Master'),(2,'Corsair'),(10,'EVGA'),(6,'Gigabyte'),(5,'HyperX'),(16,'Intel'),(13,'Kingston'),(3,'Logitech'),(14,'MSI'),(1,'Razer'),(4,'Redragon'),(7,'Samsung'),(11,'Seagate'),(9,'Thermaltake'),(12,'Western Digital');
+/*!40000 ALTER TABLE `brands` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `carts`
+--
+
+DROP TABLE IF EXISTS `carts`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `carts` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `user_id` int NOT NULL,
+  `creation_timestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `status` enum('pending','paid','cancelled') NOT NULL DEFAULT 'pending',
+  PRIMARY KEY (`id`),
+  KEY `fk_carts_user_id` (`user_id`),
+  CONSTRAINT `fk_carts_user_id` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`),
+  CONSTRAINT `ck_carts_status` CHECK ((`status` in (_utf8mb4'pending',_utf8mb4'paid',_utf8mb4'cancelled')))
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `carts`
+--
+
+LOCK TABLES `carts` WRITE;
+/*!40000 ALTER TABLE `carts` DISABLE KEYS */;
+/*!40000 ALTER TABLE `carts` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_0900_ai_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+/*!50003 CREATE*/ /*!50017 DEFINER=`root`@`%`*/ /*!50003 TRIGGER `insert_purchase_and_delete_cart_when_paid` AFTER UPDATE ON `carts` FOR EACH ROW BEGIN 
+	IF NEW.status = 'paid' THEN
+		INSERT INTO purchases (purchase_timestamp, total_price)
+		VALUES (NOW(), (
+			SELECT SUM(p.price * cd.product_quantity)
+			FROM carts_details cd
+			JOIN products p ON cd.product_id = p.id
+			WHERE cd.cart_id = NEW.id
+		));
+
+		SET @purchase_id = LAST_INSERT_ID();
+
+		INSERT INTO purchases_details (purchase_id, product_id, product_quantity)
+		SELECT @purchase_id, product_id, product_quantity 
+		FROM carts_details 
+		WHERE cart_id = NEW.id;
+        
+		INSERT INTO purchase_history (purchase_id, user_id) 
+		VALUES (@purchase_id, NEW.user_id);
+
+		DELETE 
+		FROM carts_details 
+		WHERE cart_id = NEW.id;
+
+		DELETE 
+		FROM carts 
+		WHERE id = NEW.id;
+	END IF;
+END */;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+
+--
+-- Table structure for table `carts_details`
+--
+
+DROP TABLE IF EXISTS `carts_details`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `carts_details` (
+  `cart_id` int NOT NULL,
+  `product_id` int NOT NULL,
+  `product_quantity` int NOT NULL DEFAULT '1',
+  PRIMARY KEY (`cart_id`,`product_id`),
+  KEY `fk_carts_details_product_id` (`product_id`),
+  CONSTRAINT `fk_carts_details_cart_id` FOREIGN KEY (`cart_id`) REFERENCES `carts` (`id`),
+  CONSTRAINT `fk_carts_details_product_id` FOREIGN KEY (`product_id`) REFERENCES `products` (`id`),
+  CONSTRAINT `ck_carts_details_quantity` CHECK ((`product_quantity` > 0))
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `carts_details`
+--
+
+LOCK TABLES `carts_details` WRITE;
+/*!40000 ALTER TABLE `carts_details` DISABLE KEYS */;
+/*!40000 ALTER TABLE `carts_details` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `images`
+--
+
+DROP TABLE IF EXISTS `images`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `images` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `image_url` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uk_images_url` (`image_url`),
+  CONSTRAINT `ck_images_url` CHECK ((`image_url` <> _utf8mb4''))
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `images`
+--
+
+LOCK TABLES `images` WRITE;
+/*!40000 ALTER TABLE `images` DISABLE KEYS */;
+/*!40000 ALTER TABLE `images` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `product_types`
+--
+
+DROP TABLE IF EXISTS `product_types`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `product_types` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uk_product_types_name` (`name`),
+  CONSTRAINT `ck_product_types_name` CHECK ((`name` <> _utf8mb4''))
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `product_types`
+--
+
+LOCK TABLES `product_types` WRITE;
+/*!40000 ALTER TABLE `product_types` DISABLE KEYS */;
+INSERT INTO `product_types` VALUES (10,'Cooler Fan'),(2,'CPU Coolers'),(8,'Fuentes'),(9,'Gabinetes'),(7,'HDD\'s'),(11,'Monitores'),(3,'Motherboards'),(12,'Periféricos'),(5,'Placas de video'),(1,'Procesadores'),(4,'RAM\'s'),(6,'SSD\'s');
+/*!40000 ALTER TABLE `product_types` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `products`
+--
+
+DROP TABLE IF EXISTS `products`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `products` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) NOT NULL,
+  `price` decimal(10,2) NOT NULL,
+  `stock` int NOT NULL DEFAULT '0',
+  `description` varchar(255) NOT NULL,
+  `product_type_id` int NOT NULL,
+  `brand_id` int NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uk_products_name` (`name`),
+  KEY `fk_products_type` (`product_type_id`),
+  KEY `fk_products_brand` (`brand_id`),
+  CONSTRAINT `fk_products_brand` FOREIGN KEY (`brand_id`) REFERENCES `brands` (`id`),
+  CONSTRAINT `fk_products_type` FOREIGN KEY (`product_type_id`) REFERENCES `product_types` (`id`),
+  CONSTRAINT `ck_products_description` CHECK ((`description` <> _utf8mb4'')),
+  CONSTRAINT `ck_products_description_length` CHECK ((length(`description`) > 5)),
+  CONSTRAINT `ck_products_name` CHECK ((`name` <> _utf8mb4'')),
+  CONSTRAINT `ck_products_price` CHECK ((`price` >= 0)),
+  CONSTRAINT `ck_products_stock` CHECK ((`stock` >= 0))
+) ENGINE=InnoDB AUTO_INCREMENT=49 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `products`
+--
+
+LOCK TABLES `products` WRITE;
+/*!40000 ALTER TABLE `products` DISABLE KEYS */;
+INSERT INTO `products` VALUES (1,'Blackwidow V4',179999.00,10,'Teclado Gamer Razer Blackwidow V4, Luces RGB, Mecánico, yellow switches, Idioma Español Latinoamérica',12,1),(2,'K70 Pro Mini',253500.00,10,'Teclado Gaming Corsair K70 Pro Mini 60% RGB Wireless Cherry Mx Red Switches',12,2),(3,'Pop Keys Coral Rose',80400.00,5,'Teclado Mecanico Logitech Pop Keys Coral Rose Inalámbrico',12,3),(4,'K618 Horus FS White',80400.00,8,'Teclado Mecánico Inalámbrico Redragon K618 Horus FS White RGB Red Switches - Idioma Español',12,4),(5,'Pulsefire Haste 2 White',91100.00,3,'Mouse Gamer HyperX Pulsefire Haste 2 White Inalámbrico',12,5),(6,'G Pro X Superlight Red',126500.00,7,'Mouse Logitech G Pro X Superlight Red',12,3),(7,'G502 HERO',55000.00,1,'Mouse Logitech G502 HERO',12,3),(8,'GS32Q-SA QHD 2K 165Hz 1Ms',555700.00,2,'Monitor Gamer LED IPS 32\" Gigabyte Gaming GS32Q-SA QHD 2K 165Hz 1Ms Freesync Premium',11,6),(9,'Odyssey G6 QHD 240Hz 1Ms',1253100.00,15,'Monitor LED CURVO 32\" Samsung Odyssey G6 QHD 240Hz 1Ms FreeSync Premium Pro',11,7),(10,'Odyssey G3 FHD 165Hz 1Ms',422900.00,11,'Monitor LED VA 27\" Samsung Odyssey G3 FHD 165Hz 1Ms FreeSync Premium',11,7),(11,'Sickleflow 120 ARGB',20700.00,18,'Fan Cooler Master Sickleflow 120 ARGB White Edition',10,8),(12,'ICUE AF120 RGB Slim x2',75000.00,15,'Fan Cooler 120mm Corsair ICUE AF120 RGB Slim PWM Pack x2 Black',10,2),(13,'Masterfan MF120 Halo ARGB',24700.00,11,'Fan Cooler Cooler Master Masterfan MF120 Halo ARGB',10,8),(14,'4000D Airflow TG White',135600.00,8,'Gabinete Corsair 4000D Airflow TG White',9,2),(15,'2500X TG Black',135600.00,8,'Gabinete Corsair 2500X TG Black',9,2),(16,'S100 Black',135600.00,8,'Gabinete Thermaltake S100 Black Tempered Glass',9,9),(17,'P550B 80 Plus Bronze',64500.00,10,'Fuente 550W Gigabyte P550B 80 Plus Bronze',8,6),(18,'GQ 80 PLUS Gold',330700.00,13,'Fuente 1000W EVGA GQ 80 PLUS Gold Semi Modular',8,10),(19,'RM750X SHIFT 80 PLUS Gold',202200.00,15,'Fuente 750W Corsair RM750X SHIFT 80 PLUS Gold Modular',8,2),(20,'SAS 2TB HP MB2000FCWDF',71500.00,20,'Disco Rigido HDD SAS 2TB Seagate Constellation (HP MB2000FCWDF) ES.3',7,11),(21,'2TB Blue SATA 3.5',78200.00,19,'Disco Rigido HDD 2TB Western Digital Blue SATA 3.5\"',7,12),(22,'MP600 Core XT M.2 NVMe 1TB',115200.00,25,'Disco Sólido SSD 1TB Corsair MP600 Core XT M.2 NVMe PCIe x4 4.0',6,2),(23,'A400 SATA III 480GB',38300.00,8,'Disco Solido SSD 480GB Kingston A400 SATA III (Similar 500GB 512GB)',6,13),(24,'SN850X Black M.2 NVMe 2TB',38300.00,8,'Disco Sólido SSD 2TB Western Digital SN850X Black M.2 NVMe PCIe x4 4.0 - Sin Disipador Térmico',6,12),(25,'Geforce RTX 4090 24GB GDDR6X',2468600.00,19,'Placa de Video MSI Nvidia Geforce RTX 4090 GAMING SLIM 24GB GDDR6X',5,14),(26,'Geforce RTX 4070 SUPER 12GB GDDR6X',969800.00,14,'Placa de Video MSI Nvidia Geforce RTX 4070 SUPER GAMING X SLIM 12GB GDDR6X',5,14),(27,'Radeon Rx 7700 XT 12GB GDDR6',622600.00,12,'Placa de Video Gigabyte Rx 7700 XT GAMING OC 12GB GDDR6',5,6),(28,'Geforce RTX 4080 SUPER 16GB GDDR6X OC',1949600.00,21,'Placa de Video ASUS Nvidia Geforce RTX 4080 SUPER ROG STRIX 16GB GDDR6X OC',5,15),(29,'Radeon RX 7800 XT 16GB GDDR6 OC',751300.00,11,'Placa de Video ASUS AMD Radeon RX 7800 XT DUAL 16GB GDDR6 OC',5,15),(30,'Radeon RX 6500 XT 4GB GDDR6 OC',198400.00,5,'Placa de Video Asus Radeon Rx 6500 XT TUF 4GB GDDR6 OC',5,15),(31,'Vengeance RGB RS 8GB 3600Mhz DDR4',38100.00,11,'Memoria Ram Corsair Vengeance RGB RS 8GB 3600 Mhz DDR4',4,2),(32,'Vengeance RGB RS 16GB 5200Mhz DDR5',76600.00,15,'Memoria RAM Corsair Vengeance RGB 16GB 5200 Mhz DDR5',4,2),(33,'Fury Beast White RGB 8GB 3200Mhz DDR4',34100.00,14,'Memoria Ram Kingston Fury Beast White RGB 8GB 3200 Mhz DDR4',4,13),(34,'Fury Beast RGB 16GB 5600Mhz DDR5',75600.00,18,'Memoria Ram Kingston Fury Beast RGB 16GB 5600 Mhz DDR5',4,13),(35,'Z790 TOMAHAWK MAX WIFI DDR5',437800.00,12,'Motherboard MSI Z790 TOMAHAWK MAX WIFI DDR5 1700',3,14),(36,'B550M DS3H',120900.00,2,'Motherboard Gigabyte B550M DS3H AM4',3,6),(37,'Z890-E GAMING WIFI DDR5',756900.00,8,'Motherboard Asus ROG Strix Z890-E GAMING WIFI DDR5 1851',3,15),(38,'Hyper 622 Halo White ARGB',104800.00,10,'CPU Cooler Cooler Master Hyper 622 Halo White ARGB',2,8),(39,'ASTRIA 400 ARGB',81500.00,12,'CPU Cooler Thermaltake ASTRIA 400 ARGB',2,9),(40,'Hyper 212 Black X Duo',54000.00,5,'CPU Cooler Cooler Master Hyper 212 Black X Duo',2,8),(41,'I5-14400F 4.7Ghz Socket 1700',251700.00,21,'Micro Intel I5-14400F 4.7Ghz 20Mb S.1700',1,16),(42,'I7-14700K 5.6Ghz Socket 1700',518200.00,25,'Micro Intel I7-14700K 5.6Ghz 33Mb S.1700',1,16),(43,'I5-10400F 4.3Ghz Socket 1200',135200.00,4,'Micro Intel I5 10400F 4.3Ghz 12Mb S.1200',1,16),(44,'Ryzen 9 7950X 4.7Ghz AM5',742300.00,22,'Micro AMD Ryzen 9 7950X 4.7 Ghz AM5',1,17),(45,'Ryzen 5 7600X 4.7Ghz AM5',279600.00,15,'Micro AMD Ryzen 5 7600X 4.7 Ghz AM5',1,17),(46,'Ryzen 3 5300G 4.2Ghz AM4',129800.00,9,'Micro AMD Ryzen 3 5300G 4.2 Ghz AM4',1,17),(47,'Ryzen 7 5700G 4.6Ghz AM4',200000.00,10,'Micro AMD Ryzen 7 5700G 4.6 Ghz AM4',1,17);
+/*!40000 ALTER TABLE `products` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `products_images`
+--
+
+DROP TABLE IF EXISTS `products_images`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `products_images` (
+  `product_id` int NOT NULL,
+  `image_id` int NOT NULL,
+  PRIMARY KEY (`product_id`,`image_id`),
+  KEY `fk_products_images_image_id` (`image_id`),
+  CONSTRAINT `fk_products_images_image_id` FOREIGN KEY (`image_id`) REFERENCES `images` (`id`),
+  CONSTRAINT `fk_products_images_product_id` FOREIGN KEY (`product_id`) REFERENCES `products` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `products_images`
+--
+
+LOCK TABLES `products_images` WRITE;
+/*!40000 ALTER TABLE `products_images` DISABLE KEYS */;
+/*!40000 ALTER TABLE `products_images` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `purchase_history`
+--
+
+DROP TABLE IF EXISTS `purchase_history`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `purchase_history` (
+  `purchase_id` int NOT NULL,
+  `user_id` int NOT NULL,
+  PRIMARY KEY (`purchase_id`,`user_id`),
+  KEY `fk_historial_compras_user_id` (`user_id`),
+  CONSTRAINT `fk_historial_compras_purchase_id` FOREIGN KEY (`purchase_id`) REFERENCES `purchases` (`id`),
+  CONSTRAINT `fk_historial_compras_user_id` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `purchase_history`
+--
+
+LOCK TABLES `purchase_history` WRITE;
+/*!40000 ALTER TABLE `purchase_history` DISABLE KEYS */;
+/*!40000 ALTER TABLE `purchase_history` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `purchases`
+--
+
+DROP TABLE IF EXISTS `purchases`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `purchases` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `purchase_timestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `total_price` decimal(15,2) NOT NULL,
+  PRIMARY KEY (`id`),
+  CONSTRAINT `ck_total_price` CHECK ((`total_price` >= 0))
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `purchases`
+--
+
+LOCK TABLES `purchases` WRITE;
+/*!40000 ALTER TABLE `purchases` DISABLE KEYS */;
+/*!40000 ALTER TABLE `purchases` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `purchases_details`
+--
+
+DROP TABLE IF EXISTS `purchases_details`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `purchases_details` (
+  `purchase_id` int NOT NULL,
+  `product_id` int NOT NULL,
+  `product_quantity` int NOT NULL DEFAULT '1',
+  PRIMARY KEY (`purchase_id`,`product_id`),
+  KEY `fk_purchases_details_product_id` (`product_id`),
+  CONSTRAINT `fk_purchases_details_product_id` FOREIGN KEY (`product_id`) REFERENCES `products` (`id`),
+  CONSTRAINT `fk_purchases_details_purchase_id` FOREIGN KEY (`purchase_id`) REFERENCES `purchases` (`id`),
+  CONSTRAINT `ck_purchases_details_quantity` CHECK ((`product_quantity` > 0))
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `purchases_details`
+--
+
+LOCK TABLES `purchases_details` WRITE;
+/*!40000 ALTER TABLE `purchases_details` DISABLE KEYS */;
+/*!40000 ALTER TABLE `purchases_details` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_0900_ai_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+/*!50003 CREATE*/ /*!50017 DEFINER=`root`@`%`*/ /*!50003 TRIGGER `products_update_stock` AFTER INSERT ON `purchases_details` FOR EACH ROW BEGIN 
+	UPDATE products 
+	SET stock = stock - NEW.product_quantity 
+	WHERE id = NEW.product_id; 
+END */;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+
+--
+-- Table structure for table `users`
+--
+
+DROP TABLE IF EXISTS `users`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `users` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `first_name` varchar(30) NOT NULL,
+  `last_name` varchar(30) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `hashed_password` varchar(255) NOT NULL,
+  `username` varchar(30) DEFAULT NULL,
+  `address` varchar(50) DEFAULT NULL,
+  `role` enum('admin','user') NOT NULL DEFAULT 'user',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uk_users_email` (`email`),
+  UNIQUE KEY `uk_users_username` (`username`),
+  CONSTRAINT `ck_users_address` CHECK ((`address` <> _utf8mb4'')),
+  CONSTRAINT `ck_users_email` CHECK ((`email` <> _utf8mb4'')),
+  CONSTRAINT `ck_users_email_length` CHECK ((length(`email`) > 5)),
+  CONSTRAINT `ck_users_first_name` CHECK ((`first_name` <> _utf8mb4'')),
+  CONSTRAINT `ck_users_last_name` CHECK ((`last_name` <> _utf8mb4'')),
+  CONSTRAINT `ck_users_password` CHECK ((`hashed_password` <> _utf8mb4'')),
+  CONSTRAINT `ck_users_role` CHECK ((`role` in (_utf8mb4'admin',_utf8mb4'user')))
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `users`
+--
+
+LOCK TABLES `users` WRITE;
+/*!40000 ALTER TABLE `users` DISABLE KEYS */;
+INSERT INTO `users` VALUES (1,'Juan','Lopez','jlopez@mail.com','$2b$10$vPhG6wuRTeiwNPIEf.5wGOh0ff/e1IgTQHLJPxDLloVJpk3HMbe12','jlopez','Av. Siempreviva 123','admin'),(3,'Martín','Gómez','mgomez@mail.com','$2b$10$qZp609Ck7m7.u8gXKWzZiezJgJx4TBPkauEPwOLg6HcFUSQQBYWIm',NULL,NULL,'user');
+/*!40000 ALTER TABLE `users` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `users_interest_products`
+--
+
+DROP TABLE IF EXISTS `users_interest_products`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `users_interest_products` (
+  `user_id` int NOT NULL,
+  `product_id` int NOT NULL,
+  PRIMARY KEY (`user_id`,`product_id`),
+  KEY `fk_users_interest_products_product_id` (`product_id`),
+  CONSTRAINT `fk_users_interest_products_product_id` FOREIGN KEY (`product_id`) REFERENCES `products` (`id`),
+  CONSTRAINT `fk_users_interest_products_user_id` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `users_interest_products`
+--
+
+LOCK TABLES `users_interest_products` WRITE;
+/*!40000 ALTER TABLE `users_interest_products` DISABLE KEYS */;
+/*!40000 ALTER TABLE `users_interest_products` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping routines for database 'keyboard_gaming'
+--
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2024-12-07 16:35:40
