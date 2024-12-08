@@ -10,7 +10,6 @@ const getUserCart = async (userId) => {
 		`
         SELECT * 
         FROM carts c
-        JOIN carts_details cd ON c.id = cd.cart_id
         WHERE c.user_id = ?;`,
 		[userId]
 	);
