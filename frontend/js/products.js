@@ -118,6 +118,9 @@ const productsEventListener = async () => {
 
 			productsArray.forEach((product) => {
 				product.price = parseFloat(product.price);
+				product.img_url =
+					product.img_url ||
+					'https://www.tablecraft.com/sca-dev-2023-2-0/img/no_image_available.jpeg';
 			});
 
 			console.log('Products:', productsArray);
@@ -153,7 +156,7 @@ const productsEventListener = async () => {
 	});
 
 	//* Empty cart
-	// document.querySelector('#empty-cart').addEventListener('click', emptyCart);
+	document.querySelector('#empty-cart').addEventListener('click', emptyCart);
 
 	//* Order select
 	document.querySelector('#order-by').addEventListener('change', handleSelectChange);

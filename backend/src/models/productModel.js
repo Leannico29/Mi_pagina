@@ -32,9 +32,18 @@ const findProductById = async (productId) => {
 const findProductsWithPagination = async (limit, offset) => {
 	const [products] = await database.query(
 		`
-		SELECT * 
-		FROM products 
-		LIMIT ? OFFSET ?;`,
+		SELECT 	p.id AS id, 
+				p.name AS name, 
+				p.price AS price, 
+				p.description AS description, 
+				p.stock AS stock, 
+				pt.name AS product_type, 
+				b.name AS brand
+		FROM 	products p, product_types pt, brands b
+		WHERE 	p.product_type_id = pt.id
+			AND p.brand_id = b.id
+		LIMIT ? 
+		OFFSET ?;`,
 		[limit, offset]
 	);
 

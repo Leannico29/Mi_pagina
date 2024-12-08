@@ -54,7 +54,9 @@ const renderCart = () => {
 
 		deleteItemIcon.addEventListener('click', handleDeleteItem);
 
-		cartItem.textContent = `${product.brand} ${product.name} - $ ${product.price.toFixed(2)}`;
+		cartItem.textContent = `${product.brand || ''} ${product.name} - $ ${product.price.toFixed(
+			2
+		)}`;
 
 		cartItem.appendChild(deleteItemIcon);
 		cartListElement.appendChild(cartItem);

@@ -18,11 +18,15 @@ const getAllProducts = async (req, res) => {
 
 		const products = await ProductModel.findProductsWithPagination(limit, offset);
 
+		console.log(products);
+
 		res.json({
 			status: 'success',
 			data: products,
 		});
 	} catch (error) {
+		console.error(error);
+
 		res.status(500).json({
 			status: 'error',
 			message: 'Error al obtener productos',
