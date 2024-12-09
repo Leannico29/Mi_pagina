@@ -28,16 +28,16 @@
 	padding: 0;
 	scroll-behavior: smooth;
 }
-html, body {
+html,
+body {
 	height: 100%;
 	margin: 0;
 	display: flex;
 	flex-direction: column;
 }
 
-
 main {
-	flex: 1; 
+	flex: 1;
 	padding: 1rem;
 }
 
@@ -93,6 +93,8 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	padding: 1.2rem;
+	position: fixed;
+	z-index: 100;
 
 	.logo-container {
 		.logo {
@@ -158,15 +160,11 @@ header {
 			padding: 0.5rem 0.1rem;
 		}
 	}
-
-	
 }
 
 main {
 	padding: 1rem;
-
-	/*! Cambios de Lean */
-	/* flex: 1; */
+	margin-top: 100px;
 
 	.title {
 		color: var(--primary-color);
@@ -195,8 +193,6 @@ main {
 					object-fit: cover;
 				}
 			}
-
-			
 
 			button.prev,
 			button.next {
@@ -233,16 +229,12 @@ main {
 		}
 	}
 
-	
-
 	.build-your-pc {
 		margin: 2rem 0 0;
 
 		.categories-grid {
 			display: grid;
 			margin-top: 20px;
-
-			
 
 			.category-btn {
 				background-color: var(--secondary-color);
@@ -269,8 +261,6 @@ main {
 			}
 		}
 	}
-
-	
 
 	.products-container {
 		display: grid;
@@ -423,70 +413,69 @@ footer {
 	}
 }
 
-
 /* Estilos de filtros para products.html */
 .filters {
-    background-color: var(--secondary-color); 
-    padding: 1.5rem; 
-    border-radius: 10px; 
-    box-shadow: 0 4px 8px var(--black-opacity-50); 
-    color: var(--white); 
-    margin-bottom: 1.5rem; 
+	background-color: var(--secondary-color);
+	padding: 1.5rem;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px var(--black-opacity-50);
+	color: var(--white);
+	margin-bottom: 1.5rem;
 }
 
-.filters h3, .filters h4 {
-    color: var(--primary-color);
+.filters h3,
+.filters h4 {
+	color: var(--primary-color);
 }
 
 .filters .filter-title {
-    font-weight: bold;
-    margin-bottom: 0.5rem;
+	font-weight: bold;
+	margin-bottom: 0.5rem;
 }
 
 .filters .filter-list {
-    list-style: none;
-    padding: 0;
+	list-style: none;
+	padding: 0;
 }
 
 .filters .filter-item {
-    margin-bottom: 0.8rem;
+	margin-bottom: 0.8rem;
 }
 
-.filters input[type="checkbox"] {
-    accent-color: var(--primary-color);
-    margin-right: 0.5rem;
+.filters input[type='checkbox'] {
+	accent-color: var(--primary-color);
+	margin-right: 0.5rem;
 }
 
 /* Botones para cambiar la pagina */
 #products-pagination button {
-    background-color: var(--primary-color); 
-    border: none; 
-    color: var(--black); 
-    padding: 0.5rem 1rem; 
-    border-radius: 5px; 
-    margin: 0 5px; 
-    cursor: pointer;
-    transition: background-color 0.3s; 
+	background-color: var(--primary-color);
+	border: none;
+	color: var(--black);
+	padding: 0.5rem 1rem;
+	border-radius: 5px;
+	margin: 0 5px;
+	cursor: pointer;
+	transition: background-color 0.3s;
 }
 
 #products-pagination button:hover {
-    background-color: #00cc00; 
+	background-color: #00cc00;
 }
 
 #products-pagination button[disabled] {
-    background-color: #666;
-    color: #999; 
-    cursor: not-allowed; 
+	background-color: #666;
+	color: #999;
+	cursor: not-allowed;
 }
 
 #products-pagination {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1.5rem;
 }
 
-
 .products-container {
-    padding-left: 1.5rem;
+	padding-left: 1.5rem;
 }
