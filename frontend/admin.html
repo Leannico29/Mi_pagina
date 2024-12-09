@@ -120,42 +120,42 @@
             <!-- Formulario para modificar producto -->
             <form id="editProductForm" class="hidden">
                 <h3>Modificar Producto</h3>
-                <div class="form-group">
-                    <label for="editProductId">ID del Producto</label>
-                    <input type="text" id="editProductId" placeholder="ID del producto" required>
-                </div>
-                <button id="fetchProductBtn" class="primary-btn">Buscar Producto</button>
-        
-                <!-- Campos a modificar (inicialmente ocultos) -->
-                <div id="editFields" class="hidden">
-                    <div class="form-group">
-                        <label for="editProductField">Campo a modificar</label>
-                        <select id="editProductField" required>
-                            <option value="" disabled selected>Selecciona un campo</option>
-                            <option value="name">Nombre</option>
-                            <option value="price">Precio</option>
-                            <option value="stock">Stock</option>
-                            <option value="description">Descripción</option>
-                            <option value="type">Tipo</option>
-                            <option value="brand">Marca</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="editProductValue">Nuevo Valor</label>
-                        <input type="text" id="editProductValue" placeholder="Nuevo valor" required>
-                    </div>
-                    <button type="submit" class="primary-btn">Guardar Cambios</button>
-                </div>
+                <button id="fetchAllProductsForEdit" class="primary-btn">Llamar a todos los productos</button>
+
+                <!-- Tabla de productos (modificación) -->
+                <table id="editProductsTable" class="hidden">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nombre</th>
+                            <th>Precio</th>
+                            <th>Stock</th>
+                            <th>Descripción</th>
+                            <th>Acción</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
             </form>
-        
+
             <!-- Formulario para eliminar producto -->
             <form id="deleteProductForm" class="hidden">
                 <h3>Eliminar Producto</h3>
-                <div class="form-group">
-                    <label for="deleteProductId">ID o Nombre del Producto</label>
-                    <input type="text" id="deleteProductId" placeholder="ID o Nombre del producto" required>
-                </div>
-                <button type="submit" class="primary-btn">Eliminar Producto</button>
+                <button id="fetchAllProductsForDelete" class="primary-btn">Llamar a todos los productos</button>
+
+                <!-- Tabla de productos (eliminación) -->
+                <table id="deleteProductsTable" class="hidden">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nombre</th>
+                            <th>Precio</th>
+                            <th>Stock</th>
+                            <th>Acción</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
             </form>
         </section>
     </main>
@@ -166,6 +166,6 @@
 
         </div>
     </footer>
-    <script src="js\admin.js"></script>
+    <script type="module" src="frontend\js\admin.js"></script>
 </body>
 </html>
