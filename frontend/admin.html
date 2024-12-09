@@ -76,102 +76,104 @@
             </nav>
         </header>
 
-    <main>
-        <section class="product-management">
-            <h2>Gestión de Productos</h2>
-            <div class="action-buttons">
-                <button id="addProductBtn" class="primary-btn">Agregar Producto</button>
-                <button id="editProductBtn" class="primary-btn">Modificar Producto</button>
-                <button id="deleteProductBtn" class="primary-btn">Eliminar Producto</button>
+        <main>
+            <section class="product-management">
+                <h2>Gestión de Productos</h2>
+                <div class="action-buttons">
+                    <button id="addProductBtn" class="primary-btn">Agregar Producto</button>
+                    <button id="editProductBtn" class="primary-btn">Modificar Producto</button>
+                    <button id="deleteProductBtn" class="primary-btn">Eliminar Producto</button>
+                </div>
+
+                <!-- Formulario para agregar producto -->
+                <form id="addProductForm" class="hidden">
+                    <h3>Agregar Producto</h3>
+                    <div class="form-group">
+                        <label for="addProductName">Nombre</label>
+                        <input type="text" id="addProductName" placeholder="Nombre del producto" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="addProductPrice">Precio</label>
+                        <input type="number" id="addProductPrice" placeholder="Precio" min="0" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="addProductStock">Stock</label>
+                        <input type="number" id="addProductStock" placeholder="Cantidad en stock" min="0" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="addProductDescription">Descripción</label>
+                        <textarea id="addProductDescription" placeholder="Descripción del producto" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="addProductType">Tipo de Producto</label>
+                        <select id="addProductType" required>
+                            <option value="" disabled selected>Selecciona un tipo</option>
+                            <option value="1">Tipo 1</option>
+                            <option value="2">Tipo 2</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="addProductBrand">Marca</label>
+                        <select id="addProductBrand" required>
+                            <option value="" disabled selected>Selecciona una marca</option>
+                            <option value="1">Marca 1</option>
+                            <option value="2">Marca 2</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="primary-btn">Guardar Producto</button>
+                </form>
+
+                <!-- Formulario para modificar producto -->
+                <form id="editProductForm" class="hidden">
+                    <h3>Modificar Producto</h3>
+                    <button id="fetchAllProductsForEdit" class="primary-btn">Llamar a todos los productos</button>
+
+                    <!-- Tabla de productos (modificación) -->
+                    <table id="editProductsTable" class="hidden">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Nombre</th>
+                                <th>Precio</th>
+                                <th>Stock</th>
+                                <th>Descripción</th>
+                                <th>Acción</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </form>
+
+                <!-- Formulario para eliminar producto -->
+                <form id="deleteProductForm" class="hidden">
+                    <h3>Eliminar Producto</h3>
+                    <button id="fetchAllProductsForDelete" class="primary-btn">Llamar a todos los productos</button>
+
+                    <!-- Tabla de productos (eliminación) -->
+                    <table id="deleteProductsTable" class="hidden">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Nombre</th>
+                                <th>Precio</th>
+                                <th>Stock</th>
+                                <th>Acción</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <p> <a href="admin.html" class="link">admin</a> |copy; 2024 Keyboard Gaming. Todos los derechos
+                    reservados. | <a href="nosotros.html" class="link">Sobre Nosotros</a> | <a
+                        href="formulario-contacto.html" class="link">Contactate con nosotros </a></p>
+
             </div>
-        
-            <!-- Formulario para agregar producto -->
-            <form id="addProductForm" class="hidden">
-                <h3>Agregar Producto</h3>
-                <div class="form-group">
-                    <label for="addProductName">Nombre</label>
-                    <input type="text" id="addProductName" placeholder="Nombre del producto" required>
-                </div>
-                <div class="form-group">
-                    <label for="addProductPrice">Precio</label>
-                    <input type="number" id="addProductPrice" placeholder="Precio" min="0" required>
-                </div>
-                <div class="form-group">
-                    <label for="addProductStock">Stock</label>
-                    <input type="number" id="addProductStock" placeholder="Cantidad en stock" min="0" required>
-                </div>
-                <div class="form-group">
-                    <label for="addProductDescription">Descripción</label>
-                    <textarea id="addProductDescription" placeholder="Descripción del producto" required></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="addProductType">Tipo de Producto</label>
-                    <select id="addProductType" required>
-                        <option value="" disabled selected>Selecciona un tipo</option>
-                        <option value="1">Tipo 1</option>
-                        <option value="2">Tipo 2</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="addProductBrand">Marca</label>
-                    <select id="addProductBrand" required>
-                        <option value="" disabled selected>Selecciona una marca</option>
-                        <option value="1">Marca 1</option>
-                        <option value="2">Marca 2</option>
-                    </select>
-                </div>
-                <button type="submit" class="primary-btn">Guardar Producto</button>
-            </form>
-        
-            <!-- Formulario para modificar producto -->
-            <form id="editProductForm" class="hidden">
-                <h3>Modificar Producto</h3>
-                <button id="fetchAllProductsForEdit" class="primary-btn">Llamar a todos los productos</button>
+        </footer>
+        <script type="module" src="./js/admin.js"></script>
+    </body>
 
-                <!-- Tabla de productos (modificación) -->
-                <table id="editProductsTable" class="hidden">
-                    <thead>
-                        <tr>
-                            <th>ID</th>
-                            <th>Nombre</th>
-                            <th>Precio</th>
-                            <th>Stock</th>
-                            <th>Descripción</th>
-                            <th>Acción</th>
-                        </tr>
-                    </thead>
-                    <tbody></tbody>
-                </table>
-            </form>
-
-            <!-- Formulario para eliminar producto -->
-            <form id="deleteProductForm" class="hidden">
-                <h3>Eliminar Producto</h3>
-                <button id="fetchAllProductsForDelete" class="primary-btn">Llamar a todos los productos</button>
-
-                <!-- Tabla de productos (eliminación) -->
-                <table id="deleteProductsTable" class="hidden">
-                    <thead>
-                        <tr>
-                            <th>ID</th>
-                            <th>Nombre</th>
-                            <th>Precio</th>
-                            <th>Stock</th>
-                            <th>Acción</th>
-                        </tr>
-                    </thead>
-                    <tbody></tbody>
-                </table>
-            </form>
-        </section>
-    </main>
-    <footer>
-        <div class="footer-container">
-            <p> <a href="admin.html" class="link">admin</a> |copy; 2024 Keyboard Gaming. Todos los derechos reservados. | <a href="nosotros.html" class="link">Sobre Nosotros</a> | <a
-                href="formulario-contacto.html" class="link">Contactate con nosotros </a></p>
-
-        </div>
-    </footer>
-    <script type="module" src="frontend\js\admin.js"></script>
-</body>
 </html>

@@ -23,64 +23,74 @@ let productsArray = [];
 
 // **Función para cargar productos en la tabla**
 const loadProductsIntoTable = async (tableElement, action) => {
-    const tbody = tableElement.querySelector("tbody");
-    tbody.innerHTML = ""; // Limpiar la tabla
+	const tbody = tableElement.querySelector('tbody');
+	tbody.innerHTML = ''; // Limpiar la tabla
 
-    try {
-        const response = await ProductService.getAllProducts();
-        if (!response.data || response.data.length === 0) {
-            alert('No products available.');
-        } else {
-            productsArray = response.data;
-            // populate table as before
-        }
-    } catch (error) {
-        console.error("Error fetching products:", error);
-        alert('Failed to fetch products. Please try again.');
-    }
-    
+	try {
+		const response = await ProductService.getAllProducts();
+
+		if (!response.data || response.data.length === 0) {
+			alert('No products available.');
+		} else {
+			productsArray = response.data;
+		}
+	} catch (error) {
+		console.error('Error fetching products:', error);
+		alert('Failed to fetch products. Please try again.');
+	}
 };
 
 // **Escuchadores de los botones principales**
 addProductBtn.addEventListener('click', () => {
-    toggleForms('add');
+	toggleForms('add');
 });
 
 editProductBtn.addEventListener('click', () => {
-    toggleForms('edit');
+	toggleForms('edit');
 });
 
 deleteProductBtn.addEventListener('click', () => {
-    toggleForms('delete');
+	toggleForms('delete');
 });
 
 // **Mostrar/ocultar formularios**
 const toggleForms = (action) => {
-    const addProductForm = document.getElementById('addProductForm');
-    const editProductForm = document.getElementById('editProductForm');
-    const deleteProductForm = document.getElementById('deleteProductForm');
+	const addProductForm = document.getElementById('addProductForm');
+	const editProductForm = document.getElementById('editProductForm');
+	const deleteProductForm = document.getElementById('deleteProductForm');
 
-    addProductForm.classList.add('hidden');
-    editProductForm.classList.add('hidden');
-    deleteProductForm.classList.add('hidden');
+	addProductForm.classList.add('hidden');
+	editProductForm.classList.add('hidden');
+	deleteProductForm.classList.add('hidden');
 
-    if (action === 'add') {
-        addProductForm.classList.remove('hidden');
-    } else if (action === 'edit') {
-        editProductForm.classList.remove('hidden');
-    } else if (action === 'delete') {
-        deleteProductForm.classList.remove('hidden');
-    }
+	switch (action.toLocaleLowerCase()) {
+		case 'add':
+			editProductForm.classList.add('hidden');
+			deleteProductForm.classList.add('hidden');
+			addProductForm.classList.remove('hidden');
+			break;
+		case 'edit':
+			addProductForm.classList.add('hidden');
+			deleteProductForm.classList.add('hidden');
+			editProductForm.classList.remove('hidden');
+			break;
+		case 'delete':
+			addProductForm.classList.add('hidden');
+			editProductForm.classList.add('hidden');
+			deleteProductForm.classList.remove('hidden');
+			break;
+		default:
+			throw new Error('Invalid action');
+	}
 };
 
 // **Escuchadores para llamar a los productos**
-fetchAllProductsForEdit.addEventListener("click", (e) => {
-    e.preventDefault();
-    loadProductsIntoTable(editProductsTable, "edit");
+fetchAllProductsForEdit.addEventListener('click', (e) => {
+	e.preventDefault();
+	loadProductsIntoTable(editProductsTable, 'edit');
 });
 
-fetchAllProductsForDelete.addEventListener("click", (e) => {
-    e.preventDefault();
-    loadProductsIntoTable(deleteProductsTable, "delete");
+fetchAllProductsForDelete.addEventListener('click', (e) => {
+	e.preventDefault();
+	loadProductsIntoTable(deleteProductsTable, 'delete');
 });
-
