@@ -4,6 +4,9 @@
 	--primary-color: #00ff00;
 	--secondary-color: #1a1a1a;
 	--black: #0a0a0a;
+	--grey-1: #333;
+	--grey-2: #666;
+	--grey-3: #999;
 	--white: #f1f1f1;
 	--black-opacity-50: rgba(0, 0, 0, 0.5);
 	--black-opacity-80: rgba(0, 0, 0, 0.8);
@@ -47,10 +50,6 @@ body {
 	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 	min-height: 100vh;
 
-	/*! Cambios de Lean*/
-	/* display: flex;
-	flex-direction: column; */
-
 	a,
 	a.link {
 		text-decoration: none;
@@ -88,7 +87,7 @@ body {
 /* * Header */
 
 header {
-	background-color: var(--secondary-color);
+	background-color: var(--grey-1);
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -158,6 +157,51 @@ header {
 			cursor: pointer;
 			font-size: 18px;
 			padding: 0.5rem 0.1rem;
+		}
+
+		.cart-offcanvas {
+			border-radius: 2px;
+			color: var(--black-opacity-80);
+
+			.offcanvas-title {
+				color: var(--black);
+			}
+
+			.offcanvas-body {
+				button {
+					background-color: var(--black-opacity-80);
+					border: 1px solid rgba(0, 0, 0, 0);
+					border-radius: 5px;
+					color: var(--white);
+					cursor: pointer;
+					display: block;
+					font-size: 1.2rem;
+					transition: all 0.2s;
+					padding: 0.5rem;
+
+					&:hover,
+					&:focus {
+						color: var(--primary-color);
+					}
+				}
+
+				ul li {
+					border-bottom: 1px solid var(--black);
+					padding: 0.5rem 0;
+					display: flex;
+					justify-content: space-between;
+
+					span {
+						display: block;
+					}
+				}
+
+				div {
+					font-size: 1.2rem;
+					font-weight: bold;
+					margin-top: 0.5rem;
+				}
+			}
 		}
 	}
 }
@@ -238,7 +282,7 @@ main {
 
 			.category-btn {
 				background-color: var(--secondary-color);
-				border: 1px solid #333;
+				border: 1px solid var(--grey-1);
 				border-radius: 5px;
 				padding: 20px;
 				text-align: center;
@@ -400,7 +444,7 @@ main {
 }
 
 footer {
-	background-color: #333;
+	background-color: var(--grey-1);
 	color: white;
 	padding: 20px 0;
 	text-align: center;

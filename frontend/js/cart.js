@@ -48,17 +48,23 @@ const renderCart = () => {
 
 	cartList.forEach((product, index) => {
 		const cartItem = document.createElement('li');
+		const cartItemText = document.createElement('span');
+		const deleteItemButton = document.createElement('button');
 		const deleteItemIcon = document.createElement('i');
 		deleteItemIcon.classList.add('bi', 'bi-cart-dash-fill');
 		deleteItemIcon.setAttribute('data-cart-index', index);
 
+		cartItemText.textContent = `${product.brand || ''} ${
+			product.name
+		} - $ ${product.price.toFixed(2)}`;
+
 		deleteItemIcon.addEventListener('click', handleDeleteItem);
 
-		cartItem.textContent = `${product.brand || ''} ${product.name} - $ ${product.price.toFixed(
-			2
-		)}`;
+		deleteItemButton.appendChild(deleteItemIcon);
 
-		cartItem.appendChild(deleteItemIcon);
+		cartItem.appendChild(cartItemText);
+		cartItem.appendChild(deleteItemButton);
+
 		cartListElement.appendChild(cartItem);
 	});
 
