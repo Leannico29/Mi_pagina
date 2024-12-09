@@ -19,6 +19,8 @@ const getCart = async (req, res) => {
 			});
 		}
 
+		console.log(cart);
+
 		const cartItems = await CartModel.getCartItems(cart[0].id);
 
 		res.json({

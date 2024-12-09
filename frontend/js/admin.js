@@ -83,3 +83,4 @@ fetchAllProductsForDelete.addEventListener("click", (e) => {
     e.preventDefault();
     loadProductsIntoTable(deleteProductsTable, "delete");
 });
+

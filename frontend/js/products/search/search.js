@@ -1,12 +1,4 @@
-/**
- * Check if a search query is valid.
- *
- * @param {string} searchQuery query to validate
- * @returns {boolean} true if the query is valid, false otherwise
- */
-const isValidSearch = (searchQuery) => {
-	return searchQuery && searchQuery.trim().length > 0;
-};
+import { isValidString } from '../../utils/validations.js';
 
 /**
  * Search bar event listener.
@@ -17,7 +9,7 @@ export const searchBarListener = () => {
 	const searchInput = document.querySelector('#search-input');
 	let searchQuery = searchInput.value.trim();
 
-	if (!isValidSearch(searchQuery)) {
+	if (!isValidString(searchQuery)) {
 		alert('Ingresa un valor en el campo de búsqueda');
 		searchInput.value = '';
 		return;

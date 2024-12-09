@@ -28,7 +28,7 @@ export const renderProducts = (products) => {
             <img src="${product?.img_url}" alt="${product?.name}" class="product-img">
             <div class="product-info">
                 <h3 class="product-title">${product?.brand || ''} ${product?.name}</h3>
-                <p class="product-description">${product?.description}</p>
+                <!-- <p class="product-description">${product?.description}</p> -->
                 <p class="product-price">$ ${product?.price.toFixed(2)}</p>
                 <button class="product-btn add-to-cart" data-product-id="${
 					product.id
