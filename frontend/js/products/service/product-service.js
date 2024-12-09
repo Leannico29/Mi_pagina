@@ -1,7 +1,20 @@
 const BASE_URL = 'http://localhost:3000/api';
 
-const getAllProducts = async (page = 1, limit = 20) => {
-	const response = await fetch(`${BASE_URL}/products?page=${page}&limit=${limit}`);
+/**
+ * Get all products
+ *
+ * @param {number} page - The page number
+ * @param {number} limit - The number of products per page
+ * @param {string} q - The search query
+ */
+const getAllProducts = async (page = 1, limit = 20, q = null) => {
+	const url = `${BASE_URL}/products?page=${page}&limit=${limit}`;
+
+	if (q) {
+		url += `&q=${q}`;
+	}
+
+	const response = await fetch(url);
 
 	return await response.json();
 };
