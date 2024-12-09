@@ -113,7 +113,7 @@ header {
 
 		input {
 			border-radius: 1rem;
-			border: 1px solid var(--black);
+			border: 2px solid var(--black);
 			color: var(--black);
 			font-size: 1.2rem;
 			height: 2.5rem;
@@ -182,6 +182,7 @@ header {
 					&:hover,
 					&:focus {
 						color: var(--primary-color);
+						background-color: var(--black);
 					}
 				}
 
