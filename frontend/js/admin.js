@@ -65,18 +65,12 @@ const toggleForms = (action) => {
 
 	switch (action.toLocaleLowerCase()) {
 		case 'add':
-			editProductForm.classList.add('hidden');
-			deleteProductForm.classList.add('hidden');
 			addProductForm.classList.remove('hidden');
 			break;
 		case 'edit':
-			addProductForm.classList.add('hidden');
-			deleteProductForm.classList.add('hidden');
 			editProductForm.classList.remove('hidden');
 			break;
 		case 'delete':
-			addProductForm.classList.add('hidden');
-			editProductForm.classList.add('hidden');
 			deleteProductForm.classList.remove('hidden');
 			break;
 		default:
