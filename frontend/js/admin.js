@@ -1,6 +1,8 @@
 import ProductService from './products/service/product-service.js';
 import { isValidProduct } from './utils/validations.js';
 
+let token = null;
+
 // Referencias a los formularios
 const addProductForm = document.getElementById('addProductForm');
 const editProductForm = document.getElementById('editProductForm');
@@ -164,7 +166,16 @@ const addProductHandler = async (e) => {
 	ProductService.createProduct(product);
 };
 
+const loadUserToken = () => {
+	token = localStorage.getItem('token');
+
+	if (!token) {
+		window.location.href = '/login.html';
+	}
+};
+
 document.addEventListener('DOMContentLoaded', async () => {
+	loadUserToken();
 	loadData();
 });
 

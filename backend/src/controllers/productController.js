@@ -90,6 +90,8 @@ const createProduct = async (req, res) => {
 			productId: result.insertId,
 		});
 	} catch (error) {
+		console.error(error);
+
 		res.status(400).json({
 			status: 'error',
 			message: 'Error al registrar producto',
