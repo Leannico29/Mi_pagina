@@ -19,7 +19,7 @@ export const orderProducts = (products, orderBy) => {
 			case 'name-asc':
 				return a.name.localeCompare(b.name);
 			case 'name-desc':
-				return b.product_name.localeCompare(a.product_name);
+				return b.name.localeCompare(a.name);
 			default:
 				console.error('Valor de orden inválido.');
 				break;

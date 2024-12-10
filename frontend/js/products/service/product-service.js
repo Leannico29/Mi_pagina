@@ -19,6 +19,32 @@ const getAllProducts = async (page = 1, limit = 20, q = null) => {
 	return await response.json();
 };
 
+const getAllProductsWithFilters = async ({
+	page = 1,
+	limit = 20,
+	term = null,
+	types = null,
+	brands = null,
+}) => {
+	let url = `${BASE_URL}/products?page=${page}&limit=${limit}`;
+
+	if (term) {
+		url += `&term=${term}`;
+	}
+
+	if (types) {
+		url += `&types=${types}`;
+	}
+
+	if (brands) {
+		url += `&brands=${brands}`;
+	}
+
+	const response = await fetch(url);
+
+	return await response.json();
+};
+
 const getAllProductTypes = async () => {
 	const response = await fetch(`${BASE_URL}/products/types`);
 
@@ -131,8 +157,11 @@ const updateBrand = async (id, brand) => {
 };
 
 const deleteProduct = async (productId) => {
+	const token = localStorage.getItem('token');
+
 	const response = await fetch(`${BASE_URL}/products/${productId}`, {
 		method: 'DELETE',
+		Authorization: `Bearer ${token}`,
 	});
 
 	return await response.json();
@@ -156,6 +185,7 @@ const deleteBrand = async (brandId) => {
 
 export default {
 	getAllProducts,
+	getAllProductsWithFilters,
 	getAllProductTypes,
 	getAllBrands,
 	getProductById,

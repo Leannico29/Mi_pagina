@@ -84,9 +84,9 @@ const handlePaginationButtons = async (event) => {
 	updateFromTo(currentPage);
 	renderCurrentPage(currentPage);
 
-	paginatedProducts = await paginateProducts(orderedProducts, from, to);
+	// paginatedProducts = await paginateProducts(orderedProducts, from, to);
 
-	renderProducts(paginatedProducts);
+	renderProducts(orderedProducts);
 
 	updatePaginationButtonsState(totalPages);
 };
@@ -97,10 +97,48 @@ const handlePaginationButtons = async (event) => {
 const handleSelectChange = async () => {
 	const orderBy = document.querySelector('#order-by').value;
 
-	orderedProducts = orderProducts(filteredProducts, orderBy);
-	paginatedProducts = await paginateProducts(orderedProducts, from, to);
+	orderedProducts = orderProducts(productsArray, orderBy);
+	// paginatedProducts = await paginateProducts(orderedProducts, from, to);
 
-	renderProducts(paginatedProducts);
+	renderProducts(orderedProducts);
+};
+
+const handleFilter = async () => {
+	const checkedBrands = Array.from(
+		document.querySelectorAll('#brand-filter-list input:checked')
+	).map((input) => input.dataset.id);
+	const checkedTypes = Array.from(
+		document.querySelectorAll('#type-filter-list input:checked')
+	).map((input) => input.dataset.id);
+
+	const brandsString = checkedBrands.join(',');
+	const typesString = checkedTypes.join(',');
+
+	filteredProducts = await ProductService.getAllProductsWithFilters({
+		brands: brandsString,
+		types: typesString,
+	})
+		.then((response) => {
+			return response.data;
+		})
+		.catch((error) => {
+			console.error('Error filtering products:', error);
+		});
+
+	renderProducts(parseProducts(filteredProducts));
+};
+
+const parseProducts = (products) => {
+	const parsedProducts = products.map((product) => {
+		product.price = parseFloat(product.price);
+		product.img_url =
+			product.img_url ||
+			'https://www.tablecraft.com/sca-dev-2023-2-0/img/no_image_available.jpeg';
+
+		return product;
+	});
+
+	return parsedProducts;
 };
 
 /**
@@ -116,12 +154,7 @@ const productsEventListener = async () => {
 			const { data } = response;
 			productsArray = data;
 
-			productsArray.forEach((product) => {
-				product.price = parseFloat(product.price);
-				product.img_url =
-					product.img_url ||
-					'https://www.tablecraft.com/sca-dev-2023-2-0/img/no_image_available.jpeg';
-			});
+			productsArray = parseProducts(productsArray);
 
 			console.log('Products:', productsArray);
 
@@ -134,18 +167,67 @@ const productsEventListener = async () => {
 			console.error('Error loading products:', error);
 		});
 
-	// totalPages = Math.ceil(productsArray.length / PRODUCTS_PER_PAGE);
+	ProductService.getAllBrands().then((response) => {
+		const { data } = response;
+		const filterDiv = document.querySelector('#brand-filter');
+		const filterUl = filterDiv.lastElementChild;
 
-	// if (searchQuery) {
-	// 	filteredProducts = searchProducts(productsArray, searchQuery);
-	// } else {
-	// 	filteredProducts = [...productsArray];
-	// }
+		filterUl.innerHTML = '';
+		filterUl.setAttribute('id', 'brand-filter-list');
 
-	// orderedProducts = [...filteredProducts];
-	// paginatedProducts = await paginateProducts(orderedProducts);
+		data.forEach((brand) => {
+			const li = document.createElement('li');
+			li.classList.add('filter-item');
 
-	// renderProducts(paginatedProducts);
+			const label = document.createElement('label');
+			label.htmlFor = `brand-${brand.id}`;
+
+			const input = document.createElement('input');
+			input.type = 'checkbox';
+			input.name = `brand-${brand.id}`;
+			input.dataset.id = brand.id;
+			input.checked = true;
+			input.id = `brand-${brand.id}`;
+
+			label.textContent = brand.name;
+
+			li.appendChild(input);
+			li.appendChild(label);
+
+			filterUl.appendChild(li);
+		});
+	});
+
+	ProductService.getAllProductTypes().then((response) => {
+		const { data } = response;
+		const filterDiv = document.querySelector('#type-filter');
+		const filterUl = filterDiv.lastElementChild;
+
+		filterUl.innerHTML = '';
+		filterUl.setAttribute('id', 'type-filter-list');
+
+		data.forEach((type) => {
+			const li = document.createElement('li');
+			li.classList.add('filter-item');
+
+			const label = document.createElement('label');
+			label.htmlFor = `type-${type.id}`;
+
+			const input = document.createElement('input');
+			input.type = 'checkbox';
+			input.name = `type-${type.id}`;
+			input.dataset.id = type.id;
+			input.checked = true;
+			input.id = `type-${type.id}`;
+
+			label.textContent = type.name;
+
+			li.appendChild(input);
+			li.appendChild(label);
+
+			filterUl.appendChild(li);
+		});
+	});
 
 	//! event listeners
 
@@ -166,6 +248,9 @@ const productsEventListener = async () => {
 	document.querySelector('#next-page').addEventListener('click', handlePaginationButtons);
 	document.querySelector('#first-page').addEventListener('click', handlePaginationButtons);
 	document.querySelector('#last-page').addEventListener('click', handlePaginationButtons);
+
+	//* Filter checkboxes
+	document.querySelector('#filter').addEventListener('click', handleFilter);
 };
 
 document.addEventListener('DOMContentLoaded', productsEventListener);

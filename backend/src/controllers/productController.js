@@ -1,3 +1,4 @@
+const { log } = require('console');
 const ProductModel = require('../models/productModel');
 const { validateSchema, createProductSchema, updateProductSchema } = require('../utils/validators');
 
@@ -16,9 +17,25 @@ const getAllProducts = async (req, res) => {
 		page = parseInt(page, 10) || 1;
 		const offset = (page - 1) * limit;
 
-		const products = await ProductModel.findProductsWithPagination(limit, offset);
+		let products;
 
-		console.log(products);
+		console.warn('Query:', req.query);
+
+		if (req.query && (req.query.term || req.query.types || req.query.brands)) {
+			const { term, types, brands } = req.query;
+
+			products = await ProductModel.findProductsWithFilters(
+				limit,
+				offset,
+				term,
+				types,
+				brands
+			);
+		} else {
+			products = await ProductModel.findProductsWithPagination(limit, offset);
+		}
+
+		// console.log(products);
 
 		res.json({
 			status: 'success',
