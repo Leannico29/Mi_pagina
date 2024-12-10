@@ -1,6 +1,8 @@
 import ProductService from './products/service/product-service.js';
 import { isValidProduct } from './utils/validations.js';
 
+let token = null;
+
 // Referencias a los formularios
 const addProductForm = document.getElementById('addProductForm');
 const editProductForm = document.getElementById('editProductForm');
@@ -241,8 +243,8 @@ const parseProductData = (product) => {
 
 	parsedProduct.price = parseFloat(parsedProduct.price);
 	parsedProduct.stock = parseInt(parsedProduct.stock, 10);
-	parsedProduct.brand = parseInt(parsedProduct.brand, 10);
-	parsedProduct.product_type = parseInt(parsedProduct.product_type, 10);
+	parsedProduct.brand_id = parseInt(parsedProduct.brand, 10);
+	parsedProduct.product_type_id = parseInt(parsedProduct.product_type, 10);
 
 	return parsedProduct;
 };
@@ -268,10 +270,25 @@ const addProductHandler = async (e) => {
 		return;
 	}
 
-	ProductService.createProduct(product);
+	try {
+		await ProductService.createProduct(product);
+		alert('Product created successfully.');
+	} catch (error) {
+		console.error('Error creating product:', error);
+		alert('Failed to create product. Please try again.');
+	}
+};
+
+const loadUserToken = () => {
+	token = localStorage.getItem('token');
+
+	if (!token) {
+		window.location.href = '/login.html';
+	}
 };
 
 document.addEventListener('DOMContentLoaded', async () => {
+	loadUserToken();
 	loadData();
 });
 

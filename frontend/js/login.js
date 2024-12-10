@@ -37,7 +37,7 @@ const loginEventListener = () => {
 			console.log(response);
 
 			localStorage.setItem('token', response.token);
-			window.location.href = '/';
+			window.location.href = '/frontend/index.html';
 		} catch (error) {
 			alert(error.message);
 		}

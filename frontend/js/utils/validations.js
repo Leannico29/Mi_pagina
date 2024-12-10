@@ -42,11 +42,11 @@ export const isValidProduct = (product) => {
 		isValidString(product.description) &&
 		isValidNumber(product.price) &&
 		isValidNumber(product.stock) &&
-		isValidNumber(product.product_type) &&
-		isValidNumber(product.brand) &&
+		isValidNumber(product.product_type_id) &&
+		isValidNumber(product.brand_id) &&
 		product.price >= 0 &&
 		product.stock >= 0 &&
-		product.product_type > 0 &&
+		product.product_type_id > 0 &&
 		product.brand > 0
 	);
 };

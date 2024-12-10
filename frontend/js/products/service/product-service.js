@@ -50,16 +50,22 @@ const getBrandById = async (brandId) => {
 };
 
 const createProduct = async (product) => {
-	token = localStorage.getItem('token') || '';
+	const token = localStorage.getItem('token');
 
 	const response = await fetch(`${BASE_URL}/products`, {
 		method: 'POST',
 		headers: {
-			Autorization: 'Bearer ' + localStorage.getItem('token'),
+			Authorization: `Bearer ${token}`,
 			'Content-Type': 'application/json',
 		},
 		body: JSON.stringify(product),
 	});
+
+	if (!response.ok) {
+		const errorData = await response.json();
+		console.error('Error al crear el producto:', errorData);
+		throw new Error(errorData.message);
+	}
 
 	return await response.json();
 };
