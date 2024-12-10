@@ -135,13 +135,11 @@ const addPaginationControls = (tableElement, totalProducts) => {
 const addProductActionListeners = (action) => {
 	const buttons = document.querySelectorAll('.action-btn');
 
-	console.log('Action:', action);
 	buttons.forEach((button) => {
 		button.addEventListener('click', (e) => {
 			const productId = e.target.dataset.productId;
 			const product = productsArray.find((p) => p.id === parseInt(productId, 10));
 
-			console.log('Product:', product);
 			if (action === 'edit') {
 				fillEditProductForm(product);
 			} else if (action === 'delete') {
