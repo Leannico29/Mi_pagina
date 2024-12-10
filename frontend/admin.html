@@ -80,70 +80,61 @@
 
         <main>
             <section class="product-management">
-
                 <h2>Gestión de Productos</h2>
-
+        
                 <div class="action-buttons">
                     <button id="addProductBtn" class="primary-btn">Agregar Producto</button>
                     <button id="editProductBtn" class="primary-btn">Modificar Producto</button>
                     <button id="deleteProductBtn" class="primary-btn">Eliminar Producto</button>
                 </div>
-
-                <!-- Formulario para agregar producto -->
+        
+                <!-- Formulario para agregar/modificar producto -->
                 <form id="addProductForm" class="hidden">
-
-                    <h3>Agregar Producto</h3>
-
+                    <h3>Agregar / Modificar Producto</h3>
+        
                     <div class="form-group">
                         <label for="name">Nombre</label>
                         <input type="text" id="addProductName" name="name" placeholder="Nombre del producto" required>
                     </div>
-
+        
                     <div class="form-group">
                         <label for="price">Precio</label>
                         <input type="number" id="addProductPrice" name="price" placeholder="Precio" min="0" required>
                     </div>
-
+        
                     <div class="form-group">
                         <label for="stock">Stock</label>
-                        <input type="number" id="addProductStock" name="stock" placeholder="Cantidad en stock" min="0"
-                            required>
+                        <input type="number" id="addProductStock" name="stock" placeholder="Cantidad en stock" min="0" required>
                     </div>
-
+        
                     <div class="form-group">
                         <label for="description">Descripción</label>
-                        <textarea id="addProductDescription" name="description" placeholder="Descripción del producto"
-                            required></textarea>
+                        <textarea id="addProductDescription" name="description" placeholder="Descripción del producto" required></textarea>
                     </div>
-
+        
                     <div class="form-group">
                         <label for="product_type">Tipo de Producto</label>
                         <select id="addProductType" name="product_type" required>
                             <option value="" disabled selected>Selecciona un tipo</option>
-                            <option value="1">Tipo 1</option>
-                            <option value="2">Tipo 2</option>
                         </select>
                     </div>
-
+        
                     <div class="form-group">
                         <label for="brand">Marca</label>
                         <select id="addProductBrand" name="brand" required>
                             <option value="" disabled selected>Selecciona una marca</option>
-                            <option value="1">Marca 1</option>
-                            <option value="2">Marca 2</option>
                         </select>
                     </div>
-
+        
                     <button type="submit" class="primary-btn">Guardar Producto</button>
                 </form>
-
-                <!-- Formulario para modificar producto -->
+        
+                <!-- Tabla para modificar productos -->
                 <form id="editProductForm" class="hidden">
                     <h3>Modificar Producto</h3>
-
-                    <button id="fetchAllProductsForEdit" class="primary-btn">Llamar a todos los productos</button>
-
-                    <!-- Tabla de productos (modificación) -->
+        
+                    <button id="fetchAllProductsForEdit" class="primary-btn">Cargar Productos</button>
+        
                     <table id="editProductsTable" class="hidden">
                         <thead>
                             <tr>
@@ -155,18 +146,18 @@
                                 <th>Acción</th>
                             </tr>
                         </thead>
-
                         <tbody></tbody>
                     </table>
+        
+                    <div class="pagination-controls"></div> <!-- Controles de paginación -->
                 </form>
-
-                <!-- Formulario para eliminar producto -->
+        
+                <!-- Tabla para eliminar productos -->
                 <form id="deleteProductForm" class="hidden">
                     <h3>Eliminar Producto</h3>
-
-                    <button id="fetchAllProductsForDelete" class="primary-btn">Llamar a todos los productos</button>
-
-                    <!-- Tabla de productos (eliminación) -->
+        
+                    <button id="fetchAllProductsForDelete" class="primary-btn">Cargar Productos</button>
+        
                     <table id="deleteProductsTable" class="hidden">
                         <thead>
                             <tr>
@@ -177,12 +168,14 @@
                                 <th>Acción</th>
                             </tr>
                         </thead>
-
                         <tbody></tbody>
                     </table>
+        
+                    <div class="pagination-controls"></div> <!-- Controles de paginación -->
                 </form>
             </section>
         </main>
+        
 
         <footer>
             <div class="footer-container">
