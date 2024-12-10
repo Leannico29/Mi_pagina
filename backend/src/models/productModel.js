@@ -50,6 +50,56 @@ const findProductsWithPagination = async (limit, offset) => {
 	return products;
 };
 
+const findProductsWithFilters = async (limit, offset, term, types, brands) => {
+	let baseQuery = `
+		SELECT 	p.id AS id, 
+				p.name AS name, 
+				p.price AS price, 
+				p.description AS description, 
+				p.stock AS stock, 
+				pt.name AS product_type, 
+				b.name AS brand
+		FROM 	products p 
+		JOIN 	product_types pt ON p.product_type_id = pt.id
+		JOIN 	brands b ON p.brand_id = b.id
+	`;
+
+	const filters = [];
+	const values = [limit, offset];
+
+	if (term) {
+		filters.push(
+			`(p.name LIKE '%${term}%' 
+			OR p.description LIKE '%${term}%'
+			OR pt.name LIKE '%${term}%'
+			OR b.name LIKE '%${term}%'
+		)`
+		);
+	}
+
+	if (types) {
+		filters.push(`pt.id IN (${types})`);
+	}
+
+	if (brands) {
+		filters.push(`b.id IN (${brands})`);
+	}
+
+	const whereClause =
+		filters.length > 0
+			? `WHERE	1 = 1 
+				AND ${filters.join(' AND ')}`
+			: '';
+
+	if (whereClause.length > 0) {
+		baseQuery += whereClause;
+	}
+
+	const [products] = await database.query(`${baseQuery} LIMIT ? OFFSET ?;`, values);
+
+	return products;
+};
+
 /**
  * Inserta un producto en la base de datos.
  *
@@ -123,5 +173,6 @@ module.exports = {
 	updateProductById,
 	findProductById,
 	findProductsWithPagination,
+	findProductsWithFilters,
 	deleteProductById,
 };

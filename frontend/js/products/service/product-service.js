@@ -7,12 +7,40 @@ const BASE_URL = 'http://localhost:3000/api';
  * @param {number} limit - The number of products per page
  * @param {string} q - The search query
  */
-const getAllProducts = async (page = 1, limit = 20, q = null) => {
-	const url = `${BASE_URL}/products?page=${page}&limit=${limit}`;
+const getAllProducts = async (page = 1, limit = 20, term = null) => {
+	let url = `${BASE_URL}/products?page=${page}&limit=${limit}`;
 
-	if (q) {
-		url += `&q=${q}`;
+	if (term) {
+		url += `&term=${term}`;
 	}
+
+	const response = await fetch(url);
+
+	return await response.json();
+};
+
+const getAllProductsWithFilters = async ({
+	page = 1,
+	limit = 20,
+	term = null,
+	types = null,
+	brands = null,
+}) => {
+	let url = `${BASE_URL}/products?page=${page}&limit=${limit}`;
+
+	if (term) {
+		url += `&term=${term}`;
+	}
+
+	if (types) {
+		url += `&types=${types}`;
+	}
+
+	if (brands) {
+		url += `&brands=${brands}`;
+	}
+
+	console.log('URL:', url);
 
 	const response = await fetch(url);
 
@@ -131,8 +159,14 @@ const updateBrand = async (id, brand) => {
 };
 
 const deleteProduct = async (productId) => {
+	const token = localStorage.getItem('token');
+
 	const response = await fetch(`${BASE_URL}/products/${productId}`, {
 		method: 'DELETE',
+		headers: {
+			'Content-Type': 'application/json',
+			Authorization: `Bearer ${token}`,
+		},
 	});
 
 	return await response.json();
@@ -156,6 +190,7 @@ const deleteBrand = async (brandId) => {
 
 export default {
 	getAllProducts,
+	getAllProductsWithFilters,
 	getAllProductTypes,
 	getAllBrands,
 	getProductById,

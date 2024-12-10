@@ -132,17 +132,16 @@
                 <!-- Tabla para modificar productos -->
                 <form id="editProductForm" class="hidden">
                     <h3>Modificar Producto</h3>
-        
-                    <button id="fetchAllProductsForEdit" class="primary-btn">Cargar Productos</button>
-        
-                    <table id="editProductsTable" class="hidden">
+
+                    <button id="fetchAllProductsForEdit" class="primary-btn">Llamar a todos los productos</button>
+
+                    <!-- Tabla de productos (modificación) -->
+                    <table id="editProductsTable" class="hidden table-responsive">
                         <thead>
                             <tr>
-                                <th>ID</th>
+                                <th>Marca</th>
                                 <th>Nombre</th>
-                                <th>Precio</th>
                                 <th>Stock</th>
-                                <th>Descripción</th>
                                 <th>Acción</th>
                             </tr>
                         </thead>
@@ -161,9 +160,8 @@
                     <table id="deleteProductsTable" class="hidden">
                         <thead>
                             <tr>
-                                <th>ID</th>
+                                <th>Marca</th>
                                 <th>Nombre</th>
-                                <th>Precio</th>
                                 <th>Stock</th>
                                 <th>Acción</th>
                             </tr>

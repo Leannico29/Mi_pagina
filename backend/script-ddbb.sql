@@ -194,5 +194,5 @@ DELIMITER ;
 
 CREATE INDEX idx_products_name ON products (name);
 CREATE INDEX idx_products_price ON products (price);
-CREATE INDEX idx_users_username ON usuarios (username);
+CREATE INDEX idx_users_username ON users (username);
 CREATE INDEX idx_users_email ON users (email);

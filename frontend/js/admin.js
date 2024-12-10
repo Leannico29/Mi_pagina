@@ -49,22 +49,21 @@ const toggleForms = (action) => {
 let currentPage = 1; // Página actual
 const productsPerPage = 20; // Cantidad de productos por página
 
+// **Función para cargar productos en la tabla**
 const loadProductsIntoTable = async (tableElement, action) => {
 	const tbody = tableElement.querySelector('tbody');
 	tbody.innerHTML = ''; // Limpiar la tabla
+	tbody.classList.remove('hidden');
 
 	try {
-		const response = await ProductService.getAllProducts();
+		const response = await ProductService.getAllProducts(1, 100);
 
 		if (!response.data || response.data.length === 0) {
 			alert('No products available.');
-			return;
-		} else {
-			productsArray = response.data;
 		}
 
-		renderPaginatedProducts(productsArray, tableElement, action);
-
+		productsArray = response.data;
+		renderPaginatedProducts(productsArray, tbody, action);
 	} catch (error) {
 		console.error('Error fetching products:', error);
 		alert('Failed to fetch products. Please try again.');
@@ -72,8 +71,15 @@ const loadProductsIntoTable = async (tableElement, action) => {
 };
 
 const renderPaginatedProducts = (products, tableElement, action) => {
-	const tbody = tableElement.querySelector('tbody');
-	tbody.innerHTML = ''; // Limpiar la tabla
+	let table = null;
+	tableElement.innerHTML = ''; // Limpiar la tabla
+
+	if (action === 'edit') {
+		table = document.getElementById('editProductsTable');
+	} else if (action === 'delete') {
+		table = document.getElementById('deleteProductsTable');
+	}
+	table.classList.remove('hidden');
 
 	const startIndex = (currentPage - 1) * productsPerPage;
 	const endIndex = startIndex + productsPerPage;
@@ -81,19 +87,19 @@ const renderPaginatedProducts = (products, tableElement, action) => {
 
 	productsToShow.forEach((product) => {
 		const row = document.createElement('tr');
+
 		row.innerHTML = `
-			<td>${product.id}</td>
+			<td>${product.brand}</td>
 			<td>${product.name}</td>
-			<td>${product.price}</td>
 			<td>${product.stock}</td>
-			<td>${product.description}</td>
 			<td>
 				<button class="primary-btn action-btn" data-product-id="${product.id}">
 					${action === 'edit' ? 'Modificar' : 'Eliminar'}
 				</button>
 			</td>
 		`;
-		tbody.appendChild(row);
+
+		tableElement.appendChild(row);
 	});
 
 	addPaginationControls(tableElement, products.length);
@@ -134,7 +140,7 @@ const addProductActionListeners = (action) => {
 			const product = productsArray.find((p) => p.id === parseInt(productId, 10));
 
 			if (action === 'edit') {
-				populateEditForm(product);
+				fillEditProductForm(product);
 			} else if (action === 'delete') {
 				confirmDeleteProduct(product);
 			}
@@ -142,34 +148,53 @@ const addProductActionListeners = (action) => {
 	});
 };
 
-const populateEditForm = (product) => {
+const fillEditProductForm = (product) => {
 	toggleForms('add'); // Reutilizamos el formulario de agregar
 
 	document.getElementById('addProductName').value = product.name;
 	document.getElementById('addProductPrice').value = product.price;
 	document.getElementById('addProductStock').value = product.stock;
 	document.getElementById('addProductDescription').value = product.description;
-	document.getElementById('addProductType').value = product.product_type;
-	document.getElementById('addProductBrand').value = product.brand;
+	const productTypeSelect = document.getElementById('addProductType').children.find((option) => {
+		if (option.value === product.product_type_id) {
+			option.selected = true;
+		}
+	});
+	const brandSelect = document.getElementById('addProductBrand').children.find((option) => {
+		if (option.value === product.brand_id) {
+			option.selected = true;
+		}
+	});
+
+	console.log(productTypeSelect);
+
+	// productTypeSelect.value = product.product_type_id;
+	// brandSelect.value = product.brand_id;
 };
 
-const confirmDeleteProduct = (product) => {
-	const confirmationCode = prompt(`Para eliminar el producto "${product.name}", ingresa el código "2244".`);
+const confirmDeleteProduct = async (product) => {
+	console.log('Deleting product:', product);
 
-	if (confirmationCode === '2244') {
-		ProductService.deleteProduct(product.id)
-			.then(() => {
-				alert('Producto eliminado correctamente.');
-				loadProductsIntoTable(deleteProductsTable, 'delete');
-			})
-			.catch((error) => {
-				console.error('Error eliminando producto:', error);
-			});
+	const confirmationCode = Number(
+		prompt(`Para eliminar el producto "${product.name}", ingresa el código "2244".`)
+	);
+
+	console.log('Confirmation code:', confirmationCode);
+
+	if (confirmationCode === 2244) {
+		try {
+			const response = await ProductService.deleteProduct(product.id);
+			console.log('Producto eliminado:', response);
+			alert('Producto eliminado correctamente.');
+			loadProductsIntoTable(deleteProductsTable, 'delete');
+		} catch (error) {
+			console.error('Error eliminando producto:', error);
+			alert('Error eliminando producto. Por favor, intenta de nuevo.', error.message);
+		}
 	} else {
 		alert('Código incorrecto. No se eliminó el producto.');
 	}
 };
-
 
 // **Escuchadores de los botones principales**
 addProductBtn.addEventListener('click', () => {

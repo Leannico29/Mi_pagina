@@ -17,6 +17,9 @@ let orderedProducts = [];
 let filteredProducts = [];
 let paginatedProducts = [];
 
+let productTypes = [];
+let productBrands = [];
+
 /**
  * Updates 'from' and 'to' variables.
  *
@@ -84,9 +87,9 @@ const handlePaginationButtons = async (event) => {
 	updateFromTo(currentPage);
 	renderCurrentPage(currentPage);
 
-	paginatedProducts = await paginateProducts(orderedProducts, from, to);
+	// paginatedProducts = await paginateProducts(orderedProducts, from, to);
 
-	renderProducts(paginatedProducts);
+	renderProducts(orderedProducts);
 
 	updatePaginationButtonsState(totalPages);
 };
@@ -97,10 +100,54 @@ const handlePaginationButtons = async (event) => {
 const handleSelectChange = async () => {
 	const orderBy = document.querySelector('#order-by').value;
 
-	orderedProducts = orderProducts(filteredProducts, orderBy);
-	paginatedProducts = await paginateProducts(orderedProducts, from, to);
+	orderedProducts = orderProducts(productsArray, orderBy);
+	// paginatedProducts = await paginateProducts(orderedProducts, from, to);
 
-	renderProducts(paginatedProducts);
+	renderProducts(orderedProducts);
+};
+
+const handleFilter = async () => {
+	const searchQuery = params.get('search');
+
+	const checkedBrands = Array.from(
+		document.querySelectorAll('#brand-filter-list input:checked')
+	).map((input) => input.dataset.id);
+	const checkedTypes = Array.from(
+		document.querySelectorAll('#type-filter-list input:checked')
+	).map((input) => input.dataset.id);
+
+	const brandsString = checkedBrands.join(',');
+	const typesString = checkedTypes.join(',');
+
+	filteredProducts = await ProductService.getAllProductsWithFilters({
+		term: searchQuery,
+		brands: brandsString,
+		types: typesString,
+	})
+		.then((response) => {
+			console.warn('Filtered products:', response.data);
+
+			return response.data;
+		})
+		.catch((error) => {
+			console.error('Error filtering products:', error);
+		});
+
+	productsArray = parseProducts(filteredProducts);
+	handleSelectChange();
+};
+
+const parseProducts = (products) => {
+	const parsedProducts = products.map((product) => {
+		product.price = parseFloat(product.price);
+		product.img_url =
+			product.img_url ||
+			'https://www.tablecraft.com/sca-dev-2023-2-0/img/no_image_available.jpeg';
+
+		return product;
+	});
+
+	return parsedProducts;
 };
 
 /**
@@ -108,20 +155,99 @@ const handleSelectChange = async () => {
  */
 const productsEventListener = async () => {
 	loadCart();
-	const searchQuery = params.get('search') || '';
+	const searchQuery = params.get('search');
+	const page = params.get('page') || 1;
+
+	if (searchQuery) {
+		document.querySelector('#search-input').value = searchQuery;
+	}
 
 	//* Products variables
-	ProductService.getAllProducts()
+
+	ProductService.getAllBrands().then((response) => {
+		const { data } = response;
+		const filterDiv = document.querySelector('#brand-filter');
+		const filterUl = filterDiv.lastElementChild;
+
+		filterUl.innerHTML = '';
+		filterUl.setAttribute('id', 'brand-filter-list');
+
+		data.forEach((brand) => {
+			const li = document.createElement('li');
+			li.classList.add('filter-item');
+
+			const label = document.createElement('label');
+			label.htmlFor = `brand-${brand.id}`;
+
+			const input = document.createElement('input');
+			input.type = 'checkbox';
+			input.name = `brand-${brand.id}`;
+			input.dataset.id = brand.id;
+			input.checked = true;
+			input.id = `brand-${brand.id}`;
+
+			label.textContent = brand.name;
+
+			li.appendChild(input);
+			li.appendChild(label);
+
+			filterUl.appendChild(li);
+		});
+	});
+
+	ProductService.getAllProductTypes().then((response) => {
+		const { data } = response;
+		const filterDiv = document.querySelector('#type-filter');
+		const filterUl = filterDiv.lastElementChild;
+
+		filterUl.innerHTML = '';
+		filterUl.setAttribute('id', 'type-filter-list');
+
+		data.forEach((type) => {
+			const li = document.createElement('li');
+			li.classList.add('filter-item');
+
+			const label = document.createElement('label');
+			label.htmlFor = `type-${type.id}`;
+
+			const input = document.createElement('input');
+			input.type = 'checkbox';
+			input.name = `type`;
+			input.dataset.id = type.id;
+			input.checked = true;
+			input.id = `type-${type.id}`;
+
+			label.textContent = type.name;
+
+			li.appendChild(input);
+			li.appendChild(label);
+
+			filterUl.appendChild(li);
+		});
+
+		const type = params.get('type') || '';
+
+		if (type) {
+			document.querySelectorAll(`input[type="checkbox"][name="type"]`).forEach((input) => {
+				console.log(input);
+
+				input.checked = false;
+			});
+
+			document.querySelector(
+				`input[type="checkbox"][name="type"][data-id="${type}"]`
+			).checked = true;
+
+			handleFilter();
+		}
+	});
+
+	ProductService.getAllProducts(null, null, searchQuery)
 		.then((response) => {
 			const { data } = response;
 			productsArray = data;
 
-			productsArray.forEach((product) => {
-				product.price = parseFloat(product.price);
-				product.img_url =
-					product.img_url ||
-					'https://www.tablecraft.com/sca-dev-2023-2-0/img/no_image_available.jpeg';
-			});
+			productsArray = parseProducts(productsArray);
 
 			console.log('Products:', productsArray);
 
@@ -133,19 +259,6 @@ const productsEventListener = async () => {
 		.catch((error) => {
 			console.error('Error loading products:', error);
 		});
-
-	// totalPages = Math.ceil(productsArray.length / PRODUCTS_PER_PAGE);
-
-	// if (searchQuery) {
-	// 	filteredProducts = searchProducts(productsArray, searchQuery);
-	// } else {
-	// 	filteredProducts = [...productsArray];
-	// }
-
-	// orderedProducts = [...filteredProducts];
-	// paginatedProducts = await paginateProducts(orderedProducts);
-
-	// renderProducts(paginatedProducts);
 
 	//! event listeners
 
@@ -166,6 +279,9 @@ const productsEventListener = async () => {
 	document.querySelector('#next-page').addEventListener('click', handlePaginationButtons);
 	document.querySelector('#first-page').addEventListener('click', handlePaginationButtons);
 	document.querySelector('#last-page').addEventListener('click', handlePaginationButtons);
+
+	//* Filter checkboxes
+	document.querySelector('#filter').addEventListener('click', handleFilter);
 };
 
 document.addEventListener('DOMContentLoaded', productsEventListener);
