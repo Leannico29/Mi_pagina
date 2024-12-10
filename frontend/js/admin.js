@@ -135,12 +135,13 @@ const addPaginationControls = (tableElement, totalProducts) => {
 const addProductActionListeners = (action) => {
 	const buttons = document.querySelectorAll('.action-btn');
 
+	console.log('Action:', action);
 	buttons.forEach((button) => {
 		button.addEventListener('click', (e) => {
 			const productId = e.target.dataset.productId;
-
 			const product = productsArray.find((p) => p.id === parseInt(productId, 10));
 
+			console.log('Product:', product);
 			if (action === 'edit') {
 				fillEditProductForm(product);
 			} else if (action === 'delete') {
@@ -157,8 +158,21 @@ const fillEditProductForm = (product) => {
 	document.getElementById('addProductPrice').value = product.price;
 	document.getElementById('addProductStock').value = product.stock;
 	document.getElementById('addProductDescription').value = product.description;
-	document.getElementById('addProductType').value = product.product_type;
-	document.getElementById('addProductBrand').value = product.brand;
+	const productTypeSelect = document.getElementById('addProductType').children.find((option) => {
+		if (option.value === product.product_type_id) {
+			option.selected = true;
+		}
+	});
+	const brandSelect = document.getElementById('addProductBrand').children.find((option) => {
+		if (option.value === product.brand_id) {
+			option.selected = true;
+		}
+	});
+
+	console.log(productTypeSelect);
+
+	// productTypeSelect.value = product.product_type_id;
+	// brandSelect.value = product.brand_id;
 };
 
 const confirmDeleteProduct = async (product) => {
