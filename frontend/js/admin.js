@@ -134,21 +134,23 @@ const addPaginationControls = (tableElement, totalProducts) => {
 
 const addProductActionListeners = (action) => {
 	const buttons = document.querySelectorAll('.action-btn');
+
 	buttons.forEach((button) => {
 		button.addEventListener('click', (e) => {
 			const productId = e.target.dataset.productId;
+
 			const product = productsArray.find((p) => p.id === parseInt(productId, 10));
 
 			if (action === 'edit') {
-				populateEditForm(product);
+				fillEditProductForm(product);
 			} else if (action === 'delete') {
-				confirmDeleteProduct(productId);
+				confirmDeleteProduct(product);
 			}
 		});
 	});
 };
 
-const populateEditForm = (product) => {
+const fillEditProductForm = (product) => {
 	toggleForms('add'); // Reutilizamos el formulario de agregar
 
 	document.getElementById('addProductName').value = product.name;
@@ -159,20 +161,25 @@ const populateEditForm = (product) => {
 	document.getElementById('addProductBrand').value = product.brand;
 };
 
-const confirmDeleteProduct = (productId) => {
-	const confirmationCode = prompt(
-		`Para eliminar el producto "${product.name}", ingresa el código "2244".`
+const confirmDeleteProduct = async (product) => {
+	console.log('Deleting product:', product);
+
+	const confirmationCode = Number(
+		prompt(`Para eliminar el producto "${product.name}", ingresa el código "2244".`)
 	);
 
-	if (confirmationCode === '2244') {
-		ProductService.deleteProduct(productId)
-			.then(() => {
-				alert('Producto eliminado correctamente.');
-				loadProductsIntoTable(deleteProductsTable, 'delete');
-			})
-			.catch((error) => {
-				console.error('Error eliminando producto:', error);
-			});
+	console.log('Confirmation code:', confirmationCode);
+
+	if (confirmationCode === 2244) {
+		try {
+			const response = await ProductService.deleteProduct(product.id);
+			console.log('Producto eliminado:', response);
+			alert('Producto eliminado correctamente.');
+			loadProductsIntoTable(deleteProductsTable, 'delete');
+		} catch (error) {
+			console.error('Error eliminando producto:', error);
+			alert('Error eliminando producto. Por favor, intenta de nuevo.', error.message);
+		}
 	} else {
 		alert('Código incorrecto. No se eliminó el producto.');
 	}

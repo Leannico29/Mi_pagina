@@ -161,7 +161,10 @@ const deleteProduct = async (productId) => {
 
 	const response = await fetch(`${BASE_URL}/products/${productId}`, {
 		method: 'DELETE',
-		Authorization: `Bearer ${token}`,
+		headers: {
+			'Content-Type': 'application/json',
+			Authorization: `Bearer ${token}`,
+		},
 	});
 
 	return await response.json();
