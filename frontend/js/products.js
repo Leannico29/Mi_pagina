@@ -17,6 +17,9 @@ let orderedProducts = [];
 let filteredProducts = [];
 let paginatedProducts = [];
 
+let productTypes = [];
+let productBrands = [];
+
 /**
  * Updates 'from' and 'to' variables.
  *
@@ -125,7 +128,8 @@ const handleFilter = async () => {
 			console.error('Error filtering products:', error);
 		});
 
-	renderProducts(parseProducts(filteredProducts));
+	productsArray = parseProducts(filteredProducts);
+	handleSelectChange();
 };
 
 const parseProducts = (products) => {
@@ -147,25 +151,13 @@ const parseProducts = (products) => {
 const productsEventListener = async () => {
 	loadCart();
 	const searchQuery = params.get('search') || '';
+	const page = params.get('page') || 1;
+
+	if (searchQuery) {
+		document.querySelector('#search').value = searchQuery;
+	}
 
 	//* Products variables
-	ProductService.getAllProducts()
-		.then((response) => {
-			const { data } = response;
-			productsArray = data;
-
-			productsArray = parseProducts(productsArray);
-
-			console.log('Products:', productsArray);
-
-			return productsArray;
-		})
-		.then((products) => {
-			renderProducts(products);
-		})
-		.catch((error) => {
-			console.error('Error loading products:', error);
-		});
 
 	ProductService.getAllBrands().then((response) => {
 		const { data } = response;
@@ -215,7 +207,7 @@ const productsEventListener = async () => {
 
 			const input = document.createElement('input');
 			input.type = 'checkbox';
-			input.name = `type-${type.id}`;
+			input.name = `type`;
 			input.dataset.id = type.id;
 			input.checked = true;
 			input.id = `type-${type.id}`;
@@ -227,7 +219,41 @@ const productsEventListener = async () => {
 
 			filterUl.appendChild(li);
 		});
+
+		const type = params.get('type') || '';
+
+		if (type) {
+			document.querySelectorAll(`input[type="checkbox"][name="type"]`).forEach((input) => {
+				console.log(input);
+
+				input.checked = false;
+			});
+
+			document.querySelector(
+				`input[type="checkbox"][name="type"][data-id="${type}"]`
+			).checked = true;
+
+			handleFilter();
+		}
 	});
+
+	ProductService.getAllProducts()
+		.then((response) => {
+			const { data } = response;
+			productsArray = data;
+
+			productsArray = parseProducts(productsArray);
+
+			console.log('Products:', productsArray);
+
+			return productsArray;
+		})
+		.then((products) => {
+			renderProducts(products);
+		})
+		.catch((error) => {
+			console.error('Error loading products:', error);
+		});
 
 	//! event listeners
 

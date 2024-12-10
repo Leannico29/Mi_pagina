@@ -89,11 +89,9 @@ const renderPaginatedProducts = (products, tableElement, action) => {
 		const row = document.createElement('tr');
 
 		row.innerHTML = `
-			<td>${product.id}</td>
+			<td>${product.brand}</td>
 			<td>${product.name}</td>
-			<td>${product.price}</td>
 			<td>${product.stock}</td>
-			<td>${product.description}</td>
 			<td>
 				<button class="primary-btn action-btn" data-product-id="${product.id}">
 					${action === 'edit' ? 'Modificar' : 'Eliminar'}
