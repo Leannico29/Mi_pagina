@@ -50,9 +50,12 @@ const getBrandById = async (brandId) => {
 };
 
 const createProduct = async (product) => {
+	token = localStorage.getItem('token') || '';
+
 	const response = await fetch(`${BASE_URL}/products`, {
 		method: 'POST',
 		headers: {
+			Autorization: 'Bearer ' + localStorage.getItem('token'),
 			'Content-Type': 'application/json',
 		},
 		body: JSON.stringify(product),

@@ -7,7 +7,7 @@ const cardDivClasses = ['col-12', 'col-sm-6', 'col-md-5', 'col-lg-4', 'col-xl-3'
  *
  * @param {Array<{id, name, description, brand, price, img_url, product_type, stock}>} products Products to render
  */
-export const renderProducts = (products) => {
+export const renderProducts = (products, textToRender = 'Agregar al carrito') => {
 	const productsContainer = document.querySelector('.products-container');
 
 	if (!productsContainer) {
@@ -32,7 +32,7 @@ export const renderProducts = (products) => {
                 <p class="product-price">$ ${product?.price.toFixed(2)}</p>
                 <button class="product-btn add-to-cart" data-product-id="${
 					product.id
-				}">Agregar al carrito</button>
+				}">${textToRender}</button>
             </div>
         `;
 

@@ -22,7 +22,7 @@
 
         <header class="container-fluid">
             <div class="logo-container">
-                <a href="index.html">
+                <a href="./index.html">
                     <h1 class="logo">Keyboard Gaming</h1>
                 </a>
             </div>
@@ -49,6 +49,7 @@
                     aria-labelledby="offcanvasRightLabel">
                     <div class=" offcanvas-header">
                         <h5 class=" offcanvas-title" id="offcanvasRightLabel">Productos en el carrito:</h5>
+
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class=" offcanvas-body">
@@ -59,6 +60,7 @@
                         <div class="d-flex justify-content-between">
                             <div class="cart-total">
                                 <span>Total:</span>
+
                                 <span id="cart-total">$0</span>
                             </div>
                             <div>
@@ -78,7 +80,9 @@
 
         <main>
             <section class="product-management">
+
                 <h2>Gestión de Productos</h2>
+
                 <div class="action-buttons">
                     <button id="addProductBtn" class="primary-btn">Agregar Producto</button>
                     <button id="editProductBtn" class="primary-btn">Modificar Producto</button>
@@ -87,45 +91,56 @@
 
                 <!-- Formulario para agregar producto -->
                 <form id="addProductForm" class="hidden">
+
                     <h3>Agregar Producto</h3>
+
                     <div class="form-group">
-                        <label for="addProductName">Nombre</label>
-                        <input type="text" id="addProductName" placeholder="Nombre del producto" required>
+                        <label for="name">Nombre</label>
+                        <input type="text" id="addProductName" name="name" placeholder="Nombre del producto" required>
                     </div>
+
                     <div class="form-group">
-                        <label for="addProductPrice">Precio</label>
-                        <input type="number" id="addProductPrice" placeholder="Precio" min="0" required>
+                        <label for="price">Precio</label>
+                        <input type="number" id="addProductPrice" name="price" placeholder="Precio" min="0" required>
                     </div>
+
                     <div class="form-group">
-                        <label for="addProductStock">Stock</label>
-                        <input type="number" id="addProductStock" placeholder="Cantidad en stock" min="0" required>
+                        <label for="stock">Stock</label>
+                        <input type="number" id="addProductStock" name="stock" placeholder="Cantidad en stock" min="0"
+                            required>
                     </div>
+
                     <div class="form-group">
-                        <label for="addProductDescription">Descripción</label>
-                        <textarea id="addProductDescription" placeholder="Descripción del producto" required></textarea>
+                        <label for="description">Descripción</label>
+                        <textarea id="addProductDescription" name="description" placeholder="Descripción del producto"
+                            required></textarea>
                     </div>
+
                     <div class="form-group">
-                        <label for="addProductType">Tipo de Producto</label>
-                        <select id="addProductType" required>
+                        <label for="product_type">Tipo de Producto</label>
+                        <select id="addProductType" name="product_type" required>
                             <option value="" disabled selected>Selecciona un tipo</option>
                             <option value="1">Tipo 1</option>
                             <option value="2">Tipo 2</option>
                         </select>
                     </div>
+
                     <div class="form-group">
-                        <label for="addProductBrand">Marca</label>
-                        <select id="addProductBrand" required>
+                        <label for="brand">Marca</label>
+                        <select id="addProductBrand" name="brand" required>
                             <option value="" disabled selected>Selecciona una marca</option>
                             <option value="1">Marca 1</option>
                             <option value="2">Marca 2</option>
                         </select>
                     </div>
+
                     <button type="submit" class="primary-btn">Guardar Producto</button>
                 </form>
 
                 <!-- Formulario para modificar producto -->
                 <form id="editProductForm" class="hidden">
                     <h3>Modificar Producto</h3>
+
                     <button id="fetchAllProductsForEdit" class="primary-btn">Llamar a todos los productos</button>
 
                     <!-- Tabla de productos (modificación) -->
@@ -140,6 +155,7 @@
                                 <th>Acción</th>
                             </tr>
                         </thead>
+
                         <tbody></tbody>
                     </table>
                 </form>
@@ -147,6 +163,7 @@
                 <!-- Formulario para eliminar producto -->
                 <form id="deleteProductForm" class="hidden">
                     <h3>Eliminar Producto</h3>
+
                     <button id="fetchAllProductsForDelete" class="primary-btn">Llamar a todos los productos</button>
 
                     <!-- Tabla de productos (eliminación) -->
@@ -160,16 +177,18 @@
                                 <th>Acción</th>
                             </tr>
                         </thead>
+
                         <tbody></tbody>
                     </table>
                 </form>
             </section>
         </main>
+
         <footer>
             <div class="footer-container">
-                <p> <a href="admin.html" class="link">admin</a> |copy; 2024 Keyboard Gaming. Todos los derechos
-                    reservados. | <a href="nosotros.html" class="link">Sobre Nosotros</a> | <a
-                        href="formulario-contacto.html" class="link">Contactate con nosotros </a></p>
+                <p> <a href="./admin.html" class="link">admin</a> | &copy; 2024 Keyboard Gaming. Todos los derechos
+                    reservados. | <a href="./nosotros.html" class="link">Sobre Nosotros</a> | <a
+                        href="./formulario-contacto.html" class="link">Contactate con nosotros </a></p>
 
             </div>
         </footer>
