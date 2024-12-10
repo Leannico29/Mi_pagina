@@ -68,7 +68,13 @@ const findProductsWithFilters = async (limit, offset, term, types, brands) => {
 	const values = [limit, offset];
 
 	if (term) {
-		filters.push(`p.name LIKE '%${term}%'`);
+		filters.push(
+			`(p.name LIKE '%${term}%' 
+			OR p.description LIKE '%${term}%'
+			OR pt.name LIKE '%${term}%'
+			OR b.name LIKE '%${term}%'
+		)`
+		);
 	}
 
 	if (types) {
@@ -89,7 +95,7 @@ const findProductsWithFilters = async (limit, offset, term, types, brands) => {
 		baseQuery += whereClause;
 	}
 
-	const [products] = await database.query(`${baseQuery} LIMIT ? OFFSET ?;`, [limit, offset]);
+	const [products] = await database.query(`${baseQuery} LIMIT ? OFFSET ?;`, values);
 
 	return products;
 };

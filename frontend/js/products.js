@@ -107,6 +107,8 @@ const handleSelectChange = async () => {
 };
 
 const handleFilter = async () => {
+	const searchQuery = params.get('search');
+
 	const checkedBrands = Array.from(
 		document.querySelectorAll('#brand-filter-list input:checked')
 	).map((input) => input.dataset.id);
@@ -118,10 +120,13 @@ const handleFilter = async () => {
 	const typesString = checkedTypes.join(',');
 
 	filteredProducts = await ProductService.getAllProductsWithFilters({
+		term: searchQuery,
 		brands: brandsString,
 		types: typesString,
 	})
 		.then((response) => {
+			console.warn('Filtered products:', response.data);
+
 			return response.data;
 		})
 		.catch((error) => {
@@ -150,11 +155,11 @@ const parseProducts = (products) => {
  */
 const productsEventListener = async () => {
 	loadCart();
-	const searchQuery = params.get('search') || '';
+	const searchQuery = params.get('search');
 	const page = params.get('page') || 1;
 
 	if (searchQuery) {
-		document.querySelector('#search').value = searchQuery;
+		document.querySelector('#search-input').value = searchQuery;
 	}
 
 	//* Products variables
@@ -237,7 +242,7 @@ const productsEventListener = async () => {
 		}
 	});
 
-	ProductService.getAllProducts()
+	ProductService.getAllProducts(null, null, searchQuery)
 		.then((response) => {
 			const { data } = response;
 			productsArray = data;
