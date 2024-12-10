@@ -12,15 +12,8 @@ const productBrandRoutes = require('./routes/productBrandRoute');
 
 const app = express();
 
+app.use(cors());
 app.use(helmet());
-app.use(
-	cors({
-		origin: ['http://localhost', 'http://127.0.0.1:5501'],
-		methods: ['GET', 'POST', 'PUT', 'DELETE'],
-		allowedHeaders: ['Content-Type', 'Authorization'],
-		credentials: true,
-	})
-);
 app.use(express.json());
 
 app.use('/api/auth', authRoutes);
@@ -33,16 +26,6 @@ app.use((req, res, next) => {
 	console.log(`Request Method: ${req.method}, Request Path: ${req.path}`);
 	next();
 });
-
-app.options(
-	'*',
-	cors({
-		origin: ['http://localhost', 'http://127.0.0.1:5501'],
-		methods: ['GET', 'POST', 'PUT', 'DELETE'],
-		allowedHeaders: ['Content-Type', 'Authorization'],
-		credentials: true,
-	})
-);
 
 const PORT = process.env.PORT || 3000;
 

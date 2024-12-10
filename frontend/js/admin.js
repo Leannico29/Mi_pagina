@@ -136,8 +136,8 @@ const parseProductData = (product) => {
 
 	parsedProduct.price = parseFloat(parsedProduct.price);
 	parsedProduct.stock = parseInt(parsedProduct.stock, 10);
-	parsedProduct.brand = parseInt(parsedProduct.brand, 10);
-	parsedProduct.product_type = parseInt(parsedProduct.product_type, 10);
+	parsedProduct.brand_id = parseInt(parsedProduct.brand, 10);
+	parsedProduct.product_type_id = parseInt(parsedProduct.product_type, 10);
 
 	return parsedProduct;
 };
@@ -163,7 +163,13 @@ const addProductHandler = async (e) => {
 		return;
 	}
 
-	ProductService.createProduct(product);
+	try {
+		await ProductService.createProduct(product);
+		alert('Product created successfully.');
+	} catch (error) {
+		console.error('Error creating product:', error);
+		alert('Failed to create product. Please try again.');
+	}
 };
 
 const loadUserToken = () => {
